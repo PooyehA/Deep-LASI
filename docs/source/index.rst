@@ -5,7 +5,7 @@ Welcome to Deep-LASI's documentation!
 for automatized, multi-color single molecule data analysis.
 
 **Deep-LASI** – *Deep-Learning Assisted Single-molecule Imaging* analysis provides a tool 
-for imaging processing and automated, unbiased analysis of single-molecule data.
+for image processing and automated, unbiased analysis of single-molecule data.
 Deep-LASI comprises a collection of methods to characterize single molecule data 
 with up to 3 channels in an automated fashion. The algorithms provided are routinely 
 used to analyze data arising from multi-color single-molecule TIRF and Confocal data. 

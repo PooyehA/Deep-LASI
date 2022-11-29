@@ -63,14 +63,13 @@ To run Deep-LASI on Mac OS, the following Python packages are required:
 Mac installation
 
 .. :note:
+   Note: for new Macs using an M1 or M2 architecture, please make sure, that you use a *native* Python distribution. 
+   You may want to use the command
 
-Note: for new Macs using an M1 or M2 architecture, please make sure, that you use a *native* Python distribution. 
-You may want to use the command
+   .. code-block:: python
+      python3 -c "import platform; print(platform.machine())"
 
-.. code-block:: python
-   python3 -c "import platform; print(platform.machine())"
-
-to see your installed architecture. It should be .. code-bloack
+   to see your installed architecture. It should be .. code-bloack
 
 
 :hidden:

@@ -13,9 +13,7 @@ Deep-Lasi is compatible with Windows and Mac OS, and has been extensively tested
 So far, we have not tested Deep-Lasi as extensively on Windows. If you encounter any problem, please
 get in touch with us on the *Issue forum*.
 
-.. image:: ..//figures//logos//mac.png
-   : scale: 100%
-   : alt: Mac Logo
+<img align='center' src='{{site.baseurl}}../figures/logos/windows.png' width='50' />
    
 .. image:: ..//figures//logos//windows.png
    : scale: 100%

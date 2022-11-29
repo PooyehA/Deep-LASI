@@ -86,7 +86,12 @@ Alternatively, you may install python via `Anaconda <https://www.anaconda.com/di
 If this command leads to errors, please check whether python is already installed and troubleshoot your Anaconda installation. You may check whether your ``$PATH`` environment variable is properly set.
 
 
-*Installation requirements for Windows*
+*MATLAB Installation*
+--------
+
+... more details are coming soon ... 
+
+Installation requirements for Windows
 ------------
 .. image:: ./../figures/logos/windows.png
    :width: 50
@@ -95,10 +100,11 @@ If this command leads to errors, please check whether python is already installe
 To run Deep-LASI on your local computer please follow the 
 installation process in the following order:
 
+#. Install Python
+
+#. Install Microsoft Visual C++
+
 #. Install MATLAB
 
-#. Open MATLAB
-   
-   #. check path variable in Matlab
 
 ... more details are coming soon ... 

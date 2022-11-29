@@ -23,13 +23,21 @@ get in touch with us on the *Issue forum*.
    : scale: 100%
    : alt: Windows Logo
 
-Installation
+Windows Installation
 ------------
 
+... coming soon ... 
 
 
-To use Deep-LASI, first install it using pip:
+Mac OS Installation 
+------------
 
+#. Install Python
+
+#. Install Matlab
+
+
+""
 .. code-block:: console
 
    (.venv) $ pip install lumache
@@ -54,3 +62,4 @@ For example:
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
 
+""

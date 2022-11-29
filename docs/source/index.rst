@@ -27,7 +27,7 @@ Deep-LASI pulls data from the `Git-Hub database <https://github.com/NurAb-Sal/TR
 and offers a *simple* and *intuitive* API.
 
 To get started with Deep-LASI, please take a look at the :doc:`installation` guide and :doc:`tutorial`. 
-Additional :doc:`examples` galleries and reference material is provided in the :doc:`documentation` section. 
+Additional :doc:`example` galleries and reference material is provided in the :doc:`documentation` section. 
 
 If you have any questions or problems, if you want to provide feedback about your experience 
 with Deep-LASI or if you have any suggestions on how to further improve the program, please get in touch 

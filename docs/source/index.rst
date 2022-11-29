@@ -26,7 +26,7 @@ Paper 2
 Deep-LASI pulls data from the `Git-Hub database <https://github.com/NurAb-Sal/TRacer>`_
 and offers a *simple* and *intuitive* API.
 
-To get started with Deep-LASI, please take a look at the :ref:`installation` guide and :doc:`tutorial`. 
+To get started with Deep-LASI, please take a look at the :doc:`installation` guide and :doc:`tutorial`. 
 Additional :doc:`example galleries` and reference material is provided in the :doc:`documentation` section. 
 
 If you have any questions or problems, if you want to provide feedback about your experience 

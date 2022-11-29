@@ -81,7 +81,7 @@ Alternatively, you may install python via `Anaconda <https://www.anaconda.com/di
 
    .. code-block:: python
    
-      conda install --update-all pip matplotlib jupyterlab Xcode tensorflow h5py
+      conda install --update-all pip matplotlib jupyterlab Xcode tensorflow==2.8.0' h5py
       
 If this command leads to errors, please check whether python is already installed and troubleshoot your Anaconda installation. You may check whether your ``$PATH`` environment variable is properly set.
 

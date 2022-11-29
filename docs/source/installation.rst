@@ -19,7 +19,7 @@ get in touch with us on the *Issue forum*.
    
 
    
-.. image:: docs/figures/logos/windows.png
+.. image:: ../figures/logos/windows.png
    : scale: 100%
    : alt: Windows Logo
 

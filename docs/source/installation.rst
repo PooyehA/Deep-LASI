@@ -30,7 +30,7 @@ To run Deep-LASI on your local Mac OS please follow the installation steps in th
 #. Install MATLAB
 
 
-*Python Installation*
+*Python and XCode Installation*
 --------
 
 To run Deep-LASI on Mac OS, the following Python packages are required:

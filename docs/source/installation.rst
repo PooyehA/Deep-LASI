@@ -47,8 +47,8 @@ Windows Installation
 Mac OS Installation 
 ------------
 
-Mac OS Python Installation
-------------
+Python Installation
+----
 
 To run Deep-LASI on Mac OS, the following Python packages are required:
 
@@ -62,7 +62,7 @@ To run Deep-LASI on Mac OS, the following Python packages are required:
 
 Mac installation
 
-.. warning
+.. warning::
    Note: for new Macs using an M1 or M2 architecture, please make sure, that you use a *native* Python distribution. 
    You may want to use the command
 

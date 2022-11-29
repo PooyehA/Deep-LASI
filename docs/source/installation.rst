@@ -60,6 +60,13 @@ To run Deep-LASI on Mac OS, the following Python packages are required:
 * tensorflow
 * h5py
 
+The following packages are useful and recommended for plotting results:
+
+* matplotlib
+* jupyterlab
+
+The installation can either be done using an Xterm environment, or using an easier way by installing all dependencies using `Anaconda <https://www.anaconda.com/distribution/>`_.
+
 Mac Installation
 ----
 
@@ -68,17 +75,32 @@ Mac Installation
    You may want to use the command
 
    .. code-block:: python
+   
       python3 -c "import platform; print(platform.machine())"
 
-   to see your installed architecture. It should be 
-   .. code-block python
-      arm64
-   when using an M-series Mac.
+   to see your installed architecture. It should be ``arm64`` when using an M-series Mac.
 
+#. Check your Python installation (make sure you have Python 3.6 or newer):
 
-.. :note:
-   .. code-block:: console
+   .. code-block:: python
+   
+      python3 --version
+      
+   If this command does not yield any result, check whether python is already installed and troubleshoot your installation. Potentially, your ``$PATH`` environment variable is not properly set.
 
-      (.venv) $ pip install lumache
+#. Update your installation via ``pip`` and install the optional dependencies by running the following commands:
 
+   .. code-block:: python
+   
+      python3 -m pip install -U pip
+      python3 -m pip install -U pip matplotlib jupyterlab
+      python3 -m pip install -U pip Xcode
+      python3 -m pip install -U pip tensorflow h5py
 
+Alternatively, you may install python via `Anaconda <https://www.anaconda.com/distribution/>`_ by replacing the commands above with:
+
+   .. code-block:: python
+   
+      conda install --update-all pip matplotlib jupyterlab Xcode tensorflow h5py
+      
+      If this command leads to errors, please check whether python is already installed and troubleshoot your Anaconda installation. You may check whether your ``$PATH`` environment variable is properly set.

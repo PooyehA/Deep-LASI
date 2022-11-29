@@ -11,12 +11,16 @@ System compatibility
 
 Deep-Lasi is compatible with Windows and Mac OS, and has been extensively tested on Mac OS systems. 
 So far, we have not tested Deep-Lasi as extensively on Windows. If you encounter any problem, please
-get in touch with us on the *Issue forum*.
+get in touch with us via the *Issue forum*.
 
 Installation requirements for Mac
 ------------
 
-To run Deep-LASI on your local computer please follow the 
+.. image:: ./../figures/logos/mac.png
+   :width: 50
+   :alt: Mac OS Logo 
+
+To run Deep-LASI on your local Mac OS please follow the 
 installation process in the following order:
 
 #. Install Python
@@ -25,14 +29,8 @@ installation process in the following order:
 
 #. Install Matlab
 
-... coming soon ... 
 
-
-
-Mac OS Installation 
-------------
-
-Python Installation
+*Python Installation*
 --------
 
 To run Deep-LASI on Mac OS, the following Python packages are required:
@@ -51,13 +49,6 @@ The following packages are useful and recommended for plotting results:
 * jupyterlab
 
 The installation can either be done using an Xterm environment, or using an easier way by installing all dependencies using `Anaconda <https://www.anaconda.com/distribution/>`_.
-
-*Mac Installation*
----
-
-.. image:: ./../figures/logos/mac.png
-   :width: 50
-   :alt: Mac OS Logo 
 
 .. note::
    Note: for new Macs using an M1 or M2 architecture, please make sure, that you use a *native* Python distribution. 
@@ -93,6 +84,15 @@ Alternatively, you may install python via `Anaconda <https://www.anaconda.com/di
       conda install --update-all pip matplotlib jupyterlab Xcode tensorflow h5py
       
 If this command leads to errors, please check whether python is already installed and troubleshoot your Anaconda installation. You may check whether your ``$PATH`` environment variable is properly set.
+
+*MATLAB Installation*
+--------
+
+#. Install MATLAB
+
+#. Open MATLAB
+   
+   #. check path variable
 
 
 Installation requirements for Windows

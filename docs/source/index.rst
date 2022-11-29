@@ -18,7 +18,7 @@ accurate FRET measurements and concomitantly distances between 2 up to 3 fluorop
 Moreover, it identifies underlying conformational states and interconverting kinetics. 
 Deep-LASI provides an architecture to process the initial raw data and summarize the analyzed 
 data in final plots based on MATLAB and libraries using Python. Please cite the following 
-papers if you use Deep-LASI in your own work, so we can continue development and support:
+papers if you use Deep-LASI in your own work, so we can continue development and support: 
 
 Paper 1
 Paper 2

@@ -9,8 +9,9 @@ In order to use an automated data analysis make sure you installed the required 
 System compatibility
 ------------
 
-Deep-Lasi is compatible with Windows and Mac OS, and has been extensively tested on Mac OS systems. 
-So far, we have not tested Deep-Lasi as extensively on Windows. If you encounter any problem, please
+Deep-Lasi is compatible with Windows and Mac OS. It has been extensively tested for Mac OS systems. 
+We have also made Deep-LASI available on Windows and fixed as many troubles as possible. Deep-LASI has not
+been install on a Linux system so far. If you encounter any problem, please
 get in touch with us via the *Issue forum*.
 
 Installation requirements for Mac

@@ -48,7 +48,7 @@ Mac OS Installation
 ------------
 
 Python Installation
-----
+--------
 
 To run Deep-LASI on Mac OS, the following Python packages are required:
 
@@ -60,16 +60,20 @@ To run Deep-LASI on Mac OS, the following Python packages are required:
 * tensorflow
 * h5py
 
-Mac installation
+Mac Installation
+----
 
-.. warning::
+.. note::
    Note: for new Macs using an M1 or M2 architecture, please make sure, that you use a *native* Python distribution. 
    You may want to use the command
 
    .. code-block:: python
       python3 -c "import platform; print(platform.machine())"
 
-   to see your installed architecture. It should be .. code-block
+   to see your installed architecture. It should be 
+   .. code-block python
+      arm64
+   when using an M-series Mac.
 
 
 .. :note:

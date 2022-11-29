@@ -1,0 +1,8 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "deep-lasi"
+authors = [{name = "Ploetz", email = "evelyn.ploetz@gmail.com"}]
+dynamic = ["version", "description"]

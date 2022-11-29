@@ -37,7 +37,7 @@ Mac OS Installation
 #. Install Matlab
 
 
-""
+"""
 .. code-block:: console
 
    (.venv) $ pip install lumache
@@ -62,4 +62,4 @@ For example:
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
 
-""
+"""

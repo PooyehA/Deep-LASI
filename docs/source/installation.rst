@@ -92,7 +92,7 @@ If this command leads to errors, please check whether python is already installe
    :width: 50
    :alt: Windows Logo
 
-To run Deep-LASI on your local Mac OS please follow the 
+To run Deep-LASI on your local computer please follow the 
 installation process in the following order:
 
 #. Install MATLAB
@@ -101,4 +101,4 @@ installation process in the following order:
    
    #. check path variable in Matlab
 
-... coming soon ... 
+... more details are coming soon ... 

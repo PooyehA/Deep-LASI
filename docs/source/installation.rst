@@ -21,8 +21,7 @@ Installation requirements for Mac
    :width: 50
    :alt: Mac OS Logo 
 
-To run Deep-LASI on your local Mac OS please follow the 
-installation process in the following order:
+To run Deep-LASI on your local Mac OS please follow the installation steps in the following order:
 
 #. Install Python
 

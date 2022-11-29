@@ -23,6 +23,21 @@ get in touch with us on the *Issue forum*.
    : scale: 100%
    : alt: Windows Logo
 
+Installation requirements
+------------
+
+To install Deep-LASI on your local computer please follow the 
+installation process in the following order:
+
+
+#. Install Python
+
+#. Install Matlab
+
+
+... coming soon ... 
+
+
 Windows Installation
 ------------
 
@@ -32,9 +47,30 @@ Windows Installation
 Mac OS Installation 
 ------------
 
-#. Install Python
+Mac OS Python Installation
+------------
 
-#. Install Matlab
+To run Deep-LASI on Mac OS, the following Python packages are required:
+
+* Python 3.6-3.9
+* numpy
+* scipy
+* pandas 
+* Xcode
+* tensorflow
+* h5py
+
+Mac installation
+
+.. :note:
+
+Note: for new Macs using an M1 or M2 architecture, please make sure, that you use a *native* Python distribution. 
+You may want to use the command
+
+.. code-block:: python
+   python3 -c "import platform; print(platform.machine())"
+
+to see your installed architecture. It should be .. code-bloack
 
 
 :hidden:
@@ -42,23 +78,4 @@ Mac OS Installation
 
    (.venv) $ pip install lumache
 
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 

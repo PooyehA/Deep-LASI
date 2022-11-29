@@ -4,7 +4,7 @@ Welcome to Deep-LASI's documentation!
 **Deep-LASI** (/dēp'lā-zē/) is a MATLAB program using Python libraries
 for automatized, multi-color single molecule data analysis.
 
-Deep-LASI – Deep-Learning Assisted Single-Molecule Imaging analysis provides a tool 
+**Deep-LASI** – *D*eep-*L*earning *A*ssisted *S*ingle-molecule *I*maging analysis provides a tool 
 for imaging processing and automated, unbiased analysis of single-molecule data.
 Deep-LASI comprises a collection of methods to characterize single molecule data 
 with up to 3 channels in an automated fashion. The algorithms provided are routinely 

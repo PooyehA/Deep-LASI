@@ -27,7 +27,7 @@ installation process in the following order:
 
 #. Install Xcode
 
-#. Install Matlab
+#. Install MATLAB
 
 
 *Python Installation*

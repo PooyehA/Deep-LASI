@@ -24,7 +24,7 @@ Dynamic 2c FRET
 ... coming soon ...
 
 
-Static 3c FRET
+Dynamic 3c FRET
 ------------
 
 ... coming soon ...

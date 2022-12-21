@@ -47,5 +47,6 @@ Contents
    example
    documentation
    tutorials
+   about
    
    Deep-LASI has its documentation hosted on Read the Docs.

@@ -10,6 +10,6 @@ How to get started
 
 #.  Before running Deep-LASI the first time have a look into the :doc:`example` which
     provides a step-wise description, how to load multi-color single-molecule data into the software.
-    Example Data is additionally provided together with the Software Download.
+    Example Data is additionally together with the Software Download.
 
 ... to be continued ...

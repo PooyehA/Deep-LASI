@@ -1,22 +1,22 @@
 About
 =====
 
-Deep-LASI For automated multi-color FRET data anlysis
+.. Deep-LASI For automated multi-color FRET data anlysis
 -----------------------------------------------------
 
 ... coming soon ...
 
-Repositories
+.. Repositories
 -----------------------------------------------------
 
 ... coming soon ...
 
-Code of Conduct
+.. Code of Conduct
 -----------------------------------------------------
 
 ... coming soon ...
 
-Acknowledgement
+.. Acknowledgement
 -----------------------------------------------------
 
 ... coming soon ...

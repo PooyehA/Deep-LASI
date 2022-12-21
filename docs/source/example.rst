@@ -10,7 +10,10 @@ example pages.
 Single-color bleaching step analysis
 ------------
 
-... coming soon ...
+In many experiments, the labeling efficiency or number of binding partners can be determined by bleaching step analysis, 
+i.e. by counting the number of intensity levels and determining the number of time spend in the different niveaus. 
+
+... coming soon ... 
 
 Static 2c FRET
 ------------

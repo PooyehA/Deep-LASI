@@ -46,3 +46,9 @@ Create Map
    :width: 300
    :alt: map uploading
    
+... text ...
+
+.. image:: ./../figures/documents/Fig_6_Map_Image_Detecting.png
+   :width: 300
+   :alt: map detection
+   

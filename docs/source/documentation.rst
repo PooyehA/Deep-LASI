@@ -32,19 +32,3 @@ Create Map
    :width: 300
    :alt: mapping menu
    
-   
-   ... text ...
-   
-.. image:: ./../figures/documents/Fig_4_Mapping_Channels.png
-   :width: 300
-   :alt: mapping channels
-   
-   ... text ...
-   
-   .. image:: ./../figures/documents/Fig_5_Map_Image_Uploading.png
-   :width: 300
-   :alt: map image upload
-   
-   ... text ...
-   
-   

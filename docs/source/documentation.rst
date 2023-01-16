@@ -28,3 +28,8 @@ Create Map
 
 ... text ...
 
+.. image:: ./../figures/documents/Fig_3_Mapping_Menu
+   :width: 300
+   :alt: Open File mapping
+   
+   

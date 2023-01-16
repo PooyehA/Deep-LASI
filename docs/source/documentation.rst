@@ -28,7 +28,7 @@ Create Map
 
 ... text ...
 
-.. image:: ./../figures/documents/Fig_3_Mapping_Menu
+.. image:: ./../figures/documents/Fig_3_Mapping_Menu.png
    :width: 300
    :alt: Open File mapping
    

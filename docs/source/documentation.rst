@@ -16,11 +16,11 @@ Create Map
 ... text ...
 
 .. image:: ./../figures/documents/Fig_1_Call_Progamm.png
-   :width: 50
+   :width: 300
    :alt: Call Tracer
 
 ... text ...
 
 .. image:: ./../figures/documents/Fig_2_Mapping_Open_File_1.png
-   :width: 50
+   :width: 300
    :alt: Open File mapping

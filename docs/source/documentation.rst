@@ -54,9 +54,3 @@ Create Map
    
 ... text ...
 
-
-.. image:: ./../figures/documents/Fig_7_Map_Second_Channel.png
-   :width: 300
-   :alt: second channel map
-   
-   

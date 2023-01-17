@@ -21,7 +21,7 @@ Call the program *TRacer* from the MATLAB command window as shown in figure 1. A
    
    *Figure 1. Calling TRacer from MATLAB command window*
 
-... text ...
+... text ... do your job!
 
 .. image:: ./../figures/documents/Fig_2_Mapping_Open_File_1.png
    :width: 300

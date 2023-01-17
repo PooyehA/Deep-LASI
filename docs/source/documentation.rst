@@ -132,3 +132,15 @@ Create Map
    :alt: categorizing
    
 ... text ... 
+
+.. image:: ./../figures/documents/Fig_20_Categories.png
+   :width: 300
+   :alt: categorization options
+   
+... text ... 
+
+.. image:: ./../figures/documents/Fig_21_Categories_3_Color.png
+   :width: 300
+   :alt: three color look
+   
+... text ... 

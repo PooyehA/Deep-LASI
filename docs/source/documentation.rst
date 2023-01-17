@@ -72,3 +72,15 @@ Create Map
    
 ... text ...
    
+.. image:: ./../figures/documents/Fig_10_Map_Before_After.png
+   :width: 300
+   :alt: check mapping
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_11_Map_Saving.png
+   :width: 300
+   :alt: check mapping
+   
+ ... text ...  
+ 

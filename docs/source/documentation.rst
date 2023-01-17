@@ -174,3 +174,15 @@ Create Map
    :alt: measurement histograms
    
 ... text ... 
+
+.. image:: ./../figures/documents/Fig_27_FRET_Tab.png
+   :width: 300
+   :alt: going to FRET tab
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_28_FRET_Tab_Categories.png
+   :width: 300
+   :alt: category selection in FRET tab
+   
+... text ...

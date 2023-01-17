@@ -6,18 +6,19 @@ Documentation
 Documentation
 ------------
 
-In this part, we try to give a brief introduction and overview how to use the main functions of *Deep-LASI*. In most cases, it will be based on the example data provided with the publication and described in the :doc:`example` 
+In this part, we try to give a brief introduction and overview of how to use the main functions of *Deep-LASI*. In most cases, it will be based on the example data provided with the publication and described in the :doc:`example` 
 ... write s.th.
 
 
 Create Map
 -------------
 
-... text ...
+Call the program *TRacer* from the MATLAB command window as shown in figure 1. After a couple seconds, the program environment will open. 
 
 .. image:: ./../figures/documents/Fig_1_Call_Progamm.png
    :width: 300
    :alt: Call Tracer
+*Figure 1. MATLAB command window*
 
 ... text ...
 

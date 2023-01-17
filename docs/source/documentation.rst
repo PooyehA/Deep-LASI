@@ -109,3 +109,14 @@ Create Map
    
 ... text ... 
 
+.. image:: ./../figures/documents/Fig_16_Measurement_Parameters_Second_Chan.png
+   :width: 300
+   :alt: inserting second measurement parameters
+   
+... text ... 
+
+.. image:: ./../figures/documents/Fig_17_Detecting_Colocal.png
+   :width: 300
+   :alt: detection of colocalization
+   
+... text ... 

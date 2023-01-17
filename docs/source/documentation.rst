@@ -198,3 +198,15 @@ Create Map
    :alt: fitting
    
 ... text ...
+
+.. image:: ./../figures/documents/Fig_30_Fitting_Histogram.png
+   :width: 300
+   :alt: fitting
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_30_Fitting_Histogram.png
+   :width: 300
+   :alt: fitting
+   
+... text ...

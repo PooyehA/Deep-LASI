@@ -156,3 +156,21 @@ Create Map
    :alt: correction factor table
    
 ... text ... 
+
+.. image:: ./../figures/documents/Fig_24_Histogram_Tab.png
+   :width: 300
+   :alt: going to histogram tab
+   
+... text ... 
+
+.. image:: ./../figures/documents/Fig_25_Histogram_Tab_Categories.png
+   :width: 300
+   :alt: category selection for histogram
+   
+... text ... 
+
+.. image:: ./../figures/documents/Fig_26_Measurement_Histograms.png
+   :width: 300
+   :alt: measurement histograms
+   
+... text ... 

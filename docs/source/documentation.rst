@@ -84,3 +84,15 @@ Create Map
    
  ... text ...  
  
+
+.. image:: ./../figures/documents/Fig_12_Data_Loading.png
+   :width: 300
+   :alt: load first channel
+   
+... text ...  
+
+.. image:: ./../figures/documents/Fig_13_Measurement_Parameters.png
+   :width: 300
+   :alt: inserting measurement parameters
+   
+... text ... 

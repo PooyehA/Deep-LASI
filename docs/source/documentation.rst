@@ -246,3 +246,15 @@ Create Map
    :alt: efficiency popping window
    
 ... text ...
+
+.. image:: ./../figures/documents/Fig_39_State_Certainty.png
+   :width: 300
+   :alt: state certainty popping window
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_40_TDP_Bins.png
+   :width: 300
+   :alt: inserting the number of bins for TDP
+   
+... text ...

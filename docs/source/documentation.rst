@@ -222,3 +222,15 @@ Create Map
    :alt: magic button
    
 ... text ...
+
+.. image:: ./../figures/documents/Fig_35_Number_of_States.png
+   :width: 300
+   :alt: choosing number of states
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_36_de_ct.png
+   :width: 300
+   :alt: de and ct popping window
+   
+... text ...

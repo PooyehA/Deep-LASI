@@ -282,3 +282,15 @@ Create Map
    :alt: neural network
    
 ... text ...
+
+.. image:: ./../figures/documents/Fig_45_Loading_HMM_Network.png
+   :width: 300
+   :alt: neural network for HMM
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_46_HMM_Result_Choosing.png
+   :width: 300
+   :alt: Choosing raw or corrected efficiency for TDP
+   
+... text ...

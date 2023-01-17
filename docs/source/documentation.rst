@@ -60,5 +60,15 @@ Create Map
    
 ... text ...
 
+.. image:: ./../figures/documents/Fig_8_Map_Second_Uploading.png
+   :width: 300
+   :alt: second map uploading
+   
+... text ...
 
+.. image:: ./../figures/documents/Fig_9_Mapping_Starting.png
+   :width: 300
+   :alt: start mapping
+   
+... text ...
    

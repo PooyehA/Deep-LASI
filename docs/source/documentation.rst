@@ -120,3 +120,15 @@ Create Map
    :alt: detection of colocalization
    
 ... text ... 
+
+.. image:: ./../figures/documents/Fig_18_Extracting_Start.png
+   :width: 300
+   :alt: start extraction
+   
+... text ... 
+
+.. image:: ./../figures/documents/Fig_19_Categorizing.png
+   :width: 300
+   :alt: categorizing
+   
+... text ... 

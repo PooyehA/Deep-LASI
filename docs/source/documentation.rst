@@ -258,3 +258,15 @@ Create Map
    :alt: inserting the number of bins for TDP
    
 ... text ...
+
+.. image:: ./../figures/documents/Fig_41_TDP_Cluster_Selection.png
+   :width: 300
+   :alt: cluster selection
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_42_TDP_to_Fit.png
+   :width: 300
+   :alt: fitting TDP cluster
+   
+... text ...

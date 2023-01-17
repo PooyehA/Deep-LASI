@@ -144,3 +144,15 @@ Create Map
    :alt: three color look
    
 ... text ... 
+
+.. image:: ./../figures/documents/Fig_22_Cursor_Activating.png
+   :width: 300
+   :alt: activate cursor
+   
+... text ... 
+
+.. image:: ./../figures/documents/Fig_23_Correction_Factor_Table.png
+   :width: 300
+   :alt: correction factor table
+   
+... text ... 

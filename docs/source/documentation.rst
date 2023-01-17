@@ -267,6 +267,18 @@ Create Map
 
 .. image:: ./../figures/documents/Fig_42_TDP_to_Fit.png
    :width: 300
-   :alt: fitting TDP cluster
+   :alt: sending TDP cluster to fit
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_43_TDP_Fitting.png
+   :width: 300
+   :alt: fitting TDP cluster 
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_44_Loading_Network.png
+   :width: 300
+   :alt: neural network
    
 ... text ...

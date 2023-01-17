@@ -234,3 +234,15 @@ Create Map
    :alt: de and ct popping window
    
 ... text ...
+
+.. image:: ./../figures/documents/Fig_37_Gamma.png
+   :width: 300
+   :alt: gamma factor popping window
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_38_FRET_Histogram.png
+   :width: 300
+   :alt: efficiency popping window
+   
+... text ...

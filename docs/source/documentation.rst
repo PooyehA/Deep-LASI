@@ -199,14 +199,14 @@ Create Map
    
 ... text ...
 
-.. image:: ./../figures/documents/Fig_30_Fitting_Histogram.png
+.. image:: ./../figures/documents/Fig_31_HMM_Tab.png
    :width: 300
-   :alt: fitting
+   :alt: going to HMM tab
    
 ... text ...
 
-.. image:: ./../figures/documents/Fig_30_Fitting_Histogram.png
+.. image:: ./../figures/documents/Fig_32_HMM_Starting.png
    :width: 300
-   :alt: fitting
+   :alt: starting HMM
    
 ... text ...

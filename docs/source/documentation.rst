@@ -19,7 +19,7 @@ Call the program *TRacer* from the MATLAB command window as shown in figure 1. A
    :width: 300
    :alt: Call Tracer
    
-   *Figure 1. Calling TRacer from MATLAB command window*
+*Figure 1. Calling TRacer from MATLAB command window*
 
 
 ... more ... 

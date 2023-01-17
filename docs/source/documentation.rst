@@ -210,3 +210,15 @@ Create Map
    :alt: starting HMM
    
 ... text ...
+
+.. image:: ./../figures/documents/Fig_33_Trace_Tools.png
+   :width: 300
+   :alt: trace tools tab
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_34_Magic_Button.png
+   :width: 300
+   :alt: magic button
+   
+... text ...

@@ -186,3 +186,15 @@ Create Map
    :alt: category selection in FRET tab
    
 ... text ...
+
+.. image:: ./../figures/documents/Fig_29_Result_Histogram.png
+   :width: 300
+   :alt: get histogram
+   
+... text ...
+
+.. image:: ./../figures/documents/Fig_30_Fitting_Histogram.png
+   :width: 300
+   :alt: fitting
+   
+... text ...

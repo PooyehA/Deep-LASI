@@ -87,7 +87,7 @@ Create Map
 
 .. image:: ./../figures/documents/Fig_12_Data_Loading.png
    :width: 300
-   :alt: load first channel
+   :alt: loading first channel
    
 ... text ...  
 
@@ -96,3 +96,16 @@ Create Map
    :alt: inserting measurement parameters
    
 ... text ... 
+
+.. image:: ./../figures/documents/Fig_14_Detecting_Particles.png
+   :width: 300
+   :alt: first channel detection
+   
+... text ... 
+
+.. image:: ./../figures/documents/Fig_15_Data_Loading_Second_Channel.png
+   :width: 300
+   :alt: loading second channel
+   
+... text ... 
+

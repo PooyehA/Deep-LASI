@@ -25,21 +25,21 @@ Call the program *TRacer* from the MATLAB command window as shown in figure 1. A
  
 Click on *File* to open the drop-down menu to see the provided options as follows:
 
-*Mapping* for adjusting the overlay of up to four detection channels, loading a previously saved map, or saving a created one.
+* *Mapping* for adjusting the overlay of up to four detection channels, loading a previously saved map, or saving a created one.
 
-*Load Image Data* for loading data files from up to four detectors.
+* *Load Image Data* for loading data files from up to four detectors.
 
-*Load Traces/State* for loading any extracted and saved traces.
+* *Load Traces/State* for loading any extracted and saved traces.
 
-*Add Traces/State* to add extracted traces to other ones especially useful to merge various measurements.
+* *Add Traces/State* to add extracted traces to other ones especially useful to merge various measurements.
 
-*Save Traces/State* to save desired changes on traces for example in case of having done analysis steps.
+* *Save Traces/State* to save desired changes on traces for example in case of having done analysis steps.
 
-*Import* to insert different data types as time traces into the TRacer program.
+* *Import* to insert different data types as time traces into the TRacer program.
 
-*Export* to transfer data to other software pieces or exporting the current view as other formats.
+* *Export* to transfer data to other software pieces or exporting the current view as other formats.
 
-*Quit* to terminate the program.
+* *Quit* to terminate the program.
 
 .. image:: ./../figures/documents/Fig_2_Mapping_Open_File_1.png
    :width: 300

@@ -20,7 +20,8 @@ Call the program *TRacer* from the MATLAB command window as shown in figure 1. A
    :alt: Call Tracer
    :align: center
    
-*Figure 1. Calling TRacer from MATLAB command window*   
+*Figure 1. Calling TRacer from MATLAB command window*
+:text-align: center
  
 Click on *File* to open the drop-down menu to see the provided options as follows:
 

@@ -10,7 +10,7 @@ In this part, we try to give a brief introduction and overview of how to use the
 ... write s.th.
 
 
-Create Map
+Opening TRacer
 -------------
 
 Call the program *TRacer* from the MATLAB command window as shown in figure 1. After a couple seconds, the program environment will open. 
@@ -18,13 +18,27 @@ Call the program *TRacer* from the MATLAB command window as shown in figure 1. A
 .. image:: ./../figures/documents/Fig_1_Call_Progamm.png
    :width: 300
    :alt: Call Tracer
-   :align: center
-
 *Figure 1. Calling TRacer from MATLAB command window*
 
 
-... more ... 
-... text ... do your job!
+ 
+Click on *File* to open the drop-down menu to see the provided options as follows:
+
+*Mapping* for adjusting the overlay of up to four detection channels, loading a previously saved map, or saving a created one.
+
+*Load Image Data* for loading data files from up to four detectors.
+
+*Load Traces/State* for loading any extracted and saved traces.
+
+*Add Traces/State* to add extracted traces to other ones especially useful to merge various measurements.
+
+*Save Traces/State* to save desired changes on traces for example in case of having done analysis steps.
+
+*Import* to insert different data types as time traces into the TRacer program.
+
+*Export* to transfer data to other software pieces or exporting the current view as other formats.
+
+*Quit* to terminate the program.
 
 .. image:: ./../figures/documents/Fig_2_Mapping_Open_File_1.png
    :width: 300

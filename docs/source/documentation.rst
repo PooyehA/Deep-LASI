@@ -18,7 +18,6 @@ Call the program *TRacer* from the MATLAB command window as shown in figure 1. A
 .. image:: ./../figures/documents/Fig_1_Call_Progamm.png
    :width: 300
    :alt: Call Tracer
-   ..  figure:: Figure 1. Calling TRacer from MATLAB command window
    :align: center
  
 Click on *File* to open the drop-down menu to see the provided options as follows:

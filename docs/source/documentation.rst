@@ -77,32 +77,39 @@ On the window opened for the user, you can use the **Channel Layout** to take th
 
 Figure 5. Mapping image loaded to TRacer
 
-With the threshold bar, make sure that enough points are circled and detected by the program. Then continue opening images from other detectors with the same procedure. 
+With the threshold bar, make sure that enough points are circled and detected by the program. Then continue opening images from other detectors with the same procedure, as shown on images 6 and 7. 
 
 .. image:: ./../figures/documents/Fig_6_Map_Second_Channel.png
    :width: 300
    :alt: second map image
    :align: center
    
-Figure 6. Opening a mapping image from the second channel
+Figure 6. Opening the second mapping image
 
-.. image:: ./../figures/documents/Fig_8_Map_Second_Uploading.png
+.. image:: ./../figures/documents/Fig_7_Map_Second_Uploading.png
    :width: 300
    :alt: second map uploading
+   :align: center
    
-... text ...
+Figure 7. Adjusting the image for the second mapping image
 
-.. image:: ./../figures/documents/Fig_9_Mapping_Starting.png
+After opening the mapping images from all the cameras, select which channel you prefer to be the reference channel, like figure 8. In most cases, the first channel is taken as the reference one unless you have a special mapping plan.
+
+.. image:: ./../figures/documents/Fig_8_Mapping_Starting.png
    :width: 300
    :alt: start mapping
+   :align: center
+
+Figure 8. Performing the mapping step
+
+Then click on **Start Mapping**. The mapping process goes quit fast and gives the mapping result as before and after images like figure 9. It is recommended to check the quality of mapping. In some cases you might have to take new images for this step if the image quality you uploaded was not acceptable which is a rare event! 
    
-... text ...
-   
-.. image:: ./../figures/documents/Fig_10_Map_Before_After.png
+.. image:: ./../figures/documents/Fig_9_Map_Before_After.png
    :width: 300
    :alt: check mapping
+   :align: center
    
-... text ...
+Figure 9. Mapping result
 
 .. image:: ./../figures/documents/Fig_11_Map_Saving.png
    :width: 300

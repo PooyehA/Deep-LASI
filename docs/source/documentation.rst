@@ -132,11 +132,19 @@ Now you can open the data files from file menu and **Load Image Data** similar t
    
 Figure 11. The menu for loading image data 
 
-.. image:: ./../figures/documents/Fig_13_Measurement_Parameters.png
+TRacer asks you to choose the data files, and you can open all the files from each channel at a time. After a short time, the following window (figure 12) will open to take the measurement parameters. The first box is for the sum of exposure time and frame transfer. For example in case of measuring with the exposure time of 50 ms, and the frame transfer of 2.2 ms, we can enter 52.2.
+
+.. image:: ./../figures/documents/Fig_12_Measurement_Parameters.png
    :width: 300
    :alt: inserting measurement parameters
+   :align: center
    
-... text ... 
+Figure 12. THe window for specifying measurement parameters 
+
+The second box is to get the ALEX sequence used for illuminating the sample. Different combinations of two or three laser excitation can be entered here. Note that for the IR laser, you should only enter the letter ‘I’. The letter ‘G’ works for lasers in green or yellow region. Then you put the slider on the corresponding channel, for example, on the image shown here on the left or right position depending on reading data from first or second channel. It gets three devisions in case of a three-channel experiment.
+Then choose which frames you want to load on the program by using the **Load frame range**. Also depending on the experiment, you can choose the range of desired frames for detecting the particles and extracting their intensity traces. TRacer takes all the frames by default and you can change them as you wish.
+The option of choosing the dye does nothing at the moment, but a library of various dyes could be added to the program so that dye specific information help us with a more complete analysis.
+As the last step here, click on the corresponding channel color from the four options provided. Now TRacer opens the first data file from the range that you selected.
 
 .. image:: ./../figures/documents/Fig_14_Detecting_Particles.png
    :width: 300

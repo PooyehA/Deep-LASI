@@ -40,7 +40,7 @@ Click on *File* to open the drop-down menu as shown on figure 2 to see the provi
 
 * **Quit** to terminate the program.
 
-.. image:: ./../figures/documents/Fig_2_Mapping_Open_File_1.png
+.. image:: ./../figures/documents/Fig_2_Mapping_Open_File.png
    :width: 300
    :alt: Open File mapping
    :align: center

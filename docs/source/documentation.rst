@@ -111,13 +111,15 @@ Then click on **Start Mapping**. The mapping process goes quit fast and gives th
    
 Figure 9. Mapping result
 
-.. image:: ./../figures/documents/Fig_11_Map_Saving.png
+After mapping, the extraction tab opens showing a detection mask created like the one shown on the top right part of figure 10. This maske is used to calculate the emission intensity of the particle inside the central circle, and also the background within the outer ring. The user has the freedom to change the mask settings when needed. You have the option of saving the created map or loading a previous map from the same mapping menu. 
+
+.. image:: ./../figures/documents/Fig_10_Map_Saving.png
    :width: 300
    :alt: check mapping
+   :align: center
    
- ... text ...  
+ Figure 10. The mask created after mapping 
  
-
 .. image:: ./../figures/documents/Fig_12_Data_Loading.png
    :width: 300
    :alt: loading first channel

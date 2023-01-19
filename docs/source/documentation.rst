@@ -66,19 +66,25 @@ Now the program will ask you to choose a file which could be an image or a serie
    :alt: map uploading
    :align: center 
    
-... text ...
+Figure 4. Uploading first mapping image
 
-.. image:: ./../figures/documents/Fig_6_Map_Image_Detecting.png
+On the window opened for the user, you can use the **Channel Layout** to take the desired field of view. You can take the whole area or select a specific region with the buttons provided for that. There are also the options of rotating or flipping the image, so that all images from various cameras show the same pattern. Then click on OK. The image will be open on the mapping tab, figure 5. 
+
+.. image:: ./../figures/documents/Fig_5_Map_Image_Detecting.png
    :width: 300
    :alt: map detection
-   
-... text ...
+   :align: center
 
-.. image:: ./../figures/documents/Fig_7_Map_Second_Channel.png
+Figure 5. Mapping image loaded to TRacer
+
+With the threshold bar, make sure that enough points are circled and detected by the program. Then continue opening images from other detectors with the same procedure. 
+
+.. image:: ./../figures/documents/Fig_6_Map_Second_Channel.png
    :width: 300
    :alt: second map image
+   :align: center
    
-... text ...
+Figure 6. Opening a mapping image from the second channel
 
 .. image:: ./../figures/documents/Fig_8_Map_Second_Uploading.png
    :width: 300

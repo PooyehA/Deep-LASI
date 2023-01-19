@@ -120,11 +120,17 @@ After mapping, the extraction tab opens showing a detection mask created like th
    
  Figure 10. The mask created after mapping 
  
-.. image:: ./../figures/documents/Fig_12_Data_Loading.png
+ Loading the data 
+-------------
+ 
+ Now you can open the data files from file menu and **Load Image Data** similar to opening the mapping images like shown on figure 11. The order of channels should be the same as mapping order. 
+ 
+.. image:: ./../figures/documents/Fig_11_Data_Loading.png
    :width: 300
    :alt: loading first channel
+   :align: center
    
-... text ...  
+Figure 11. The menu for loading image data 
 
 .. image:: ./../figures/documents/Fig_13_Measurement_Parameters.png
    :width: 300

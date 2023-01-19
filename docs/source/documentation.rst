@@ -227,35 +227,48 @@ You can also delete an unwanted category with the trash can icon or uncheck the 
    
 Figure 19. Navigation and categorization
 
-.. image:: ./../figures/documents/Fig_21_Categories_3_Color.png
+For selecting the desired region on each trace for furthur analysis, you can drag the mouse to make the selected region shadowed, for example from the begenning of a trace until a bleaching step. By clicking on the trace region, the mouse turns to an active cursor for a general selection for example when all the dyes are active. TRacer will use the first bleaching step to calculate the correction factors. If you want to select channel specific regions, press the numbers 1,2,… to indicate the channel with the same order you loaded the images, and then you can select the region by the cursor special to each channel like the example on figure 20 for the red channel as the second one. For other channels the cursor shows the other corresponding letters like B, G, and I.
+
+.. image:: ./../figures/documents/Fig_20_Cursor_Activating.png
    :width: 300
    :alt: three color look
+   :align: center
    
-... text ... 
+Figure 20. Activated cursor specific for red channel 
 
-.. image:: ./../figures/documents/Fig_22_Cursor_Activating.png
+The next photo shows an example of region selection for both green and red channels. Here the FRET efficiency trace gets the selection until the first bleaching step, and this region will be added to the FRET histogram in the end. 
+
+The correction factors calculated from each trace are in the **FRET contol** box on the lower right corner. If a trace is not suitable for calculating the correction factors, then the median value of the whole data set would be applied on that. 
+
+.. image:: ./../figures/documents/Fig_21_Correction_Factor_Table.png
    :width: 300
    :alt: activate cursor
+   :align: center
    
-... text ... 
+Figure 21. Correction factors based on the selected region on a trace
 
-.. image:: ./../figures/documents/Fig_23_Correction_Factor_Table.png
+After having all the traces categorized, you can move on to the **Histograms** tab (figure 22), choose the category you want which are the same as you defined (figure 23), and get information about your data as histograms already fitted. Information such as the total signal, background level, countrate, signal to noise ratio, and bleaching time, figure 24.
+
+.. image:: ./../figures/documents/Fig_22_Histogram_Tab.png
    :width: 300
    :alt: correction factor table
+   :align: center
    
-... text ... 
+Figure 22. Histogram tab
 
-.. image:: ./../figures/documents/Fig_24_Histogram_Tab.png
+.. image:: ./../figures/documents/Fig_23_Histogram_Tab_Categories.png
    :width: 300
    :alt: going to histogram tab
+   :align: center
    
-... text ... 
+Figure 23. Categories shown on *Histogram* tab 
 
-.. image:: ./../figures/documents/Fig_25_Histogram_Tab_Categories.png
+.. image:: ./../figures/documents/Fig_24_Measurement_Histograms.png
    :width: 300
    :alt: category selection for histogram
+   :align: center
    
-... text ... 
+Figure 24. Measurement histograms 
 
 .. image:: ./../figures/documents/Fig_26_Measurement_Histograms.png
    :width: 300

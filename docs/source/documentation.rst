@@ -47,26 +47,17 @@ Click on *File* to open the drop-down menu as shown on figure 2 to see the provi
    
 Figure 2. TRacer file menu
 
-If mapping is required between two or more cameras, choose ‘Mapping’ from the menu under file. Then choose ‘Create New Map’ and the ‘First Channel’.
+Mapping
+-------------
+
+If mapping is required between two or more cameras, go to ‘Mapping’ from the menu under file. Then choose ‘Create New Map’ and the ‘First Channel’, you can see the path on figure 3.
 
 .. image:: ./../figures/documents/Fig_3_4_Mapping_Menu.png
    :width: 300
    :alt: mapping menu
-   :align: center
-
-.. image:: ./../figures/documents/Fig_3_Mapping_Menu.png
-   :width: 300
-   :alt: mapping menu
-   
-... text ...
-
-.. image:: ./../figures/documents/Fig_4_Mapping_Channels.png
-   :width: 300
-   :alt: mapping channels
-   
-   
-... text ...
-
+   :align: center 
+  
+Figure 3. Mapping menu
 
 .. image:: ./../figures/documents/Fig_5_Map_Image_Uploading.png
    :width: 300

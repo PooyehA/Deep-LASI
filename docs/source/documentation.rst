@@ -53,7 +53,7 @@ Mapping
 If mapping is required between two or more cameras, go to ‘Mapping’ from the menu under file. Then choose ‘Create New Map’ and the ‘First Channel’, you can see the path on figure 3.
 
 .. image:: ./../figures/documents/Fig_3_4_Mapping_Menu.png
-   :width: 300
+   :width: 500
    :alt: mapping menu
    :align: center 
   

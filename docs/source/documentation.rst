@@ -52,13 +52,6 @@ Mapping
 
 If mapping is required between two or more cameras, go to ‘Mapping’ from the menu under file. Then choose ‘Create New Map’ and the ‘First Channel’. You can see the path on figure 3.
 
-.. image:: ./../figures/documents/Fig_3_Mapping_Menu.png
-   :width: 500
-   :alt: mapping menu
-   :align: center 
-  
-Figure 3. Mapping menu
-
 Now the program will ask you to choose a file which could be an image or a series of images as a video file usually taken from a calibration pattern like a zero-mode waveguide. After choosing the file, the image gets open together with some adjusting options, like figure 4.
 
 .. image:: ./../figures/documents/Fig_4_Map_Image_Uploading.png
@@ -142,8 +135,11 @@ TRacer asks you to choose the data files, and you can open all the files from ea
 Figure 12. THe window for specifying measurement parameters 
 
 The second box is to get the ALEX sequence used for illuminating the sample. Different combinations of two or three laser excitation can be entered here. Note that for the IR laser, you should only enter the letter ‘I’. The letter ‘G’ works for lasers in green or yellow region. Then you put the slider on the corresponding channel, for example, on the image shown here on the left or right position depending on reading data from first or second channel. It gets three devisions in case of a three-channel experiment.
+
 Then choose which frames you want to load on the program by using the **Load frame range**. Also depending on the experiment, you can choose the range of desired frames for detecting the particles and extracting their intensity traces. TRacer takes all the frames by default and you can change them as you wish.
+
 The option of choosing the dye does nothing at the moment, but a library of various dyes could be added to the program so that dye specific information help us with a more complete analysis.
+
 As the last step here, click on the corresponding channel color from the four options provided. Now TRacer opens the first data file from the range that you selected.
 
 .. image:: ./../figures/documents/Fig_14_Detecting_Particles.png

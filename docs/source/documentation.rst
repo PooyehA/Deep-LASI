@@ -123,7 +123,7 @@ Figure 10. The mask created after mapping
 Loading the data 
 -------------
  
- Now you can open the data files from file menu and **Load Image Data** similar to opening the mapping images like shown on figure 11. The order of channels should be the same as mapping order. 
+Now you can open the data files from file menu and **Load Image Data** similar to opening the mapping images like shown on figure 11. The order of channels should be the same as mapping order. 
  
 .. image:: ./../figures/documents/Fig_11_Data_Loading.png
    :width: 300

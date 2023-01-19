@@ -118,7 +118,7 @@ After mapping, the extraction tab opens showing a detection mask created like th
    :alt: check mapping
    :align: center
    
- Figure 10. The mask created after mapping 
+Figure 10. The mask created after mapping 
  
  Loading the data 
 -------------

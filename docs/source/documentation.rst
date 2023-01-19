@@ -216,7 +216,7 @@ For a three-color measurement, you will get an additional pannel. As shown on fi
 
 With the **navigation** slider you can go through all traces, and with the **classification** part, you can manually cetegorize your traces into several categories based on your analysis needs, see an example on figure 19. All traces are by default in the **Uncategorized** section, by clicking on the plus sign you can add more categoties, rename, and also assign keyboard letters to transfer them to a corresponding category by simply pressing the assigned key.
 
-.. note:: You can not assign the letters **A**, **D**, or **E** to your categories. These are the keys that you can use to go to the previous trace (A), the next trace (D), and have the progrma select analysis region for you (E).
+.. note:: You can not assign the letters **A**, **D**, or **E** to your categories. These are the keys that you can use to go to the previous trace (A), the next trace (D), and have the program select analysis region for you (E).
 
 You can also delete an unwanted category with the trash can icon or uncheck the filter box to prevent them being visible. It is especially helpful for the trash category for example. When you assign a trace to a specific category, it will be automatically removed from the first **Uncategorized** one.
 

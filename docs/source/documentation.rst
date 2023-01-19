@@ -196,17 +196,36 @@ You can decide which particles you want to analyze using the options in the righ
    
 Figure 17. Starting the extraction 
 
-.. image:: ./../figures/documents/Fig_19_Categorizing.png
-   :width: 300
-   :alt: categorizing
-   
-... text ... 
+Intensity Traces
+-------------
 
-.. image:: ./../figures/documents/Fig_20_Categories.png
+After the extraction step which might take a while depending on the amount of data loaded, the resulting traces will open on the next tab called **Traces** as shown on figure 18 for both two- and three-color measurements. You can see on the left side that 6100 two-color traces were extracted from the loaded data set.
+
+.. image:: ./../figures/documents/Fig_18_Trace.png
+   :width: 300
+   :alt: trace
+   :align: center
+   
+Figure 18. Examplary traces for a two-color measurement on the left, and three-color on the right 
+
+On figure 18 on the left, you see the time trace of both donor and acceptor in the left upper pannel. Because of illuminating the sample using ALEX mode, a lot of information are available on each trace. The gray plot is the total intensity on the donor channel which in theory is expected to have a stable value before a bleaching step. The green trace is the signal of donor after donor excitation, the red trace is the emission of acceptor after donor excitation (FRET), and the dark red is the emission of acceptor after acceptor excitation. You can choose which intensity trace be shown from the right box **Plot Layout** by checking or unchecking the corresponding boxes.
+
+The lower pannel in orange, is the time trace of FRET efficiency. You can also choose which efficiency trace to see. It especially comes handy in case of having more than one FRET pair like the case shown on the right part. In the middle column, the detected particle on each channel is shown inside the detection mask, and in addition to the trace information this can also help to decide if we have a single molecule or not. For example you should see one emitter in the middle and no particle sitting on the background ring, since it will falsify the background calculation.
+
+For a three-color measurement, you will get an additional pannel. As shown on figure 18 on the right, the uppest pannel consists of all the intensities after the blue excitation in the blue channel. So the dark blue is the emission of the blue dye after blue excitation, the light blue is the emission of green dye after the blue excitation, and the purple trace is the emission of red dye after blue excitation. The rest of the pannels are the same as described before.
+
+With the **navigation** slider you can go through all traces, and with the **classification** part, you can manually cetegorize your traces into several categories based on your analysis needs, see an example on figure 19. All traces are by default in the **Uncategorized** section, by clicking on the plus sign you can add more categoties, rename, and also assign keyboard letters to transfer them to a corresponding category by simply pressing the assigned key.
+
+.. note:: You can not assign the letters **A**, **D**, or **E** to your categories. These are the keys that you can use to go to the previous trace (A), the next trace (D), and have the progrma select analysis region for you (E).
+
+You can also delete an unwanted category with the trash can icon or uncheck the filter box to prevent them being visible. It is especially helpful for the trash category for example. When you assign a trace to a specific category, it will be automatically removed from the first **Uncategorized** one.
+
+.. image:: ./../figures/documents/Fig_19_Categories.png
    :width: 300
    :alt: categorization options
+   :align: center
    
-... text ... 
+Figure 19. Navigation and categorization
 
 .. image:: ./../figures/documents/Fig_21_Categories_3_Color.png
    :width: 300

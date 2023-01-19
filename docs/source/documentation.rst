@@ -50,20 +50,21 @@ Figure 2. TRacer file menu
 Mapping
 -------------
 
-If mapping is required between two or more cameras, go to ‘Mapping’ from the menu under file. Then choose ‘Create New Map’ and the ‘First Channel’, you can see the path on figure 3.
+If mapping is required between two or more cameras, go to ‘Mapping’ from the menu under file. Then choose ‘Create New Map’ and the ‘First Channel’. You can see the path on figure 3.
 
-.. image:: ./../figures/documents/Fig_3_4_Mapping_Menu.png
+.. image:: ./../figures/documents/Fig_3_Mapping_Menu.png
    :width: 500
    :alt: mapping menu
    :align: center 
   
 Figure 3. Mapping menu
 
-Now the program will ask you to choose a file which could be an image or a series of images as a video file from a calibration pattern like a zero-mode waveguide. After choosing the file, the image gets open together with some adjusting options, like figure 4.
+Now the program will ask you to choose a file which could be an image or a series of images as a video file usually taken from a calibration pattern like a zero-mode waveguide. After choosing the file, the image gets open together with some adjusting options, like figure 4.
 
-.. image:: ./../figures/documents/Fig_5_Map_Image_Uploading.png
+.. image:: ./../figures/documents/Fig_4_Map_Image_Uploading.png
    :width: 300
    :alt: map uploading
+   :align: center 
    
 ... text ...
 

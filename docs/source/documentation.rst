@@ -139,7 +139,7 @@ TRacer asks you to choose the data files, and you can open all the files from ea
    :alt: inserting measurement parameters
    :align: center
    
-Figure 12. THe window for specifying measurement parameters 
+Figure 12. The window for specifying measurement parameters 
 
 The second box is to get the ALEX sequence used for illuminating the sample. Different combinations of two or three laser excitation can be entered here. Note that for the IR laser, you should only enter the letter ‘I’. The letter ‘G’ works for lasers in green or yellow region. Then you put the slider on the corresponding channel, for example, on the image shown here on the left or right position depending on reading data from first or second channel. It gets three devisions in case of a three-channel experiment.
 
@@ -147,13 +147,14 @@ Then choose which frames you want to load on the program by using the **Load fra
 
 The option of choosing the dye does nothing at the moment, but a library of various dyes could be added to the program so that dye specific information help us with a more complete analysis.
 
-As the last step here, click on the corresponding channel color from the four options provided. Now TRacer opens the first data file from the range that you selected.
+As the last step here, click on the corresponding channel color from the four options provided. Now TRacer opens the first data file from the range that you selected, like figure 13.
 
-.. image:: ./../figures/documents/Fig_14_Detecting_Particles.png
+.. image:: ./../figures/documents/Fig_13_Detecting_Particles.png
    :width: 300
    :alt: first channel detection
+   :align: center
    
-... text ... 
+Figure 13. Particle detection for the first channel data 
 
 .. image:: ./../figures/documents/Fig_15_Data_Loading_Second_Channel.png
    :width: 300

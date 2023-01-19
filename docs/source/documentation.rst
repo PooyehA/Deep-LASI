@@ -202,7 +202,7 @@ Intensity Traces
 After the extraction step which might take a while depending on the amount of data loaded, the resulting traces will open on the next tab called **Traces** as shown on figure 18 for both two- and three-color measurements. You can see on the left side that 6100 two-color traces were extracted from the loaded data set.
 
 .. image:: ./../figures/documents/Fig_18_Trace.png
-   :width: 300
+   :width: 500
    :alt: trace
    :align: center
    

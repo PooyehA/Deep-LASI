@@ -22,7 +22,7 @@ Call the program *TRacer* from the MATLAB command window as shown in figure 1. A
 
 Figure 1. Calling TRacer from MATLAB command window
 
-Click on *File* to open the drop-down menu to see the provided options as follows:
+Click on *File* to open the drop-down menu as shown on figure 2 to see the provided options as follows:
 
 * **Mapping** for adjusting the overlay of up to four detection channels, loading a previously saved map, or saving a created one.
 
@@ -43,7 +43,9 @@ Click on *File* to open the drop-down menu to see the provided options as follow
 .. image:: ./../figures/documents/Fig_2_Mapping_Open_File_1.png
    :width: 300
    :alt: Open File mapping
-
+   :align: center
+   
+Figure 2. TRacer file menu
 
 ... text ...
 

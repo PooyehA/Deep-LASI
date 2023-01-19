@@ -59,6 +59,8 @@ If mapping is required between two or more cameras, go to ‘Mapping’ from the
   
 Figure 3. Mapping menu
 
+Now the program will ask you to choose a file which could be an image or a series of images as a video file from a calibration pattern like a zero-mode waveguide. After choosing the file, the image gets open together with some adjusting options, like figure 4.
+
 .. image:: ./../figures/documents/Fig_5_Map_Image_Uploading.png
    :width: 300
    :alt: map uploading

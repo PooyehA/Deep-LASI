@@ -156,29 +156,45 @@ As the last step here, click on the corresponding channel color from the four op
    
 Figure 13. Particle detection for the first channel data 
 
-.. image:: ./../figures/documents/Fig_15_Data_Loading_Second_Channel.png
+The sliders below the image are to adjust the display contrast, and detection threshold so that one gets more particles detected. The detected particles are inside a triangle within the image, and the number of them is shown in the box next to the image on the top right position.
+
+Continue opening the data images for the next channel(s) from the same menu, as shown on figure 14.
+
+.. image:: ./../figures/documents/Fig_14_Data_Loading_Second_Channel.png
    :width: 300
    :alt: loading second channel
+   :align: center
    
-... text ... 
+Figure 14. Loading data from other detectors
 
-.. image:: ./../figures/documents/Fig_16_Measurement_Parameters_Second_Chan.png
+Each time you load image files, the pop-up window appears asking you about the channel color to extract the data in the correct order.
+
+.. image:: ./../figures/documents/Fig_15_Measurement_Parameters_Second_Chan.png
    :width: 300
    :alt: inserting second measurement parameters
+   :align: center
    
-... text ... 
+Figure 15. Updating measurement parameters
 
-.. image:: ./../figures/documents/Fig_17_Detecting_Colocal.png
+The example figures show a two-color measurement. As shown on figure 15, we put the slider on the second half to indicate the second channel (the same procedure works for the third channel by putting the slider to the most right position.), and also click on the R to indicate the acceptor channel (red in this case). After a short time the first frame of the second channel overlays on the image from the first one.
+
+.. image:: ./../figures/documents/Fig_16_Detecting_Colocal.png
    :width: 300
    :alt: detection of colocalization
+   :align: center
    
-... text ... 
+Figure 16. Detection of particles and their co-localization 
 
-.. image:: ./../figures/documents/Fig_18_Extracting_Start.png
+The color of triangles show the detected emitters on each corresponding channel and the circles show the co-localized particles. All the numbers are also reported in the small box on the top.
+
+You can decide which particles you want to analyze using the options in the right box **Trace Selection** and then click on **Extract Traces**. In the example shown on figure 17 only the co-localized particles are considered to study their FRET.
+
+.. image:: ./../figures/documents/Fig_17_Extracting_Start.png
    :width: 300
    :alt: start extraction
+   :align: center
    
-... text ... 
+Figure 17. Starting the extraction 
 
 .. image:: ./../figures/documents/Fig_19_Categorizing.png
    :width: 300

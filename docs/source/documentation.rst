@@ -49,6 +49,11 @@ Figure 2. TRacer file menu
 
 If mapping is required between two or more cameras, choose ‘Mapping’ from the menu under file. Then choose ‘Create New Map’ and the ‘First Channel’.
 
+.. image:: ./../figures/documents/Fig_3_4_Mapping_Menu.png
+   :width: 300
+   :alt: mapping menu
+   :align: center
+
 .. image:: ./../figures/documents/Fig_3_Mapping_Menu.png
    :width: 300
    :alt: mapping menu

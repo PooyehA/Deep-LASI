@@ -51,7 +51,7 @@ On the tab **Settings** beside the file, you can enter the camera settings you a
 
 By the tab **Data** you can change the colormap from the default *jet* to other options provided. It especially changes the style of the detected molecules inside the mask that is shown besides the traces. With **Plot Units**, you can change the way traces are shown by checking or unchecking the provided items, and directly having their effect on all your traces. The first one, **'Photons(Cam.calibrated)'**, changes the y axis to be the number of photons reaching the cameras, the second one **'Mean Across Particle Mask'** showes the mean emission intensity of the particle within the detection mask on the y axis. The correction factors **gamma**, **beta**, and **alpha** could be separately applied to the intensity traces. One can also choose to cancel the background subtraction from the intensity traces, and have them as raw intensities. With the last option you can choose to have the corrected FRET efficiency on the corrresponding panel. Of course for the correction factors to be incorporated on the traces, you should have them already determined.
 
-With the **Reset** button, you can restart the TRacer program.
+With the **Reset** button, you can restart the TRacer program, meaning whatever you changed will be discarded untill you have saved it.
 
 Mapping
 -------------

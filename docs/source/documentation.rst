@@ -399,7 +399,7 @@ Figure 37. Specifying TDP number of bins
    
 Figure 38. TDP showing the two FRET populations
 
-By clicking on **Select ROI**, you can choose a cluster and obtain dynamic information about it. The mean values of dwell time, initial and final FRET, and the number of transitions appear on the box to the right, see figure 39. By choosing the **Fit Selection** you can fit the dwell time on the next window.
+By clicking on **Select ROI**, you can choose a cluster and obtain dynamic information about it. The mean values of dwell time, initial and final FRET, and the number of transitions appear on the box to the right, see figure 39. **Plot Dwelltimes** gives a separate figure containing the plot. By choosing the **Fit Selection** you can fit the dwell time on a next window being open. **Plot FRET** will show you the FRET populations histogram.
 
 .. image:: ./../figures/documents/Fig_39_TDP_to_Fit.png
    :width: 300
@@ -407,6 +407,8 @@ By clicking on **Select ROI**, you can choose a cluster and obtain dynamic infor
    :align: center
    
 Figure 39. Sending a chosen cluster to fitting window
+
+Using the mouse, you can rotate and resize the clusters. Also by right clicking you get the options of fixing the shape or deleting a cluster.
 
 .. image:: ./../figures/documents/Fig_40_TDP_Fitting.png
    :width: 300

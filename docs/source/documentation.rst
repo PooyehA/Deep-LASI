@@ -323,92 +323,72 @@ Figure 30. Starting HMM on data
 Automated Analysis by Deep Learning
 -------------
 
-.. image:: ./../figures/documents/Fig_32_HMM_Starting.png
+In case you want to save time and not go through all the analysis steps manually which might take days and even weeks especially for categorizing, you can use the automated analysis provided in the **Trace Tools** tab, Figure 31. This is an additional program using the Deep Learning incorporated on TRacer.
+
+.. image:: ./../figures/documents/Fig_31_Trace_Tools.png
    :width: 300
    :alt: starting HMM
+   :align: center
    
-... text ...
+Figure 31. The automated analysis tab, **Trace Tools**
 
-.. image:: ./../figures/documents/Fig_33_Trace_Tools.png
-   :width: 300
-   :alt: trace tools tab
-   
-... text ...
+The simplest way to get your final results is to click on **Magic Button** (figure 32) and the program will do all the steps of categorization, correction, and dynamics analysis for you in a couple of minutes! All the results will pop up as a couple figures numbered by the program as follows.
 
-.. image:: ./../figures/documents/Fig_34_Magic_Button.png
+.. image:: ./../figures/documents/Fig_32_Magic_Button.png
    :width: 300
    :alt: magic button
+   :align: center
    
-... text ...
+Figure 32. Magic Button
 
-.. image:: ./../figures/documents/Fig_35_Number_of_States.png
-   :width: 300
-   :alt: choosing number of states
-   
-... text ...
+Now Deep Learning asks you about the number of states in your data like figure 33. If you are not sure about that, choose 4, and the neural network will figure it out.
 
-.. image:: ./../figures/documents/Fig_36_de_ct.png
+.. image:: ./../figures/documents/Fig_33_Number_of_States.png
    :width: 300
-   :alt: de and ct popping window
+   :alt: state number
+   :align: center
    
-... text ...
+Figure 33. Asking about the number of states
 
-.. image:: ./../figures/documents/Fig_37_Gamma.png
-   :width: 300
-   :alt: gamma factor popping window
-   
-... text ...
+Figure 2 on the software shows the direct excitation and spectral crosstalk correction factors with their histogrmas and the median value. It also shows you how many traces were used to get these values so that you know about the statistics, see figure 33 as an example.
 
-.. image:: ./../figures/documents/Fig_38_FRET_Histogram.png
-   :width: 300
-   :alt: efficiency popping window
-   
-... text ...
+Figure 3 shows the gamma factor calculated based on median, mean, and mode values of the previous two correction factors.
 
-.. image:: ./../figures/documents/Fig_39_State_Certainty.png
+.. image:: ./../figures/documents/Fig_34_de_ct_gamma.png
    :width: 300
-   :alt: state certainty popping window
+   :alt: correction factors 
+   :align: center
    
-... text ...
+Figure 34. Correction factors plots and values
 
-.. image:: ./../figures/documents/Fig_40_TDP_Bins.png
-   :width: 300
-   :alt: inserting the number of bins for TDP
-   
-... text ...
+Figures 4 and 5 show a histogram of statewise FRET efficiency, and tracewise state certainty respectively. The later tells you how confident the network is in finding the states.
 
-.. image:: ./../figures/documents/Fig_41_TDP_Cluster_Selection.png
+.. image:: ./../figures/documents/Fig_35_FRET_Histogram.png
    :width: 300
-   :alt: cluster selection
-   
-... text ...
+   :alt: FRET histogram 
+   :align: center
 
-.. image:: ./../figures/documents/Fig_42_TDP_to_Fit.png
-   :width: 300
-   :alt: sending TDP cluster to fit
-   
-... text ...
+Figure 35. Histogram of apparent FRET
 
-.. image:: ./../figures/documents/Fig_43_TDP_Fitting.png
+.. image:: ./../figures/documents/Fig_36_State_Certainty.png
    :width: 300
-   :alt: fitting TDP cluster 
+   :alt: state certainty 
+   :align: center
    
-... text ...
+Figure 36. Sate certainty of the neural network
 
-.. image:: ./../figures/documents/Fig_44_Loading_Network.png
-   :width: 300
-   :alt: neural network
-   
-... text ...
+After all these plots, the program asks you too choose the number of bins for the TDP (Transition Density Plot). It shows 100 like figure 37, but you can change it to a lower value as you wish. Then the TDP quickly appears.
 
-.. image:: ./../figures/documents/Fig_45_Loading_HMM_Network.png
+.. image:: ./../figures/documents/Fig_37_TDP_Bins.png
    :width: 300
-   :alt: neural network for HMM
+   :alt: state certainty 
+   :align: center
    
-... text ...
+Figure 37. Specifying TDP number of bins
 
-.. image:: ./../figures/documents/Fig_46_HMM_Result_Choosing.png
+.. image:: ./../figures/documents/Fig_38_TDP_Cluster_Selection.png
    :width: 300
-   :alt: Choosing raw or corrected efficiency for TDP
+   :alt: TDP 
+   :align: center
    
-... text ...
+Figure 38. TDP showing the two FRET populations

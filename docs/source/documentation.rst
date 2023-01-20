@@ -247,7 +247,7 @@ The correction factors calculated from each trace are in the **FRET contol** box
    
 Figure 21. Correction factors based on the selected region on a trace
 
-After having all the traces categorized, you can move on to the **Histograms** tab (figure 22), choose the category you want which are the same as you defined (figure 23), and get information about your data as histograms already fitted. Information such as the total signal, background level, countrate, signal to noise ratio, and bleaching time, figure 24.
+After having all the traces categorized, you can move on to the **Histograms** tab (figure 22), choose the category you want which are the same as you defined (figure 23), and get information about your data as histograms already fitted. Information such as the total signal, background level, countrate, signal to noise ratio, and bleaching time, figure 24. The fitting results are provided in a table on the right side.
 
 .. image:: ./../figures/documents/Fig_22_Histogram_Tab.png
    :width: 300
@@ -270,41 +270,57 @@ Figure 23. Categories shown on *Histogram* tab
    
 Figure 24. Measurement histograms 
 
-.. image:: ./../figures/documents/Fig_26_Measurement_Histograms.png
-   :width: 300
-   :alt: measurement histograms
-   
-... text ... 
+Then you can move on to the **FRET** tab, and again choose the desired category by clicking on the plus sign beside the list.
 
-.. image:: ./../figures/documents/Fig_27_FRET_Tab.png
+.. image:: ./../figures/documents/Fig_25_FRET_Tab.png
    :width: 300
-   :alt: going to FRET tab
+   :alt: FRET tab 
+   :align: center
    
-... text ...
+Figure 25. FRET tab on TRacer   
+   
+.. image:: ./../figures/documents/Fig_26_FRET_Tab_Categories.png
+   :width: 300
+   :alt: FRET tab categories 
+   :align: center
+   
+Figure 26. Choosing categories on *FRET* tab
 
-.. image:: ./../figures/documents/Fig_28_FRET_Tab_Categories.png
-   :width: 300
-   :alt: category selection in FRET tab
-   
-... text ...
+After choosing the category, you can select from the **Plot Mode** which plot to get. In the example shown on figure 26, you get the histogram of apparent FRET efficiency, like the one in figure 27. 
 
-.. image:: ./../figures/documents/Fig_29_Result_Histogram.png
+.. image:: ./../figures/documents/Fig_27_Result_Histogram.png
    :width: 300
-   :alt: get histogram
+   :alt: apparent FRET histogram
+   :align: center
    
-... text ...
+Figure 27. An exemplary histogram of apparent FRET efficiency with two populations
 
-.. image:: ./../figures/documents/Fig_30_Fitting_Histogram.png
-   :width: 300
-   :alt: fitting
-   
-... text ...
+There are options in **Display Settings** (see figure 28) to make the framewise and/or moleculewise plot visible, normalize them, and also to fit them by choosing the best fitting method. If sometimes fitting seems so wrong, you can manually insert some values based on what you roughly see on the plot, fix them and fit again. By playing around the fitting gets better, then you can uncheck the fixing boxes and let the program find the best fitting values. You can also change the color of your plot(s) by clicking on the colored rectangle and choose a desired color.
 
-.. image:: ./../figures/documents/Fig_31_HMM_Tab.png
+.. image:: ./../figures/documents/Fig_28_Fitting_Histogram.png
    :width: 300
-   :alt: going to HMM tab
+   :alt: display settings
+   :align: center
+
+Figure 28. Display settings for the resulting plots
+
+On the HMM tab, you can again select a category and run the HMM on it. This option works for two-color measurements at the moment. There are some other options for analysis the kinetics of a three-color measurement which will come shortly in the following parts.
+
+.. image:: ./../figures/documents/Fig_29_HMM_Tab.png
+   :width: 300
+   :alt: HMM tab
+   :align: center
    
-... text ...
+Figure 29. HMM tab on TRacer
+
+.. image:: ./../figures/documents/Fig_30_HMM_Starting.png
+   :width: 300
+   :alt: starting HMM
+   
+Figure 30. Starting HMM on data
+
+Automated Analysis by Deep Learning
+-------------
 
 .. image:: ./../figures/documents/Fig_32_HMM_Starting.png
    :width: 300

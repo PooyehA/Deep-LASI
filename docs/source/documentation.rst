@@ -380,7 +380,7 @@ Figure 36. Sate certainty of the neural network
 After all these plots, the program asks you too choose the number of bins for the TDP (Transition Density Plot). It shows 100 like figure 37, but you can change it to a lower value as you wish. Then the TDP quickly appears.
 
 .. image:: ./../figures/documents/Fig_37_TDP_Bins.png
-   :width: 300
+   :width: 100
    :alt: state certainty 
    :align: center
    

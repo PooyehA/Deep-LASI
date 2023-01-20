@@ -417,3 +417,5 @@ Magic button is the fully automated step. You may also intend to take separate a
    :align: center
    
 Figure 41. Various options from neural network to analyse data
+
+In case of needing Deep HMM or TDP parts, you should first load the neural network and press **Categorize**. Then choose an HMM neural network and load it. Then use the buttons and enjoy the popping up results. You can also choose to get the kinetic results on raw or corrected data.

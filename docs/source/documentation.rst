@@ -412,7 +412,7 @@ Figure 40. Curve fitting tool on MATLAB to fit the dwell times
 Magic button is the fully automated step. You may also intend to take separate and different analysis steps without the magic button. For that, you first need to load a neural network from the same table of **Trace Tools**, figure 41. First choose the closest option to your measurement from the drop-down menu on the right, and then click on **Load Neural Network**. Then with the options provided you can do the necessary analysis on your data and get the results within a couple of minutes. Note that to do the autocorrect, you should first click on **Categorize** and then click on **Autocorrect**. After having the categories made by the software, you always have the option of going through the traces, make any changes, and save what you did.
 
 .. image:: ./../figures/documents/Fig_41_Loading_Network.png
-   :width: 300
+   :width: 400
    :alt: loading network 
    :align: center
    

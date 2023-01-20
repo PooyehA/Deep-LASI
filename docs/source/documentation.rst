@@ -355,7 +355,7 @@ Figure 2 on the software shows the direct excitation and spectral crosstalk corr
 Figure 3 shows the gamma factor calculated based on median, mean, and mode values of the previous two correction factors.
 
 .. image:: ./../figures/documents/Fig_34_de_ct_gamma.png
-   :width: 300
+   :width: 500
    :alt: correction factors 
    :align: center
    

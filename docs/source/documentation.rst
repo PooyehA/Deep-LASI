@@ -6,9 +6,11 @@ Documentation
 Documentation
 ------------
 
+.. figure:: ./../figures/documents/Fig_1_Call_Progamm.png
+   Figure 1. Calling TRacer from MATLAB command window
+
 In this part, we try to give a brief introduction and overview of how to use the main functions of *Deep-LASI*. In most cases, it will be based on the example data provided with the publication and described in the :doc:`example` 
 Using the steps described here you should be able to analyze your single molecule data.
-
 
 Opening TRacer
 -------------

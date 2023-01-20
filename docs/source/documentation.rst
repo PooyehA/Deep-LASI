@@ -392,3 +392,28 @@ Figure 37. Specifying TDP number of bins
    :align: center
    
 Figure 38. TDP showing the two FRET populations
+
+By clicking on **Select ROI**, you can choose a cluster and obtain dynamic information about it. The mean values of dwell time, initial and final FRET, and the number of transitions appear on the box to the right, see figure 39. By choosing the **Fit Selection** you can fit the dwell time on the next window.
+
+.. image:: ./../figures/documents/Fig_39_TDP_to_Fit.png
+   :width: 300
+   :alt: TDP 
+   :align: center
+   
+Figure 39. Sending a chosen cluster to fitting window
+
+.. image:: ./../figures/documents/Fig_40_TDP_Fitting.png
+   :width: 300
+   :alt: TDP 
+   :align: center
+   
+Figure 40. Curve fitting tool on MATLAB to fit the dwell times
+
+Magic button is the fully automated step. You may also intend to take separate and different analysis steps without the magic button. For that, you first need to load a neural network from the same table of **Trace Tools**, figure 41. First choose the closest option to your measurement from the drop-down menu on the right, and then click on **Load Neural Network**. Then with the options provided you can do the necessary analysis on your data and get the results within a couple of minutes. Note that to do the autocorrect, you should first click on **Categorize** and then click on **Autocorrect**. After having the categories made by the software, you always have the option of going through the traces, make any changes, and save what you did.
+
+.. image:: ./../figures/documents/Fig_41_Loading_Network.png
+   :width: 300
+   :alt: loading network 
+   :align: center
+   
+Figure 41. Various options from neural network to analyse data

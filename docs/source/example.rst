@@ -15,6 +15,15 @@ i.e. by counting the number of intensity levels and determining the number of ti
 
 ... coming soon ... 
 
+qPAINT: Dwell time analysis
+------------
+
+In DNA-PAINT, fluorescently labeled *imager* strands transiently bind to complementary *docking* strands on a target structure. 
+Deep-LASI allows for extracting time traces and fluorescence characteristics, to determine the on- and off- times 
+according to the chosen DNA sequence. The
+
+... coming soon ... 
+
 Static 2c FRET
 ------------
 
@@ -37,3 +46,6 @@ Dynamic 3c FRET
 ------------
 
 ... coming soon ...
+
+Workflow for extracking and analyzing fluorescent traces and FRET signatures of diffusing particles from 3D-Orbital Tracking microscopy. 
+(Mieskes et al., 2023, Small)

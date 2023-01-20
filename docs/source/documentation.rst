@@ -15,11 +15,10 @@ Opening TRacer
 Call the program *TRacer* from the MATLAB command window as shown in figure 1. After a couple seconds, the program environment will open. 
 
 .. image:: ./../figures/documents/Fig_1_Call_Progamm.png
+   Figure 1. Calling TRacer from MATLAB command window
    :width: 300
    :alt: Call Tracer
    :align: center
-   
-   Figure 1. Calling TRacer from MATLAB command window
 
 Click on *File* to open the drop-down menu as shown on figure 2 to see the provided options as follows:
 

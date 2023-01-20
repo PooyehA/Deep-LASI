@@ -316,6 +316,7 @@ Figure 29. HMM tab on TRacer
 .. image:: ./../figures/documents/Fig_30_HMM_Starting.png
    :width: 300
    :alt: starting HMM
+   :align: center
    
 Figure 30. Starting HMM on data
 

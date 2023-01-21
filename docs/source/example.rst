@@ -10,7 +10,7 @@ example pages.
 One-color assays
 ------------
 
-**Single-color bleaching step analysis**
+Single-color bleaching step analysis
 ------------
 
 In many experiments, the labeling efficiency or number of binding partners can be determined by bleaching step analysis, 
@@ -18,7 +18,7 @@ i.e. by counting the number of intensity levels and determining the number of ti
 
 ... coming soon ... 
 
-*PAINT: Dwell time analysis*
+PAINT: Dwell time analysis
 ------------
 
 In DNA-PAINT, fluorescently labeled *imager* strands transiently bind to complementary *docking* strands on a target structure. 
@@ -27,28 +27,33 @@ according to the chosen DNA sequence. The
 
 ... coming soon ... 
 
+--------------------------------------------------------------------
+
 Two-color assays
 ------------
 
-*Static 2c FRET*
+Static 2c FRET
 ------------
 
 ... coming soon ...
 
 
-*Dynamic 2c FRET*
+Dynamic 2c FRET
 ------------
 
 ... coming soon ...
+
+--------------------------------------------------------------------
 
 Three-color assays
 ------------
 
-*Dynamic 3c FRET*
+Dynamic 3c FRET
 ------------
 
 ... coming soon ...
 
+--------------------------------------------------------------------
 
 3D Tracking of fluorescent particles
 ------------

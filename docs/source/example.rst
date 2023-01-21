@@ -27,6 +27,7 @@ After dissociation, the docking strand is unoccupied (OFF-state) and no fluroesc
 according to the chosen DNA sequence. 
 
 .. image:: ./../figures/examples/PAINT_Figure.png
+   :target: ./examples/example-paint.rst
    :width: 500
    :alt: PAINT assay
    :align: center

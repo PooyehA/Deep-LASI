@@ -8,7 +8,7 @@ to use Deep-LASI for the different data formats. Please click on the different i
 example pages. 
 
 One-color assays
-------------
+==================
 
 Single-color bleaching step analysis
 ------------
@@ -30,7 +30,7 @@ according to the chosen DNA sequence. The
 --------------------------------------------------------------------
 
 Two-color assays
-------------
+==================
 
 Static 2c FRET
 ------------

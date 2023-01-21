@@ -7,7 +7,10 @@ Deep-LASI can be employed for different single-molecule assays. Below we provide
 to use Deep-LASI for the different data formats. Please click on the different images to visit the corresponding
 example pages. 
 
-Single-color bleaching step analysis
+One-color assays
+------------
+
+*Single-color bleaching step analysis*
 ------------
 
 In many experiments, the labeling efficiency or number of binding partners can be determined by bleaching step analysis, 
@@ -15,7 +18,7 @@ i.e. by counting the number of intensity levels and determining the number of ti
 
 ... coming soon ... 
 
-qPAINT: Dwell time analysis
+*PAINT: Dwell time analysis*
 ------------
 
 In DNA-PAINT, fluorescently labeled *imager* strands transiently bind to complementary *docking* strands on a target structure. 
@@ -24,19 +27,24 @@ according to the chosen DNA sequence. The
 
 ... coming soon ... 
 
-Static 2c FRET
+Two-color assays
+------------
+
+*Static 2c FRET*
 ------------
 
 ... coming soon ...
 
 
-Dynamic 2c FRET
+*Dynamic 2c FRET*
 ------------
 
 ... coming soon ...
 
+Three-color assays
+------------
 
-Dynamic 3c FRET
+*Dynamic 3c FRET*
 ------------
 
 ... coming soon ...

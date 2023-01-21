@@ -10,7 +10,7 @@ example pages.
 One-color assays
 ------------
 
-*Single-color bleaching step analysis*
+**Single-color bleaching step analysis**
 ------------
 
 In many experiments, the labeling efficiency or number of binding partners can be determined by bleaching step analysis, 

@@ -26,8 +26,6 @@ Upon hybridization to the target, an increase in fluorescence intensity (ON-stat
 After dissociation, the docking strand is unoccupied (OFF-state) and no fluroescence is observed during the time τ :sub:`d`. Besides sequence-based multiplexing, variation of binding time and binding frequency allow for visualizing multiple distinct molecular species within a single sample via DNA-PAINT. Deep-LASI allows for extracting time traces and fluorescence characteristics, to determine the ON- and OFF-times 
 according to the chosen DNA sequence. 
 
-[<img align='center' src='{{site.baseurl}}/../figures/examples/PAINT_Figure.png' width='350' />](PAINT)
-
 .. image:: ./../figures/examples/PAINT_Figure.png
    :width: 500
    :alt: PAINT assay

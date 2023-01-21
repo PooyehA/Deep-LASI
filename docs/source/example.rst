@@ -22,7 +22,7 @@ PAINT: Dwell time analysis
 ------------
 
 In DNA-PAINT, fluorescently labeled *imager* strands transiently bind to complementary *docking* strands on a target structure. 
-Upon hybridization to the docking strand, an increase in fluorescence intensity is observed for the time τ_{b} being bound to the imager strand. 
+Upon hybridization to the docking strand, an increase in fluorescence intensity is observed for the time τ<sub>b</sub> being bound to the imager strand. 
 Deep-LASI allows for extracting time traces and fluorescence characteristics, to determine the on- and off- times 
 according to the chosen DNA sequence. The
 

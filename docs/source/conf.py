@@ -33,3 +33,21 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+
+# Packages that need to be included for colored text in Sphinx
+# These folders are copied to the documentation's HTML output
+#html_static_path = ['_static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+#html_css_files = [
+#    'css/custom.css',
+#]
+
+# -- Color Support by Sphinx from the standard definition file s5defs.txt
+#rst_prolog = """
+#.. include:: <s5defs.txt>
+#.. default-role::
+#
+#"""

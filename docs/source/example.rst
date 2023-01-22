@@ -1,6 +1,3 @@
-.. toctree::
-    :maxdepth: 2
-
 Example Galleries
 =====
 
@@ -14,7 +11,7 @@ One-color assays
 ------------------
 
 Single-color bleaching step analysis
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Proteins are frequently functioning as oligomers. To investigate the stoichiometry of a particular protein of interest in a molecular assembly, or to assess the labeling efficiency of a single protein, photobleaching step analysis is often used. Deep-LASI localizes the proteins, extract their fluroescence trajectory, analyzes their bleaching step by an automated step finding algorithm and determins the number of itensity levels, their brightness and time spend in the different states. 
 
@@ -27,7 +24,7 @@ Proteins are frequently functioning as oligomers. To investigate the stoichiomet
 
 
 PAINT: Dwell time analysis
-------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In DNA-PAINT, fluorescently labeled *imager* strands transiently bind to complementary *docking* strands on a target structure. 
 Besides sequence-based multiplexing, variation of binding time and binding frequency allow for visualizing multiple distinct molecular species within a single sample via DNA-PAINT. Deep-LASI allows for extracting time traces and fluorescence characteristics, to determine the ON- and OFF-times associated with time the imager strand is bound τ :sub:`b` or diffusing τ :sub:`d` in solution according to the chosen DNA sequence. 
@@ -41,33 +38,33 @@ Besides sequence-based multiplexing, variation of binding time and binding frequ
 --------------------------------------------------------------------
 
 Two-color assays
-==================
+------------------
 
 Static 2c FRET
-------------
+~~~~~~~~~~~~~~~~
 
 ... coming soon ...
 
 
 Dynamic 2c FRET
-------------
+~~~~~~~~~~~~~~~~~
 
 ... coming soon ...
 
 --------------------------------------------------------------------
 
 Three-color assays
-====================
+--------------------
 
 Dynamic 3c FRET
-------------
+~~~~~~~~~~~~~~~~~
 
 ... coming soon ...
 
 --------------------------------------------------------------------
 
 3D Tracking of fluorescent particles
-======================================
+--------------------------------------
 
 ... coming soon ...
 

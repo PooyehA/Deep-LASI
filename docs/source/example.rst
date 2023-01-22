@@ -80,6 +80,22 @@ Dynamic 3c FRET
 
 ... coming soon ...
 
+|
+
+Co-Localization analysis 
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Colocalization of differently labeled biomolecules can provide valulable information on molecular interactions. 
+The following workflow describes how to use Deep-LASI for standard colocalization experiments with up to three detection channels.
+
+.. image:: ./../figures/examples/Collocalization.png
+   :target: ./examples/example-Colocalization.rst
+   :width: 500
+   :alt: Collocalization between up to three binding partners
+   :align: center
+
+|
+
 --------------------------------------------------------------------
 
 3D Tracking of fluorescent particles

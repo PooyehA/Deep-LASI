@@ -17,9 +17,10 @@ Proteins are frequently functioning as oligomers. Photobleaching step analysis a
 
 .. image:: ./../figures/examples/Steps_Figure.png
    :target: ./examples/example-steps.rst
-   :width: 700
+   :width: 800
    :alt: Bleaching Step Analysis
    :align: center
+
 
 
 PAINT: Dwell time analysis

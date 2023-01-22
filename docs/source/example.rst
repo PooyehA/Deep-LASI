@@ -11,10 +11,10 @@ use Deep-LASI for the different single-molecule assays. Please **click on the di
 example pages. 
 
 One-color assays
-==================
+------------------
 
 Single-color bleaching step analysis
-------------
+~~~~~~~~~~
 
 Proteins are frequently functioning as oligomers. To investigate the stoichiometry of a particular protein of interest in a molecular assembly, or to assess the labeling efficiency of a single protein, photobleaching step analysis is often used. Deep-LASI localizes the proteins, extract their fluroescence trajectory, analyzes their bleaching step by an automated step finding algorithm and determins the number of itensity levels, their brightness and time spend in the different states. 
 

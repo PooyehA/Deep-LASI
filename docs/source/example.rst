@@ -13,21 +13,20 @@ One-color assays
 Single-color bleaching step analysis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Proteins are frequently functioning as oligomers. To investigate the stoichiometry of a particular protein of interest in a molecular assembly, or to assess the labeling efficiency of a single protein, photobleaching step analysis is often used. Deep-LASI localizes the proteins, extract their fluroescence trajectory, analyzes their bleaching step by an automated step finding algorithm and determins the number of itensity levels, their brightness and time spend in the different states. 
+Proteins are frequently functioning as oligomers. Photobleaching step analysis allows for investigating the stoichiometry of a particular protein of interest in a molecular assembly, or determining the labeling efficiency of a single protein. Deep-LASI localizes the biomolecule, extract the fluroescence trajectory, analyzes potential bleaching steps by an automated step finding algorithm and determins the number of itensity levels, their brightness and time spend in the different states. 
 
-.. image:: ./../figures/examples/BleachingStep_Figure.png
+.. image:: ./../figures/examples/Steps_Figure.png
    :target: ./examples/example-steps.rst
    :width: 500
    :alt: Bleaching Step Analysis
    :align: center
 
 
-
 PAINT: Dwell time analysis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In DNA-PAINT, fluorescently labeled *imager* strands transiently bind to complementary *docking* strands on a target structure. 
-Besides sequence-based multiplexing, variation of binding time and binding frequency allow for visualizing multiple distinct molecular species within a single sample via DNA-PAINT. Deep-LASI allows for extracting time traces and fluorescence characteristics, to determine the ON- and OFF-times associated with time the imager strand is bound τ :sub:`b` or diffusing τ :sub:`d` in solution according to the chosen DNA sequence. 
+In DNA-PAINT, fluorescently labeled *imager strands* transiently bind to complementary *docking strands* on a target structure. 
+Besides sequence-based multiplexing, variation of binding time and binding frequency allow for visualizing multiple distinct molecular species within a single sample via DNA-PAINT. Deep-LASI allows for extracting time traces and fluorescence characteristics, to determine the ON- and OFF-times associated with time the imager strand spends in the bound state τ :sub:`b` or diffusing τ :sub:`d` in solution according to the chosen DNA sequence. 
 
 .. image:: ./../figures/examples/PAINT_Figure.png
    :target: ./examples/example-paint.rst

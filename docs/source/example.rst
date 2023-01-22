@@ -59,9 +59,8 @@ and `Götz et al., Nat. Meth (2022) <https://www.nature.com/articles/s41467-022-
 Dynamic 2c FRET
 ~~~~~~~~~~~~~~~~~
 
-The following section describes how to analyse dynamic, single-pair 2c FRET using Deep-LASI for alternating laser excitation (ALEX). 
-We provide two examples for
-publicly available sample data from `Wanninger et al., (under review) <>`_.
+The following section describes how to analyse dynamic 2c FRET data using Deep-LASI for alternating laser excitation (ALEX). 
+We provide an examples for publicly available sample data from `Wanninger et al., BioArXiv (under review) <https://www.doi.org>`_.
 
 .. image:: ./../figures/examples/Dynamic_2c_ALEX.png
    :target: ./examples/example-Dyn-TwoColor.rst

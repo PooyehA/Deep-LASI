@@ -51,7 +51,7 @@ and `Götz et al., Nat. Meth (2022) <https://www.nature.com/articles/s41467-022-
 .. image:: ./../figures/examples/Static_Twoc_ALEX.png
    :target: ./examples/example-ALEX-TwoColor.rst
    :width: 500
-   :alt: PAINT assay
+   :alt: Static 2c FRET Analysis with ALEX
    :align: center
 
 |
@@ -64,8 +64,8 @@ We provide an examples for publicly available sample data from `Wanninger et al.
 
 .. image:: ./../figures/examples/Dynamic_2c_ALEX.png
    :target: ./examples/example-Dyn-TwoColor.rst
-   :width: 400
-   :alt: PAINT assay
+   :width: 500
+   :alt: Dynamic 2c FRET Analysis with ALEX
    :align: center
 
 |

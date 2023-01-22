@@ -50,7 +50,7 @@ and `Götz et al., Nat. Meth (2022) <https://www.nature.com/articles/s41467-022-
 
 .. image:: ./../figures/examples/Static_Twoc_ALEX.png
    :target: ./examples/example-ALEX-TwoColor.rst
-   :width: 400
+   :width: 500
    :alt: PAINT assay
    :align: center
 

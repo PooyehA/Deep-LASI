@@ -43,14 +43,17 @@ Two-color assays
 Static 2c FRET
 ~~~~~~~~~~~~~~~~
 
-... TEXT ... 
+The following section describes how to analyse single-molecule FRET occuring between a donor and an acceptor, which
+are positioned at two fixed distances apart using alternating laser excitation (ALEX). We provide two examples for
+publicly available sample data from `Wanninger et al., 2023 (under review)` _<link text>: <target> and .. _Hellenkamp et al., Nat. Meth (2018): https://www.nature.com/articles/s41592-018-0085-0 .
 
 .. image:: ./../figures/examples/Static_2c_ALEX.png
    :target: ./examples/example-ALEX-TwoColor.rst
-   :width: 500
+   :width: 400
    :alt: PAINT assay
    :align: center
 
+|
 
 Dynamic 2c FRET
 ~~~~~~~~~~~~~~~~~

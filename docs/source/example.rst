@@ -44,8 +44,9 @@ Static 2c FRET
 ~~~~~~~~~~~~~~~~
 
 The following section describes how to analyse single-molecule FRET occuring between a donor and an acceptor, which
-are positioned at two fixed distances apart using alternating laser excitation (ALEX). We provide two examples for
-publicly available sample data from `Wanninger et al., 2023 (under review)` _<link text>: <target> and `Hellenkamp et al., Nat. Meth (2018) <https://www.nature.com/articles/s41592-018-0085-0>`_.
+are positioned at two fixed distances apart using alternating laser excitation (ALEX). We discuss two examples for
+publicly available sample data from `Hellenkamp et al., Nat. Meth (2018) <https://www.nature.com/articles/s41592-018-0085-0>`_
+and `Götz et al., Nat. Meth (2022) <https://www.nature.com/articles/s41467-022-33023-3>`_.
 
 .. image:: ./../figures/examples/Static_2c_ALEX.png
    :target: ./examples/example-ALEX-TwoColor.rst
@@ -58,7 +59,17 @@ publicly available sample data from `Wanninger et al., 2023 (under review)` _<li
 Dynamic 2c FRET
 ~~~~~~~~~~~~~~~~~
 
-... coming soon ...
+The following section describes how to analyse dynamic, single-pair 2c FRET using Deep-LASI for alternating laser excitation (ALEX). 
+We provide two examples for
+publicly available sample data from `Wanninger et al., (under review) <>`_.
+
+.. image:: ./../figures/examples/Dynamic_2c_ALEX.png
+   :target: ./examples/example-Dyn-TwoColor.rst
+   :width: 400
+   :alt: PAINT assay
+   :align: center
+
+|
 
 --------------------------------------------------------------------
 

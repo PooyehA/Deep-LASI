@@ -48,7 +48,7 @@ are positioned at two fixed distances apart using alternating laser excitation (
 publicly available sample data from `Hellenkamp et al., Nat. Meth (2018) <https://www.nature.com/articles/s41592-018-0085-0>`_
 and `Götz et al., Nat. Meth (2022) <https://www.nature.com/articles/s41467-022-33023-3>`_.
 
-.. image:: ./../figures/examples/Static_2c_ALEX.png
+.. image:: ./../figures/examples/Static_Twoc_ALEX.png
    :target: ./examples/example-ALEX-TwoColor.rst
    :width: 400
    :alt: PAINT assay

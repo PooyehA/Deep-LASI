@@ -45,7 +45,7 @@ Static 2c FRET
 
 The following section describes how to analyse single-molecule FRET occuring between a donor and an acceptor, which
 are positioned at two fixed distances apart using alternating laser excitation (ALEX). We provide two examples for
-publicly available sample data from `Wanninger et al., 2023 (under review)` _<link text>: <target> and .. _Hellenkamp et al., Nat. Meth (2018): https://www.nature.com/articles/s41592-018-0085-0 .
+publicly available sample data from `Wanninger et al., 2023 (under review)` _<link text>: <target> and `Hellenkamp et al., Nat. Meth (2018) <https://www.nature.com/articles/s41592-018-0085-0>`_.
 
 .. image:: ./../figures/examples/Static_2c_ALEX.png
    :target: ./examples/example-ALEX-TwoColor.rst

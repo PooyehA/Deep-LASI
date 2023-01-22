@@ -72,3 +72,6 @@ Dynamic 3c FRET
 
 Workflow for extracking and analyzing fluorescent traces and FRET signatures of diffusing particles from 3D-Orbital Tracking microscopy. 
 (Mieskes et al., 2023, Small)
+
+.. toctree::
+    :maxdepth: 2

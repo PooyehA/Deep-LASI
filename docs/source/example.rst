@@ -43,7 +43,13 @@ Two-color assays
 Static 2c FRET
 ~~~~~~~~~~~~~~~~
 
-... coming soon ...
+... TEXT ... 
+
+.. image:: ./../figures/examples/Static_2c_ALEX.png
+   :target: ./examples/example-ALEX-TwoColor.rst
+   :width: 500
+   :alt: PAINT assay
+   :align: center
 
 
 Dynamic 2c FRET

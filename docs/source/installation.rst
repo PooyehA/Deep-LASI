@@ -9,10 +9,15 @@ In order to use the automated data analysis with the pretrained deep neural netw
 System compatibility
 ------------
 
-Deep-Lasi is compatible with Windows and Mac OS. It has been extensively tested for Mac OS systems. 
-We have also made Deep-LASI available on Windows and fixed as many troubles as possible. Deep-LASI has not
-been installed on a Linux systems so far. If you encounter any problem, please
+Deep-Lasi is compatible with Windows and Mac OS. It has been extensively tested for Mac OS x86 systems. For new Macs using the M1 or M2 CPUs, the deep learning features are not available until MathWorks releases a native MATLAB version for the M1 and M2 architectures.
+Deep-LASI has not been installed on a Linux systems so far. If you encounter any problem, please
 get in touch with us via the *Issue forum*.
+
+*MATLAB Installation*
+--------
+
+... more details are coming soon ... 
+
 
 Installation requirements for Mac
 ------------
@@ -21,26 +26,22 @@ Installation requirements for Mac
    :width: 50
    :alt: Mac OS Logo 
 
-To run Deep-LASI on your local Mac OS please follow the installation steps in the following order:
-
-#. Install Python
-
-#. Install Xcode
-
-#. Install MATLAB
-
-
-*Python and XCode Installation*
---------
-
 To run Deep-LASI on Mac OS, the following software packages are required:
 
 * Python 3.7-3.10 (check https://de.mathworks.com/support/requirements/python-compatibility.html for MATLAB version compatibility)
 * Xcode
-* tensorflow 2.8.0 (Python package)
+* TensorFlow 2.8.0 (Python package)
 
-.. note::
-   For new Macs using an M1 or M2 architecture, the deep learning features are not usable until MATLAB releases a native MATLAB version for the M1 and M2 architectures. please make sure, that you use a *native* Python distribution. 
+
+Python installation for Mac
+------------
+Please install Python with version 3.7-3.10 at <a href="https://www.python.org/downloads/">download and install Python</a>. <a href="https://de.mathworks.com/support/requirements/python-compatibility.html">View this table</a> for compatibility of your MATLAB with Python versions.', newline, ...
+            'After installation check the integration by typing "pyversion" into the MATLAB Command Window. ', ...
+            'If no version or path information is shown, link the Python executable directy by typing: pyversion ''your/path/to/python/python.exe'' , ', newline, ...
+            'For the following Python packages to work correctly please download and install Xcode (available in the App Store)', newline, ...
+            'If successful, install the Python packages Tensorflow and h5py:', newline, ...
+            'Open your Mac OS Terminal and enter: pip install tensorflow==2.8.0', newline, ...
+            'Done!'
    You may want to use the command
 
    .. code-block:: python
@@ -75,10 +76,6 @@ Alternatively, you may install python via `Anaconda <https://www.anaconda.com/di
 If this command leads to errors, please check whether python is already installed and troubleshoot your Anaconda installation. You may check whether your ``$PATH`` environment variable is properly set.
 
 
-*MATLAB Installation*
---------
-
-... more details are coming soon ... 
 
 Installation requirements for Windows
 ------------

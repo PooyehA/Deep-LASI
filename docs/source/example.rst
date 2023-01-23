@@ -64,7 +64,7 @@ We provide an examples for publicly available sample data from `Wanninger et al.
 
 .. image:: ./../figures/examples/Dynamic_2c_ALEX.png
    :target: ./examples/example-Dyn-TwoColor.rst
-   :width: 500
+   :width: 600
    :alt: Dynamic 2c FRET Analysis with ALEX
    :align: center
 

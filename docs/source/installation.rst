@@ -3,8 +3,8 @@ Installation
 
 .. _installation:
 
-Deep-LASI is a MATLAB program that uses neural networks for automated data analysis from Python libraries.
-In order to use an automated data analysis make sure you installed the required software packages below.
+Deep-LASI is a MATLAB program that uses deep learning for automated data analysis from Python libraries.
+In order to use the automated data analysis with the pretrained deep neural networks make sure you installed the required software packages below.
 
 System compatibility
 ------------

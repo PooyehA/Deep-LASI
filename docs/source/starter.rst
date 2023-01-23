@@ -1,13 +1,13 @@
 How to get started
 =====
 
-#.  Before using Deep-LASI on your single-molecule data, first make sure, you have a 
+#.  Before using Deep-LASI on your single-molecule data, first, make sure, you have an 
     installed MATLAB and a working Python environment on your computer system. Alternatively,
     you can also use a MATLAB Runtime environment. You can find 
-    a description of the individual, required installations steps in the :doc:`installation` guide.
+    a description of the individual, required installation steps in the :doc:`installation` guide.
 
-#.  Next, download the Deep-LASI software package from the github repository and/or add 
-    the matlab source code to the working folder of your Matlab installation. 
+#.  Next, download the Deep-LASI software package from the Repository and/or add 
+    the MATLAB source code to the working folder of your Matlab installation. 
 
 #.  Before running Deep-LASI the first time have a look into the :doc:`example` which
     provides a step-wise description, how to load multi-color single-molecule data into the software.

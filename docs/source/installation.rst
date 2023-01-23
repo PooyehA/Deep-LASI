@@ -13,7 +13,7 @@ Deep-Lasi is compatible with Windows and Mac OS. It has been extensively tested 
 Deep-LASI has not been installed on a Linux systems so far. If you encounter any problem, please
 get in touch with us via the *Issue forum*.
 
-MATLAB Installation*
+MATLAB Installation
 --------
 
 If you have access to a MATLAB license, please install MATLAB, which can be found at https://de.mathworks.com/products/matlab.html.

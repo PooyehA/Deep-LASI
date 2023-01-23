@@ -31,8 +31,8 @@ Installation requirements for Mac
 
 To run Deep-LASI on Mac OS, the following software packages are required:
 
-* Python 3.7-3.10
-* Xcode (available on the Mac App Store)
+* Python 3.7-3.10 (https://www.python.org/downloads/)
+* Xcode (https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 * TensorFlow 2.8.0 (Python package)
 
 

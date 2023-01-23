@@ -37,12 +37,10 @@ To run Deep-LASI on Mac OS, the following software packages are required:
 
 * Python 3.7-3.10 (check https://de.mathworks.com/support/requirements/python-compatibility.html for MATLAB version compatibility)
 * Xcode
-* tensorflow 2.8.0
-
-The installation can either be done using an Xterm environment, or using an easier way by installing all dependencies using `Anaconda <https://www.anaconda.com/distribution/>`_.
+* tensorflow 2.8.0 (Python package)
 
 .. note::
-   Note: For new Macs using an M1 or M2 architecture, the deep learning features are not usable until MATLAB releases a native MATLAB version for the M1 and M2 architectures. please make sure, that you use a *native* Python distribution. 
+   For new Macs using an M1 or M2 architecture, the deep learning features are not usable until MATLAB releases a native MATLAB version for the M1 and M2 architectures. please make sure, that you use a *native* Python distribution. 
    You may want to use the command
 
    .. code-block:: python

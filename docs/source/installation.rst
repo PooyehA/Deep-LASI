@@ -11,7 +11,7 @@ System compatibility
 
 Deep-Lasi is compatible with Windows and Mac OS. It has been extensively tested for Mac OS systems. 
 We have also made Deep-LASI available on Windows and fixed as many troubles as possible. Deep-LASI has not
-been install on a Linux system so far. If you encounter any problem, please
+been installed on a Linux systems so far. If you encounter any problem, please
 get in touch with us via the *Issue forum*.
 
 Installation requirements for Mac
@@ -33,25 +33,16 @@ To run Deep-LASI on your local Mac OS please follow the installation steps in th
 *Python and XCode Installation*
 --------
 
-To run Deep-LASI on Mac OS, the following Python packages are required:
+To run Deep-LASI on Mac OS, the following software packages are required:
 
-* Python 3.6.8
-* numpy
-* scipy
-* pandas 
+* Python 3.7-3.10 (check https://de.mathworks.com/support/requirements/python-compatibility.html for MATLAB version compatibility)
 * Xcode
 * tensorflow 2.8.0
-* h5py
-
-The following packages are useful and recommended for plotting results:
-
-* matplotlib
-* jupyterlab
 
 The installation can either be done using an Xterm environment, or using an easier way by installing all dependencies using `Anaconda <https://www.anaconda.com/distribution/>`_.
 
 .. note::
-   Note: for new Macs using an M1 or M2 architecture, please make sure, that you use a *native* Python distribution. 
+   Note: For new Macs using an M1 or M2 architecture, the deep learning features are not usable until MATLAB releases a native MATLAB version for the M1 and M2 architectures. please make sure, that you use a *native* Python distribution. 
    You may want to use the command
 
    .. code-block:: python

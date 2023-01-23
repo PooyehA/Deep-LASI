@@ -16,15 +16,18 @@ get in touch with us via the *Issue forum*.
 *MATLAB Installation*
 --------
 
-... more details are coming soon ... 
+If you have access to a MATLAB license, please install MATLAB at https://de.mathworks.com/products/matlab.html.
 
+If you plan to use the compiled version of Deep-LASI, please install MATLAB Runtime R2022b for your system at https://de.mathworks.com/products/compiler/matlab-runtime.html
+
+The latest MATLAB version Deep-LASI is tested on is R2022b.
 
 Installation requirements for Mac
 ------------
 
 .. image:: ./../figures/logos/mac.png
    :width: 50
-   :alt: Mac OS Logo 
+   :alt: Mac OS Logo
 
 To run Deep-LASI on Mac OS, the following software packages are required:
 

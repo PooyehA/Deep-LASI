@@ -42,8 +42,10 @@ After installation you can check the MATLAB integration by typing the following 
       
       pyversion
       
-If no version or path information is shown, link the Python executable directy by typing: 
+If no version or path information is shown, link the Python executable directy by typing:
+
    .. code-block:: python
+   
       pyversion 'your/path/to/python/python.exe'
 
       

@@ -32,7 +32,7 @@ Installation requirements for Mac
 To run Deep-LASI on Mac OS, the following software packages are required:
 
 * Python 3.7-3.10
-* Xcode
+* Xcode (available on the Mac App Store)
 * TensorFlow 2.8.0 (Python package)
 
 
@@ -90,14 +90,14 @@ To run Deep-LASI on your local windows computer please follow the
 installation process in the following order:
 To run Deep-LASI on Windows, the following software packages are required:
 
-* Python 3.7-3.10 (check https://de.mathworks.com/support/requirements/python-compatibility.html for MATLAB version compatibility)
-* Microsoft Visual C++
+* Python 3.7-3.10 (https://www.python.org/downloads/)
+* Microsoft Visual C++ (https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 * TensorFlow 2.8.0 (Python package)
 
 
 Python installation and integration into MATLAB (Windows)
 ------------
-Please install Python with version 3.7-3.10 at "https://www.python.org/downloads/ and check https://de.mathworks.com/support/requirements/python-compatibility.html for the compatibility with your MATLAB version.
+Please install Python with version 3.7-3.10 at https://www.python.org/downloads/ and check https://de.mathworks.com/support/requirements/python-compatibility.html for the compatibility with your MATLAB version.
 **Important: When installing Python, check the box "Add Python 3.X to Path", choose "Customize installation", klick next and check the box "Install for all Users". This will change the installation path to "C:\ProgramFiles\PythonXX", which is neccessary for MATLAB to automatically find the Python executable.**
 After installation you can check the MATLAB integration by entering the following command into the MATLAB Command Window:
 

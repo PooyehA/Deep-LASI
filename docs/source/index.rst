@@ -44,8 +44,9 @@ Contents
 
    starter
    installation
-   example
    documentation
+   example
+   sim
    tutorials
    about
    

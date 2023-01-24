@@ -88,9 +88,9 @@ Co-Localization analysis
 Colocalization of differently labeled biomolecules can provide valulable information on molecular interactions. 
 The following workflow describes how to use Deep-LASI for standard colocalization experiments with up to three detection channels.
 
-.. image:: ./../figures/examples/Collocalization.png
+.. image:: ./../figures/examples/Co-Localization.png
    :target: ./examples/example-Colocalization.rst
-   :width: 500
+   :width: 250
    :alt: Collocalization between up to three binding partners
    :align: center
 

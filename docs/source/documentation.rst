@@ -345,17 +345,6 @@ The simplest way to get your final results is to click on **Magic Button** (figu
    
 Figure 32. Magic Button
 
-After trace classication, the number of states classifier will predict the most probable number of states for each trace. The corresponding confidence values will be plotted in a histogram and shown as a pop up figure.
-
-.. image:: ./../figures/documents/Fig_33_number_of_states_confidence.png
-   :width: 300
-   :alt: state number
-   :align: center
-   
-Figure 33. Number of states confidence for each trace
-
-Figure 2 on the software shows the direct excitation and spectral crosstalk correction factors with their histogrmas and the median value. It also shows you how many traces were used to get these values so that you know about the statistics, see figure 33 as an example.
-
 Figure 3 shows the gamma factor calculated based on median, mean, and mode values of the previous two correction factors.
 
 .. image:: ./../figures/documents/Fig_34_de_ct_gamma.png
@@ -363,29 +352,40 @@ Figure 3 shows the gamma factor calculated based on median, mean, and mode value
    :alt: correction factors 
    :align: center
    
-Figure 34. Correction factors plots and values
+Figure 33. Correction factors plots and values
 
-Figures 4 and 5 show a histogram of statewise FRET efficiency, and tracewise state certainty respectively. The later tells you how confident the network is in finding the states.
+Figure 33 on the software shows the direct excitation and spectral crosstalk correction factors with their histogrmas and the median value. It also shows you how many traces were used to get these values so that you know about the statistics, see figure 33 as an example.
+
+After trace classication and correction, the number of states classifier will predict the most probable number of states for each trace. The corresponding confidence values will be plotted in a histogram and shown as a pop up figure.
+
+.. image:: ./../figures/documents/Fig_33_number_of_states_confidence.png
+   :width: 300
+   :alt: state number
+   :align: center
+   
+Figure 34. Number of states confidence for each trace
+
+The predictions of the number of states classifier are used for model selection of the state transition classifier, which subsequently sort all frames in the dynamic traces into state occupancy. Figures 35 and 36 show a histogram of statewise FRET efficiency and tracewise state confidence, respectively.
 
 .. image:: ./../figures/documents/Fig_35_FRET_Histogram.png
    :width: 300
-   :alt: FRET histogram 
+   :alt: FRET histogram
    :align: center
 
 Figure 35. Histogram of apparent FRET
 
 .. image:: ./../figures/documents/Fig_36_State_Certainty.png
    :width: 300
-   :alt: state certainty 
+   :alt: state certainty
    :align: center
    
 Figure 36. Sate certainty of the neural network
 
-After all these plots, the program asks you too choose the number of bins for the TDP (Transition Density Plot). It shows 100 like figure 37, but you can change it to a lower value as you wish. Then the TDP quickly appears.
+After all neural network predictions are completed, the program asks you to choose the number of bins, the confidence threshold and the number of states categories to include in the TDP (Transition Density Plot).
 
-.. image:: ./../figures/documents/Fig_37_TDP_Bins.png
-   :width: 200
-   :alt: state certainty 
+.. image:: ./../figures/documents/DL_TDP_input.png
+   :width: 300
+   :alt: state certainty
    :align: center
    
 Figure 37. Specifying TDP number of bins

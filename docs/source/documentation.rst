@@ -338,7 +338,7 @@ Figure 31. The automated analysis tab, **Trace Tools**
 
 The simplest way to get your final results is to click on **Magic Button** (figure 32) and the program will do all the steps of categorization, correction, and dynamics analysis for you in a couple of minutes! All the results will pop up as a couple figures numbered by the program as follows.
 
-.. image:: ./../figures/documents/Fig_32_Magic_Button.png
+.. image:: ./../figures/documents/Fig_32_DeepLearning_Tab.png
    :width: 300
    :alt: magic button
    :align: center

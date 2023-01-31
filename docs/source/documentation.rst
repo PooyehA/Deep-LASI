@@ -336,7 +336,7 @@ In case you want to save time and not go through all the analysis steps manually
    
 Figure 31. The automated analysis tab, **Trace Tools**
 
-The simplest way to get your final results is to click on **Magic Button** (figure 32) and the program will do all the steps of categorization, correction, and dynamics analysis for you in a couple of minutes! All the results will pop up as a couple figures numbered by the program as follows.
+The simplest way to get your final results is to click on **Magic Button** (figure 32) and the program will do all the steps of categorization, correction, and dynamics analysis for you! All neural network models are chosen automatically dependent on the number of channels in your data set. The first step is the categorization of all traces. Note, that only dynamic traces reaching the confidence threshold (editable the deep learning tab) will be included in the category 'Dynamic (filtered)' and further analyzed.
 
 .. image:: ./../figures/documents/Fig_32_DeepLearning_Tab.png
    :width: 300
@@ -345,14 +345,14 @@ The simplest way to get your final results is to click on **Magic Button** (figu
    
 Figure 32. Magic Button
 
-Now Deep Learning asks you about the number of states in your data like figure 33. If you are not sure about that, choose 4, and the neural network will figure it out.
+After trace classication, the number of states classifier will predict the most probable number of states for each trace. The corresponding confidence values will be plotted in a histogram and shown as a pop up figure.
 
-.. image:: ./../figures/documents/Fig_33_Number_of_States.png
+.. image:: ./../figures/documents/Fig_33_number_of_states_confidence.png
    :width: 300
    :alt: state number
    :align: center
    
-Figure 33. Asking about the number of states
+Figure 33. Number of states confidence for each trace
 
 Figure 2 on the software shows the direct excitation and spectral crosstalk correction factors with their histogrmas and the median value. It also shows you how many traces were used to get these values so that you know about the statistics, see figure 33 as an example.
 

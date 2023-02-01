@@ -370,13 +370,13 @@ The predictions of the number of states classifier are used for model selection 
 
 .. image:: ./../figures/documents/Fig_35_state_transition_confidence.png
    :width: 300
-   :alt: FRET histogram
+   :alt: state prediction confidence
    :align: center
 Figure 35. Histogram of apparent FRET
 
 .. image:: ./../figures/documents/Fig_36_statewise_mean_FRET_histogram.png
    :width: 300
-   :alt: state certainty
+   :alt: statewise mean FRET
    :align: center
 Figure 36. Sate certainty of the neural network
 
@@ -384,43 +384,18 @@ After all neural network predictions are completed, the program asks you to choo
 
 .. image:: ./../figures/documents/Fig_37_DL_TDP_input.png
    :width: 300
-   :alt: state certainty
+   :alt: TDP input
    :align: center
    
-Figure 37. Specifying TDP number of bins
+Figure 37. TDP input parameters
 
 .. image:: ./../figures/documents/Fig_38_TDP_LiveFit_Panel.png
    :width: 300
-   :alt: TDP 
+   :alt: TDP
    :align: center
    
 Figure 38. TDP showing the two FRET populations
 
-By clicking on **Select ROI**, you can choose a cluster and obtain dynamic information about it. The mean values of dwell time, initial and final FRET, and the number of transitions appear on the box to the right, see figure 39. **Plot Dwelltimes** gives a separate figure containing the plot. By choosing the **Fit Selection** you can fit the dwell time on a next window being open. **Plot FRET** will show you the FRET populations histogram.
+By clicking on **Select ROI**, you can choose a cluster and obtain dynamic information about it. The mean values of dwelltime, initial and final FRET, and the number of transitions appear on the rext box to the right. The live fit panel below fits the selected dwellimes with an exponential. By choosing the **Fit Selection** you can fit the dwell times using the Curve Fitting Toolbox™ from MATLAB (not available in compiled programs!). **Plot Dwelltimes** will plot the dwelltimes of the selected transitions in a histogram. **Plot FRET** and **Plot corr. FRET** show you the histogrammed apparent and corrected FRET efficiency of the selection, respectively. In case of 3-color FRET data, the FRET efficiencies of all other dye pairs are shown as well.
 
-.. image:: ./../figures/documents/Fig_39_TDP_to_Fit.png
-   :width: 300
-   :alt: TDP 
-   :align: center
-   
-Figure 39. Sending a chosen cluster to fitting window
-
-Using the mouse, you can rotate and resize the clusters. Also by right clicking you get the options of fixing the shape or deleting a cluster.
-
-.. image:: ./../figures/documents/Fig_40_TDP_Fitting.png
-   :width: 300
-   :alt: TDP 
-   :align: center
-   
-Figure 40. Curve fitting tool on MATLAB to fit the dwell times
-
-Magic button is the fully automated step. You may also intend to take separate and different analysis steps without the magic button. For that, you first need to load a neural network from the same table of **Trace Tools**, figure 41. First choose the closest option to your measurement from the drop-down menu on the right, and then click on **Load Neural Network**. Then with the options provided you can do the necessary analysis on your data and get the results within a couple of minutes. Note that to do the autocorrect, you should first click on **Categorize** and then click on **Autocorrect**. After having the categories made by the software, you always have the option of going through the traces, make any changes, and save what you did.
-
-.. image:: ./../figures/documents/Fig_41_Loading_Network.png
-   :width: 400
-   :alt: loading network 
-   :align: center
-   
-Figure 41. Various options from neural network to analyse data
-
-In case of needing Deep HMM or TDP parts, you should first load the neural network and press **Categorize**. Then choose an HMM neural network and load it. Then use the buttons and enjoy the popping up results. You can also choose to get the kinetic results on raw or corrected data.
+Magic button is the fully automated step. You may also intend to take separate and different analysis steps without the magic button. For that, you first need to load a neural network from the same table of **Trace Tools**, figure 41. First choose the closest option to your measurement from the drop-down menu on the right, and then click on **Load Neural Network**. Then with the options provided you can do the necessary analysis on your data and get the results within a couple of minutes. Note that to do the autocorrect, you should first click on **Categorize** and then click on **Autocorrect**. After having the categories made by the software, you always have the option of going through the traces, make any changes, and save the current status of the data set.

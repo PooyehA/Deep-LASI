@@ -334,31 +334,34 @@ In case you want to save time and not go through all the analysis steps manually
    :alt: starting HMM
    :align: center
    
-Figure 31. The automated analysis tab, **Trace Tools**
+Figure 31. The automated analysis tab, **Deep Learning**
 
-The simplest way to get your final results is to click on **Magic Button** (figure 32) and the program will do all the steps of categorization, correction, and dynamics analysis for you! All neural network models are chosen automatically dependent on the number of channels in your data set. The first step is the categorization of all traces. Note, that only dynamic traces reaching the confidence threshold (editable the deep learning tab) will be included in the category 'Dynamic (filtered)' and further analyzed.
+The simplest way to get your final results is to click on **Magic Button** (figure 32) and the program will do all the steps of categorization, correction, and dynamics analysis for you! All neural network models are chosen automatically dependent on the number of channels in your data set. The first step is the categorization of all traces. Note, that only dynamic traces reaching the confidence threshold (editable the deep learning tab) will be included in the category 'Dynamic (filtered)' and further analyzed. The **Magic Button** simply calls a series of functions which you also have access to individually, namely **Categorize Traces**, **Autocorrect**, **Number of States** and **State Transitions**. For the prediction of state transitions you have more freedom if you call the function separately. For example, you can run the prediction on fully corrected data, choose a specific model in case you have prior knowledge about the system or feed all frames into the state classifier without prior categorization of the trace classifier.
 
 .. image:: ./../figures/documents/Fig_32_DeepLearning_Tab.png
    :width: 300
    :alt: magic button
    :align: center
    
-Figure 32. Magic Button
+Figure 32. Deep Learning Tab with Magic Button
 
-Figure 3 shows the gamma factor calculated based on median, mean, and mode values of the previous two correction factors.
+After trace classification, auto calculation of all available correction factors is performed. Figure 33 shows the histograms of the extracted direct excitation, crosstalk and gamma factors with the corresponding median, mean, and mode values. Gamma factors are calculated 3-fold for median, mean and mode values of direct excitation and crosstalk to show you the influence of these globally used correction factors on the gamma factor. The total number of traces and frames used for the calculation of each correction factor is displayed above the histrograms.
 
-.. image:: ./../figures/documents/Fig_34_de_ct_gamma.png
-   :width: 500
-   :alt: correction factors 
+.. image:: ./../figures/documents/Fig_33_ct_dir_autocalc.png
+   :width: 200
+   :alt: ct dir factors 
    :align: center
    
-Figure 33. Correction factors plots and values
+.. image:: ./../figures/documents/Fig_33_gamma_autocalc.png
+   :width: 200
+   :alt: gamma factors 
+   :align: center
+   
+Figure 33. Correction factors histograms
 
-Figure 33 on the software shows the direct excitation and spectral crosstalk correction factors with their histogrmas and the median value. It also shows you how many traces were used to get these values so that you know about the statistics, see figure 33 as an example.
+After trace classication and correction, the number of states classifier will predict the most probable number of states for each trace. The corresponding confidence values will be shown in a pop up histogram.
 
-After trace classication and correction, the number of states classifier will predict the most probable number of states for each trace. The corresponding confidence values will be plotted in a histogram and shown as a pop up figure.
-
-.. image:: ./../figures/documents/Fig_33_number_of_states_confidence.png
+.. image:: ./../figures/documents/Fig_34_number_of_states_confidence.png
    :width: 300
    :alt: state number
    :align: center

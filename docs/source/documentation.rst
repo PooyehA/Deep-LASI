@@ -390,7 +390,7 @@ After all neural network predictions are completed, the program asks you to choo
 Figure 37. TDP input parameters
 
 .. image:: ./../figures/documents/Fig_38_TDP_LiveFit_Panel.png
-   :width: 350
+   :width: 300
    :alt: TDP
    :align: center
    

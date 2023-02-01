@@ -327,9 +327,9 @@ Figure 30. Starting HMM on data
 Automated Analysis by Deep Learning
 -------------
 
-In case you want to save time and not go through all the analysis steps manually which might take days and even weeks especially for categorizing, you can use the automated analysis provided in the **Trace Tools** tab, Figure 31. This is an additional program using the Deep Learning incorporated on TRacer.
+In case you want to save time and not go through all the analysis steps manually which might take days and even weeks especially for categorizing, you can use the automated analysis provided in the **Deep Learning** tab, Figure 31. This is an additional program using pre-trained deep neural networks incorporated into TRacer.
 
-.. image:: ./../figures/documents/Fig_31_Trace_Tools.png
+.. image:: ./../figures/documents/Fig_31_TracesTab.png
    :width: 300
    :alt: starting HMM
    :align: center
@@ -348,15 +348,14 @@ Figure 32. Deep Learning Tab with Magic Button
 After trace classification, auto calculation of all available correction factors is performed. Figure 33 shows the histograms of the extracted direct excitation, crosstalk and gamma factors with the corresponding median, mean, and mode values. Gamma factors are calculated 3-fold for median, mean and mode values of direct excitation and crosstalk to show you the influence of these globally used correction factors on the gamma factor. The total number of traces and frames used for the calculation of each correction factor is displayed above the histrograms.
 
 .. image:: ./../figures/documents/Fig_33_ct_dir_autocalc.png
-   :width: 200
+   :width: 300
    :alt: ct dir factors 
    :align: center
    
 .. image:: ./../figures/documents/Fig_33_gamma_autocalc.png
-   :width: 200
+   :width: 300
    :alt: gamma factors 
    :align: center
-   
 Figure 33. Correction factors histograms
 
 After trace classication and correction, the number of states classifier will predict the most probable number of states for each trace. The corresponding confidence values will be shown in a pop up histogram.
@@ -365,7 +364,6 @@ After trace classication and correction, the number of states classifier will pr
    :width: 300
    :alt: state number
    :align: center
-   
 Figure 34. Number of states confidence for each trace
 
 The predictions of the number of states classifier are used for model selection of the state transition classifier, which subsequently sort all frames in the dynamic traces into state occupancy. Figures 35 and 36 show a histogram of statewise FRET efficiency and tracewise state confidence, respectively.
@@ -374,14 +372,12 @@ The predictions of the number of states classifier are used for model selection 
    :width: 300
    :alt: FRET histogram
    :align: center
-
 Figure 35. Histogram of apparent FRET
 
 .. image:: ./../figures/documents/Fig_36_State_Certainty.png
    :width: 300
    :alt: state certainty
    :align: center
-   
 Figure 36. Sate certainty of the neural network
 
 After all neural network predictions are completed, the program asks you to choose the number of bins, the confidence threshold and the number of states categories to include in the TDP (Transition Density Plot).

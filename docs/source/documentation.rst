@@ -390,11 +390,11 @@ After all neural network predictions are completed, the program asks you to choo
 Figure 37. TDP input parameters
 
 .. image:: ./../figures/documents/Fig_38_TDP_LiveFit_Panel.png
-   :width: 300
+   :width: 350
    :alt: TDP
    :align: center
    
-Figure 38. TDP showing the two FRET populations
+Figure 38. TDP with live fit panel
 
 By clicking on **Select ROI**, you can choose a cluster and obtain dynamic information about it. The mean values of dwelltime, initial and final FRET, and the number of transitions appear on the rext box to the right. The live fit panel below fits the selected dwellimes with an exponential. By choosing the **Fit Selection** you can fit the dwell times using the Curve Fitting Toolbox™ from MATLAB (not available in compiled programs!). **Plot Dwelltimes** will plot the dwelltimes of the selected transitions in a histogram. **Plot FRET** and **Plot corr. FRET** show you the histogrammed apparent and corrected FRET efficiency of the selection, respectively. In case of 3-color FRET data, the FRET efficiencies of all other dye pairs are shown as well.
 

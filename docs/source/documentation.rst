@@ -368,13 +368,13 @@ Figure 34. Number of states confidence for each trace
 
 The predictions of the number of states classifier are used for model selection of the state transition classifier, which subsequently sort all frames in the dynamic traces into state occupancy. Figures 35 and 36 show a histogram of statewise FRET efficiency and tracewise state confidence, respectively.
 
-.. image:: ./../figures/documents/Fig_35_FRET_Histogram.png
+.. image:: ./../figures/documents/Fig_35_state_transition_confidence.png
    :width: 300
    :alt: FRET histogram
    :align: center
 Figure 35. Histogram of apparent FRET
 
-.. image:: ./../figures/documents/Fig_36_State_Certainty.png
+.. image:: ./../figures/documents/Fig_36_statewise_mean_FRET_histogram.png
    :width: 300
    :alt: state certainty
    :align: center
@@ -382,14 +382,14 @@ Figure 36. Sate certainty of the neural network
 
 After all neural network predictions are completed, the program asks you to choose the number of bins, the confidence threshold and the number of states categories to include in the TDP (Transition Density Plot).
 
-.. image:: ./../figures/documents/DL_TDP_input.png
+.. image:: ./../figures/documents/Fig_37_DL_TDP_input.png
    :width: 300
    :alt: state certainty
    :align: center
    
 Figure 37. Specifying TDP number of bins
 
-.. image:: ./../figures/documents/Fig_38_TDP_Cluster_Selection.png
+.. image:: ./../figures/documents/Fig_38_TDP_LiveFit_Panel.png
    :width: 300
    :alt: TDP 
    :align: center

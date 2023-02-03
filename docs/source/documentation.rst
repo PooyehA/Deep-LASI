@@ -18,7 +18,8 @@ Call the program *TRacer* from the MATLAB command window as shown in figure 1. A
    :width: 300
    :alt: Call Tracer
    :align: center
-   :center: Figure 1. Calling TRacer from MATLAB command window
+
+Figure 1. Calling TRacer from MATLAB command window
 
 Click on *File* to open the drop-down menu as shown on figure 2 to see the provided options as follows:
 
@@ -39,7 +40,7 @@ Click on *File* to open the drop-down menu as shown on figure 2 to see the provi
 * **Quit** to terminate the program.
 
 .. image:: ./../figures/documents/Fig_2_Open_Mapping_Menu.png
-   :width: 300
+   :width: 200
    :alt: Open mapping menu
    :align: center
    

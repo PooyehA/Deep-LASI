@@ -39,7 +39,7 @@ Click on *File* to open the drop-down menu as shown on figure 2 to see the provi
 * **Quit** to terminate the program.
 
 .. image:: ./../figures/documents/Fig_2_Open_Mapping_Menu.png
-   :width: 500
+   :width: 300
    :alt: Open mapping menu
    :align: center
    

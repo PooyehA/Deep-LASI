@@ -39,11 +39,11 @@ Click on *File* to open the drop-down menu as shown on figure 2 to see the provi
 * **Quit** to terminate the program.
 
 .. image:: ./../figures/documents/Fig_2_Open_Mapping_Menu.png
-   :width: 300
-   :alt: Open File mapping
+   :width: 500
+   :alt: Open mapping menu
    :align: center
    
-Figure 2. TRacer file menu
+Figure 3. TRacer file menu
 
 On the tab **Settings** beside the file, you can enter the camera settings you are using for measuring, so have them saved and easily accessible there.
 

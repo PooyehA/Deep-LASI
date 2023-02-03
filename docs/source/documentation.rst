@@ -43,7 +43,7 @@ Click on *File* to open the drop-down menu as shown on figure 2 to see the provi
    :alt: Open mapping menu
    :align: center
    
-Figure 3. TRacer file menu
+Figure 2. TRacer file menu
 
 On the tab **Settings** beside the file, you can enter the camera settings you are using for measuring, so have them saved and easily accessible there.
 

@@ -49,7 +49,7 @@ publicly available sample data from `Hellenkamp et al., Nat. Meth (2018) <https:
 and `Götz et al., Nat. Meth (2022) <https://www.nature.com/articles/s41467-022-33023-3>`_.
 
 .. image:: ./../figures/examples/Static_Twoc_ALEX.png
-   :target: ./examples/example-ALEX-TwoColor.rst
+   :target: ./examples/example-2c-FRET-Static.rst
    :width: 500
    :alt: Static 2c FRET Analysis with ALEX
    :align: center
@@ -63,7 +63,7 @@ The following section describes how to analyse dynamic 2c FRET data using Deep-L
 We provide an examples for publicly available sample data from `Wanninger et al., BioArXiv (under review) <https://www.doi.org>`_.
 
 .. image:: ./../figures/examples/Dynamic_2c_ALEX.png
-   :target: ./examples/example-Dyn-TwoColor.rst
+   :target: ./examples/example-2c-FRET-Dynamic.rst
    :width: 800
    :alt: Dynamic 2c FRET Analysis with ALEX
    :align: center

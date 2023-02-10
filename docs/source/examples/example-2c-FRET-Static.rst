@@ -15,15 +15,16 @@ Example Data
 ------------------
 Static Double-Stranded DNA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The first data set chosen in the multi-laboraory `benchmark study <https://www.nature.com/articles/s41592-018-0085-0>`_, enclode double-labeled DNA molecules. Two different samples with low (Figure 1 (left)) and intermediated FRET (Figure 1 (right)) were designed, where the attached fluorophore pairs are separated by 23 and 15 base pairs, respectively. 
+The first data set chosen in the multi-laboraory `benchmark study <https://www.nature.com/articles/s41592-018-0085-0>`_, enclode double-labeled DNA molecules. Two different samples with low (:numref:`Fig-DNA-2c-static` (left)) and intermediated FRET (:numref:`Fig-DNA-2c-static` (right)) were designed, where the attached fluorophore pairs are separated by 23 and 15 base pairs, respectively. 
 
 .. image:: ./../figures/examples/Static_Twoc_Sub_Figure_1.png
    :width: 800
    :alt: Bleaching Step Analysis
    :align: center
    :class: with-shadow
+   :name: Fig-DNA-2c-static
    
-   Figure Caption 1. TEXT
+   Figure Caption 1. Double-Stranded DNA labeled with the donor dye Atto550 and acceptor dye Atto647N in 23 bp distance (left) and 15 bp separation (right).
 
 Data set 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

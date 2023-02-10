@@ -49,7 +49,7 @@ publicly available sample data from `Hellenkamp et al., Nat. Meth (2018) <https:
 and `Götz et al., Nat. Meth (2022) <https://www.nature.com/articles/s41467-022-33023-3>`_. TEST!
 
 .. image:: ./../figures/examples/Static_Twoc_ALEX.png
-   :target: http://www.ard.de
+   :target: /docs/source/examples/example-2c-FRET-Static.rst
    :width: 500
    :alt: Static 2c FRET Analysis with ALEX
    :align: center

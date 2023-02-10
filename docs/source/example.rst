@@ -16,7 +16,7 @@ Single-color bleaching step analysis
 Proteins are frequently functioning as oligomers. Photobleaching step analysis allows for investigating the stoichiometry of a particular protein of interest in a molecular assembly, or determining the labeling efficiency of a single protein. Deep-LASI localizes the biomolecule, extract the fluroescence trajectory, analyzes potential bleaching steps by an automated step finding algorithm and determins the number of itensity levels, their brightness and time spend in the different states. 
 
 .. image:: ./../figures/examples/Steps_Figure.png
-   :target:: ./examples/example-steps.rst
+   :target: ./examples/example-steps.rst
    :width: 800
    :alt: Bleaching Step Analysis
    :align: center
@@ -30,7 +30,7 @@ In DNA-PAINT, fluorescently labeled *imager strands* transiently bind to complem
 Besides sequence-based multiplexing, variation of binding time and binding frequency allow for visualizing multiple distinct molecular species within a single sample via DNA-PAINT. Deep-LASI allows for extracting time traces and fluorescence characteristics, to determine the ON- and OFF-times associated with time the imager strand spends in the bound state τ :sub:`b` or diffusing τ :sub:`d` in solution according to the chosen DNA sequence. 
 
 .. image:: ./../figures/examples/PAINT_Figure.png
-   :target:: ./examples/example-paint.rst
+   :target: ./examples/example-paint.rst
    :width: 500
    :alt: PAINT assay
    :align: center
@@ -49,7 +49,7 @@ publicly available sample data from `Hellenkamp et al., Nat. Meth (2018) <https:
 and `Götz et al., Nat. Meth (2022) <https://www.nature.com/articles/s41467-022-33023-3>`_.
 
 .. image:: ./../figures/examples/Static_Twoc_ALEX.png
-   :target:: ./examples/example-2c-FRET-Static.rst
+   :target: ./examples/example-2c-FRET-Static.rst
    :width: 500
    :alt: Static 2c FRET Analysis with ALEX
    :align: center
@@ -63,7 +63,7 @@ The following section describes how to analyse dynamic 2c FRET data using Deep-L
 We provide an examples for publicly available sample data from `Wanninger et al., BioArXiv (under review) <https://www.doi.org>`_.
 
 .. image:: ./../figures/examples/Dynamic_2c_ALEX.png
-   :target:: ./examples/example-2c-FRET-Dynamic.rst
+   :target: ./examples/example-2c-FRET-Dynamic.rst
    :width: 800
    :alt: Dynamic 2c FRET Analysis with ALEX
    :align: center
@@ -89,7 +89,7 @@ Colocalization of differently labeled biomolecules can provide valulable informa
 The following workflow describes how to use Deep-LASI for standard colocalization experiments with up to three detection channels.
 
 .. image:: ./../figures/examples/Co-Localization.png
-   :target:: ./examples/example-Colocalization.rst
+   :target: ./examples/example-Colocalization.rst
    :width: 250
    :alt: Collocalization between up to three binding partners
    :align: center

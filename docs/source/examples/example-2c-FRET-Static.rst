@@ -23,7 +23,8 @@ The first data set chosen in the multi-laboraory `benchmark study <https://www.n
    :align: center
    :name: Fig-DNA-2c-static
    
-   Figure Caption 1. Double-Stranded DNA labeled with the donor dye Atto550 and acceptor dye Atto647N in 23 bp distance (left) and 15 bp separation (right).
+
+Figure Caption 1. Double-Stranded DNA labeled with the donor dye Atto550 and acceptor dye Atto647N in 23 bp distance (left) and 15 bp separation (right).
 
 Data set 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

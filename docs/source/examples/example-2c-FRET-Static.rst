@@ -19,9 +19,8 @@ The first data set chosen in the multi-laboraory `benchmark study <https://www.n
 
 .. image:: ./../figures/examples/Static_Twoc_Sub_Figure_1.png
    :width: 800
-   :alt: Bleaching Step Analysis
+   :alt: Static 2c DNA
    :align: center
-   :class: with-shadow
    :name: Fig-DNA-2c-static
    
    Figure Caption 1. Double-Stranded DNA labeled with the donor dye Atto550 and acceptor dye Atto647N in 23 bp distance (left) and 15 bp separation (right).

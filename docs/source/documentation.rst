@@ -6,7 +6,7 @@ Documentation
 Documentation
 ------------
 
-In this part, we try to give a brief introduction and overview of how to use the main functions of *Deep-LASI*. In most cases, it will be based on the example data provided with the publication and described in the :doc:`example` 
+In this part, we give a brief introduction and overview of how to use the main functions of *Deep-LASI*. In most cases, it will be based on the example data provided with the publication and described in the :doc:`example` 
 Using the steps described here you should be able to analyze your single molecule data.
 
 Opening TRacer

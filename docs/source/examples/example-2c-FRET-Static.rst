@@ -2,8 +2,6 @@
 Workflow for analyzing Static 2c FRET Data
 =====
 
-.. _example:
-
 The following section describes the workflow, when analyzing static, 2-color smFRET (single-molecule Förster Resonance Energy Tranfer) data, 
 such as distance rulers based on double-stranded DNA labeled with two fluorophores. 
 

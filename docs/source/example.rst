@@ -30,7 +30,7 @@ In DNA-PAINT, fluorescently labeled *imager strands* transiently bind to complem
 Besides sequence-based multiplexing, variation of binding time and binding frequency allow for visualizing multiple distinct molecular species within a single sample via DNA-PAINT. Deep-LASI allows for extracting time traces and fluorescence characteristics, to determine the ON- and OFF-times associated with time the imager strand spends in the bound state τ :sub:`b` or diffusing τ :sub:`d` in solution according to the chosen DNA sequence. 
 
 .. image:: ./../figures/examples/PAINT_Figure.png
-   :target: ./examples/example-paint.rst
+   :target: https://deep-lasi-tutorial.readthedocs.io/en/latest/examples/example-paint.html
    :width: 500
    :alt: PAINT assay
    :align: center
@@ -63,7 +63,7 @@ The following section describes how to analyse dynamic 2c FRET data using Deep-L
 We provide an examples for publicly available sample data from `Wanninger et al., BioArXiv (under review) <https://www.doi.org>`_.
 
 .. image:: ./../figures/examples/Dynamic_2c_ALEX.png
-   :target: ./examples/example-2c-FRET-Dynamic.rst
+   :target: https://deep-lasi-tutorial.readthedocs.io/en/latest/examples/example-2c-FRET-Dynamic.html
    :width: 800
    :alt: Dynamic 2c FRET Analysis with ALEX
    :align: center
@@ -89,7 +89,7 @@ Colocalization of differently labeled biomolecules can provide valulable informa
 The following workflow describes how to use Deep-LASI for standard colocalization experiments with up to three detection channels.
 
 .. image:: ./../figures/examples/Co-Localization.png
-   :target: ./examples/example-Colocalization.rst
+   :target: https://deep-lasi-tutorial.readthedocs.io/en/latest/examples/example-Colocalization.html
    :width: 250
    :alt: Collocalization between up to three binding partners
    :align: center

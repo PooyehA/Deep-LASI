@@ -35,10 +35,10 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 # Evelyn Test: Numbering of figures:
-import sys
-import os
-html_theme = 'sphinx_rtd_theme'
-numfig = True
+#import sys
+#import os
+#html_theme = 'sphinx_rtd_theme'
+#numfig = True
 
 # Packages that need to be included for colored text in Sphinx
 # These folders are copied to the documentation's HTML output
@@ -51,8 +51,8 @@ numfig = True
 #]
 
 # -- Color Support by Sphinx from the standard definition file s5defs.txt
-#rst_prolog = """
-#.. include:: <s5defs.txt>
-#.. default-role::
-#
-#"""
+rst_prolog = """
+.. include:: <s5defs.txt>
+.. default-role::
+
+"""

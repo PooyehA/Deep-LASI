@@ -4,8 +4,8 @@ Example Galleries
 .. _example:
 
 Deep-LASI can be employed for different single-molecule assays. Below we provide a short intro how get started and
-use Deep-LASI for the different single-molecule assays. We provide an examples for publicly available sample data 
-from `Wanninger et al., BioArXiv (under review) <https://doi.org/10.1101/2023.01.31.526220>`_ with each case. 
+use Deep-LASI for the different single-molecule assays. With each case, you can find publicly available sample data 
+from `Wanninger et al., BioArXiv (under review) <https://doi.org/10.1101/2023.01.31.526220>`_ . 
 Please **click on the different images** to visit the corresponding example pages. 
 
 One-color assays

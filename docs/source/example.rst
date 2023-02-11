@@ -4,8 +4,9 @@ Example Galleries
 .. _example:
 
 Deep-LASI can be employed for different single-molecule assays. Below we provide a short intro how get started and
-use Deep-LASI for the different single-molecule assays. Please **click on the different images** to visit the corresponding
-example pages. 
+use Deep-LASI for the different single-molecule assays. We provide an examples for publicly available sample data 
+from `Wanninger et al., BioArXiv (under review) <https://www.doi.org>`_ with each case. 
+Please **click on the different images** to visit the corresponding example pages. 
 
 One-color assays
 ------------------
@@ -60,7 +61,6 @@ Dynamic 2c FRET
 ~~~~~~~~~~~~~~~~~
 
 The following section describes how to analyse dynamic 2c FRET data using Deep-LASI for alternating laser excitation (ALEX). 
-We provide an examples for publicly available sample data from `Wanninger et al., BioArXiv (under review) <https://www.doi.org>`_.
 
 .. image:: ./../figures/examples/Dynamic_2c_ALEX.png
    :target: https://deep-lasi-tutorial.readthedocs.io/en/latest/examples/example-2c-FRET-Dynamic.html

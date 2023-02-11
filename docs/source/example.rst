@@ -1,3 +1,8 @@
+Example Galleries
+=====
+
+.. _example:
+
 .. toctree::
    :hidden:
 
@@ -6,11 +11,6 @@
    ./examples/example-2c-FRET-Static
    ./examples/example-2c-FRET-Dynamic
    ./examples/example-Colocalization
-
-Example Galleries
-=====
-
-.. _example:
 
 Deep-LASI can be employed for different single-molecule assays. In this gallery, we provide a short intro on how to get started and
 use Deep-LASI for the different single-molecule assays. Eample data are provided together with each show case.

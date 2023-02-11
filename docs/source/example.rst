@@ -95,15 +95,14 @@ The following workflow describes how to use Deep-LASI for standard colocalizatio
 
 |
 
---------------------------------------------------------------------
-
-3D Tracking of fluorescent particles
---------------------------------------
-
-... coming soon ...
-
-Workflow for extracking and analyzing fluorescent traces and FRET signatures of diffusing particles from 3D-Orbital Tracking microscopy. 
-(Mieskes et al., 2023, Small)
+.. --------------------------------------------------------------------
+.. 
+.. 3D Tracking of fluorescent particles
+.. --------------------------------------
+..
+.. ... coming soon ...
+.. 
+.. Workflow for extracking and analyzing fluorescent traces and FRET signatures of diffusing particles from 3D-Orbital Tracking microscopy. (Mieskes et al., 2023, Small)
 
 .. toctree::
    :hidden:

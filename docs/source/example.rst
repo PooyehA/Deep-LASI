@@ -1,3 +1,12 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+
+.. role:: red
+
+:red:`test - this text should be red`
+
+
 Example Galleries
 =====
 

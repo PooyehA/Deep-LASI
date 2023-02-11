@@ -1,5 +1,5 @@
 
-Workflow for analyzing Static 2c FRET Data
+Static 2c FRET Data
 =====
 
 The following section describes the workflow, when analyzing static, 2-color smFRET (single-molecule Förster Resonance Energy Tranfer) data, 

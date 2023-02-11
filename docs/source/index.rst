@@ -41,7 +41,7 @@ with us via ...
 .. --------
 
 .. toctree::
-   :includehidden:
+   :maxdepth:2
    :hidden:
 
    starter

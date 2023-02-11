@@ -26,3 +26,9 @@ Figure Caption 1. Double-Stranded DNA labeled with the donor dye Atto550 and acc
 
 Data set 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+   :includehidden:
+   :hidden:
+
+   ./examples/

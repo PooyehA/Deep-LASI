@@ -43,7 +43,6 @@ Contents
 .. toctree::
    :includehidden:
    :maxdepth: 2
-   :caption: Home
    :hidden:
 
    starter
@@ -54,4 +53,4 @@ Contents
    tutorials
    about
    
-   Deep-LASI has its documentation hosted on Read the Docs.
+Deep-LASI has its documentation hosted on Read the Docs.

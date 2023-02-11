@@ -1,3 +1,12 @@
+.. toctree::
+   :hidden:
+
+   ./examples/example-steps
+   ./examples/example-paint
+   ./examples/example-2c-FRET-Static
+   ./examples/example-2c-FRET-Dynamic
+   ./examples/example-Colocalization
+
 Example Galleries
 =====
 
@@ -103,13 +112,4 @@ The following workflow describes how to use Deep-LASI for standard colocalizatio
 .. ... coming soon ...
 .. 
 .. Workflow for extracking and analyzing fluorescent traces and FRET signatures of diffusing particles from 3D-Orbital Tracking microscopy. (Mieskes et al., 2023, Small)
-
-.. toctree::
-   :hidden:
-
-   ./examples/example-steps
-   ./examples/example-paint
-   ./examples/example-2c-FRET-Static
-   ./examples/example-2c-FRET-Dynamic
-   ./examples/example-Colocalization
 

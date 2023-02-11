@@ -41,6 +41,7 @@ Contents
 --------
 
 .. toctree::
+   :includehidden:   
 
    starter
    installation

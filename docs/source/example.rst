@@ -1,12 +1,3 @@
-.. raw:: html
-
-    <style> .red {color:red} </style>
-
-.. role:: red
-
-:red:`test - this text should be red`
-
-
 Example Galleries
 =====
 
@@ -14,7 +5,7 @@ Example Galleries
 
 Deep-LASI can be employed for different single-molecule assays. Below we provide a short intro how get started and
 use Deep-LASI for the different single-molecule assays. We provide example data with together with every show case.
-Please **click on the different images** to visit the corresponding example pages. :textcolor:`<#6495ed> Test`
+Please **click on the different images** to visit the corresponding example pages. `<#6495ed> Test`
 
 One-color assays
 ------------------

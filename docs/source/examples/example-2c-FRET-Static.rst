@@ -12,6 +12,10 @@ Table of content
 - :ref:`example-data`
 - :ref:`data-prep`
 
+|
+
+--------------------------------------------------------------------
+
 ..  _example-data:
 Sample Design: Static Double-Stranded DNA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -109,6 +109,7 @@ The following workflow describes how to use Deep-LASI for standard colocalizatio
 
 .. toctree::
    :hidden:
+   :titlesonly:
 
    ./examples/example-steps
    ./examples/example-paint

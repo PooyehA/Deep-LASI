@@ -7,12 +7,14 @@ Deep-LASI provides a modular workflow for analysing the data, either manually or
 The example below describes the workflow for a `mix of two double stranded DNAs <https://doi.org/10.1101/2023.01.31.526220>`_. 
 Additional, publicly available sample data sets can be found, e.g., in `Wanninger et al., BioArxiv (2023) <https://doi.org/10.1101/2023.01.31.526220>`_. 
 
-Table of content
+Overview
 ------------------
 - :ref:`example-data`
 - :ref:`data-prep`
-
-|
+- :ref:`extraction`
+- :ref:`automatic`
+- :ref:`manual`
+- :ref:`summary`
 
 --------------------------------------------------------------------
 
@@ -31,4 +33,20 @@ The first data set chosen in the multi-laboraory `benchmark study <https://www.n
 
 .. _data-prep:
 Data preparation 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _extraction:
+Co-Localize Molecules / Trace Extraction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _automatic:
+Automatic data analysis and correction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _manual:
+Manual data analysis and dorrection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _summary:
+Plotting and Summary of Results
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

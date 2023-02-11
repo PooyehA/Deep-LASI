@@ -19,7 +19,7 @@ The first data set chosen in the multi-laboraory `benchmark study <https://www.n
 
 .. _fig_DNA: 
 .. figure:: ./../../figures/examples/Static_Twoc_Sub_Figure_1.png
-   :width: 800
+   :width: 700
    :alt: Static 2c DNA 
    :align: center
    

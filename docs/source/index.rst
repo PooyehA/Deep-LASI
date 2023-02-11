@@ -37,8 +37,8 @@ with us via ...
 
    This project is under active development.
 
-Contents
---------
+.. Contents
+.. --------
 
 .. toctree::
    :includehidden:

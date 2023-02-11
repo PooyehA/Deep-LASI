@@ -10,7 +10,7 @@ How to get started
     the MATLAB source code to the working folder of your Matlab installation. 
 
 #.  Before running Deep-LASI the first time, have a look at the :doc:`example`, which
-    provides a step-wise description of how to load multi-color single-molecule data into the software.
-    `Example Data <https://github.com/NurAb-Sal/TRacer>`_ is additionally provided together with the Software Download.
+    provides a step-wise description of how to load multi-color single-molecule data into the software.     
+    Example data sets are additionally provided.
 
 ... to be continued ...

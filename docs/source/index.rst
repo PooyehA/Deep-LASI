@@ -41,7 +41,10 @@ Contents
 --------
 
 .. toctree::
-   :includehidden:   
+   :includehidden:
+   :maxdepth: 2
+   :caption: Home
+   :hidden:
 
    starter
    installation

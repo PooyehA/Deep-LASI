@@ -1,5 +1,7 @@
 
-.. rubric:: Static 2c FRET Data
+.. :orphan::
+
+Static 2c FRET Data
 =====
 
 The following section describes the workflow, when analyzing static, 2-color smFRET (single-molecule Förster Resonance Energy Tranfer) data, 
@@ -26,9 +28,3 @@ Figure Caption 1. Double-Stranded DNA labeled with the donor dye Atto550 and acc
 
 Data set 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. toctree::
-   :includehidden:
-   :hidden:
-
-   ./examples/

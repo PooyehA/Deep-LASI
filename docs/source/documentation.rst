@@ -36,7 +36,7 @@ Data handling
 
 Supported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-While *Deep-LASI* was developed to primarily handle movie files containing single-molecule data, it can also import recorded data from other sources (see below). We are happy to support other image formats to make *Deep-LASI* compatible with other systems and software packages. Please get in touch with us in the Forum and/or via ...
+While *Deep-LASI* was developed to handle movie files containing single-molecule data, it can also import recorded data from other sources (see below). We are happy to support other image formats to make *Deep-LASI* compatible with other systems and software packages. Please get in touch with us in the Forum and/or via ...
 
 **TIFF, Tagged Image File Format (.tif)**
 

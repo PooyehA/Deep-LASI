@@ -31,7 +31,7 @@ one or multiple detection channel, if an optosplit was used. Choose this file fo
 
 PicoQuant universal file format (*.ptu*)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-While *Deep-LASI* can handle confocal data obtained on scanning laser microscopes in 'Pick-n-destroy' mode. Single time-traces saved in the PicoQuant universal file format (*.ptu*) can be read in consecutively.
+*Deep-LASI* can handle confocal data obtained on scanning laser microscopes in 'Pick-n-destroy' mode. Single time-traces saved in the PicoQuant universal file format (*.ptu*) can be read in consecutively.
 
 Hierarchical Data Format 5 (*.hdf5*)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

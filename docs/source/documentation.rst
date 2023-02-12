@@ -40,6 +40,19 @@ one or multiple detection channel, if an optosplit was used. Choose this file fo
 
 To analyse data from localization microscopy analysed withe `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
 
+Data handling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Deep-LASI* is able to incorporate single molecule data on different levels. It can read in raw movie data and extract the intensity information of single and co-localizating molecules depending on the excitation scheme. For already recorded intensity time traces from confocal microscopy and localization microscopy, *Deep-LASI* 
+<Description>
+
+:numref:`data-flow`) summarizes the data handling.
+
+.. figure:: ./../../figures/examples/Static_Twoc_Sub_Figure_1.png
+   :width: 700
+   :alt: Static 2c DNA 
+   :align: center
+   :name: data-flow
+
 --------------------------------------------------------------------
 
 Opening TRacer

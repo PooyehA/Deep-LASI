@@ -52,10 +52,11 @@ one or multiple detection channel for different laser excitation schemes. Choose
 To analyse data from localization microscopy analysed withe `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
 
 **SAVED FILE FORMAT**
-* simulated data
-* extracted traces
-* export 
-*Deep-LASI* saves the extracted traces together with the latest 
+*Deep-LASI* saves data in three different file types:
+
+* *.tdat:   File containing the mapping information
+* *.mdat:   File containing the extracted or imported traces
+* *.xxx:    File containing simulated traces
 
 Exported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

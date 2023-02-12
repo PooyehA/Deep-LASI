@@ -32,7 +32,7 @@ Data handling
    :align: center
    :name: data-flow
    
-   Workflow summarizing the involved data formats d acceptor dye Atto647N in 23 bp distance (left) and 15 bp separation (right).
+   Workflow summarizing the generic data formats used by *Deep-LASI*, as well as supported data formats for trace import.
 
 Supported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

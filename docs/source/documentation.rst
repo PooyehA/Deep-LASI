@@ -6,7 +6,7 @@ Documentation
 Documentation
 ------------
 
-*Deep-LASI* comes with an interactive graphical user interface (GUI) to perform different processing and analysis tasks during the data evaluation process. This page serves for documenting the funcionality of its different GUIs. Besides the menubar for handling the data read-in and setting of the program, *Deep-LASI* comes with 6 different surfaces for (1) molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, correction and analysis, (4) SNR analysis of traces, (5) Summary of the results including FRET, States, correction factors and TDP plots, and (6) classical HMM analysis via different software packages. 
+*Deep-LASI* comes with an interactive graphical user interface (GUI) to perform processing and analysis tasks during the data evaluation process. This page serves for documenting the funcionality of its different GUIs. *Deep-LASI* comes with 6 integrated GUI sub-windows for analysing the data and (1) menubar for handling the data, settings of the program, and simulate single-molecule data. The analysis-Guis are dedicated to (1) molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, correction and analysis, (4) SNR analysis of traces, (5) the summary of the results including FRET, States, correction factors and TDP plots, and (6) the classical HMM analysis via different software packages. 
 
 To start learning how to use *Deep-LASI*, we recommend first to read through the :doc:`starter` and :doc:`example` section. 
 A step-wise description how to analyse different single-molecule data with *Deep-LASI* is given for selected show cases in the :doc:`example` in details.
@@ -20,6 +20,11 @@ Overview
 
 ..  _data-format:
 Data requirements
+-------------------
+
+Supported Image Formats
+~~~~~~~~~~~~~~~~~~~~~~~~~
+*Deep-LASI* 
 
 
 Opening TRacer

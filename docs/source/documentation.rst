@@ -26,7 +26,7 @@ Data handling
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *Deep-LASI* incorporates single molecule data at different levels. It reads movies from emCCD or sCMOS cameras usually acquired using a wide-field total internal reflection fluorescence (TIRF) microscope. Consecutively, it extracts the intensity information of single and co-localizing molecules depending on the excitation scheme and assay and saves the extracted traces afterwards. For already recorded intensity time traces from confocal microscopy and localization microscopy, *Deep-LASI* imports the trajectories as formerly saved without additional correction. :numref:`data-flow` summarizes the data handling.
 
-.. figure:: ./../figures/examples/Data_Handling.png
+.. figure:: ./../figures/documents/Data_Handling.png
    :width: 700
    :alt: Data Handling 
    :align: center
@@ -36,12 +36,12 @@ Data handling
 
 Supported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-While *Deep-LASI* was developed to handle movie files containing single-molecule data, it can also import recorded data from other sources (see below). We are happy to support other image formats to make *Deep-LASI* compatible with other systems and software packages. Please get in touch with us in the Forum and/or via ...
+*Deep-LASI* was developed to handle movie files containing single-molecule data. Nevertheless, it can also import recorded data from other sources (see below). We are happy to support other image formats to make *Deep-LASI* compatible with other systems and software packages. Please get in touch with us in the Forum and/or via ...
 
 **TIFF, Tagged Image File Format (.tif)**
 
-*Deep-LASI* accepts movie files in the Tagged Image File Format (*.tif*). These files can contain stacks of widefield images with
-one or multiple detection channel, if an optosplit was used. Choose this file format if you want to load raw data from e.g. emCCD cameras. 
+*Deep-LASI* accepts movie files in the Tagged Image File Format (*.tif*). These files can contain stacks of widefield/TIRF images with
+one or multiple detection channel for different laser excitation schemes. Choose this file format if you want to load raw data from e.g. emCCD cameras. 
 
 **PicoQuant universal file format (.ptu)**
 

@@ -24,7 +24,7 @@ Data requirements
 
 Data handling
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*Deep-LASI* incorporates single molecule data at different levels. It naturally reads single-molecule movies from emCCD or sCMOS cameras and extracts the intensity information of single and co-localizing molecules depending on the excitation scheme and assay. For already recorded intensity time traces from confocal microscopy and localization microscopy, *Deep-LASI* imports the trajectories as formerly saved without additional correction. :numref:`data-flow` summarizes the data handling.
+*Deep-LASI* incorporates single molecule data at different levels. It reads movies from emCCD or sCMOS cameras usually acquired using a wide-field total internal reflection fluorescence (TIRF) microscope. Consecutively, it extracts the intensity information of single and co-localizing molecules depending on the excitation scheme and assay and saves the extracted traces afterwards. For already recorded intensity time traces from confocal microscopy and localization microscopy, *Deep-LASI* imports the trajectories as formerly saved without additional correction. :numref:`data-flow` summarizes the data handling.
 
 .. figure:: ./../figures/examples/Data_Handling.png
    :width: 700

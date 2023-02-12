@@ -55,13 +55,13 @@ Saved File Formats
 ~~~~~~~~~~~~~~~~~~~~~~~
 *Deep-LASI* saves data in three different file types:
 
-====== ======
-Format Data Type
-====== ======
-*.mdat, "File containing the extracted or imported traces"
-*.tdat, "File containing the mapping information"
-*.xxx,  "File containing simulated traces "
-====== ======
+..  csv-table:: Data Types
+   :header: "Format", "Data Types"
+   :widths: 15, 200
+
+   *.mdat,   "File containing the extracted or imported traces"
+   *.tdat,  "File containing the mapping information"
+   *.xxx,   "File containing simulated traces"
 
 Files ending with *.mdat are the standard format for saving extracted traces. 
 

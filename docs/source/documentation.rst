@@ -46,10 +46,12 @@ one or multiple detection channel for different laser excitation schemes. Choose
 **PicoQuant universal file format (.ptu)**
 
 *Deep-LASI* can handle confocal data obtained by scanning laser microscopy in 'Pick-n-destroy' mode. Single time-traces saved in the PicoQuant universal file format (*.ptu*) can be read in consecutively.
+--> @Simon: Short description what DL is doing with the data ... how the data is read, an what the requirements / data structures need to be, in order to be readable for DL.
 
 **Hierarchical Data Format 5 (.hdf5)**
 
 To analyse data from localization microscopy analysed withe `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
+--> @Simon: Short description what DL is doing with the data ... how the data is read, an what the requirements / data structures need to be, in order to be readable for DL.
 
 Saved File Formats
 ~~~~~~~~~~~~~~~~~~~~~~~

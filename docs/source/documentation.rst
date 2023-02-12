@@ -24,7 +24,7 @@ Data requirements
 
 Data handling
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*Deep-LASI* incorporates single molecule data at different levels. Initially, it reads movies from emCCD or sCMOS cameras, as usually acquired using a wide-field total internal reflection fluorescence (TIRF) microscope. Consecutively, it extracts the intensity information of single and co-localizing molecules depending on the excitation scheme and assay and saves the extracted traces afterwards. For already recorded intensity time traces from confocal microscopy and localization microscopy, *Deep-LASI* imports the trajectories as formerly saved without additional correction. :numref:`data-flow` summarizes the data handling.
+*Deep-LASI* incorporates single molecule data at different levels. First of all, it reads movies from emCCD or sCMOS cameras, as usually acquired using a wide-field total internal reflection fluorescence (TIRF) microscope. Consecutively, it extracts the intensity information of single and co-localizing molecules depending on the excitation scheme and assay and saves the extracted traces afterwards. For already recorded intensity time traces from confocal microscopy and localization microscopy, *Deep-LASI* imports the trajectories as formerly saved without additional correction. :numref:`data-flow` summarizes the data handling.
 
 .. figure:: ./../figures/documents/Fig_1_Data_Handling.png
    :width: 800
@@ -63,9 +63,14 @@ Saved File Formats
    *.tdat,  "File containing the mapping information"
    *.xxx,   "File containing simulated traces"
 
-Files ending with *.mdat are the standard format for saving extracted traces. 
+Files ending with *.mdat contain extracted or imported traces. Mdat-Files are the standard format by *Deep-LASI*.
+- description --> connection with Matlab file format
+- description of save data structure
+- requirements for data sets to be imported ... 
 
 Files ending with *.tdat are generated after mapping different detection channels. They contain information on potential changes with respect to translational and rotational offsets as well as differences in magnification. Mapping files are generated before trace extraction usually via a separate movie with calibration pattern and used for matching single-molecule co-localizations between different channels.
+
+Files ending with *.XXX --> description Simon about his simulated Datasets ?
 
 Exported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -75,6 +80,7 @@ Exported Data Formats
 * map
 * extracted traces
 * export 
+* settings file.
 
 --------------------------------------------------------------------
 --------------------------------------------------------------------

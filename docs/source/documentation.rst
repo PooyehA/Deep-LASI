@@ -31,6 +31,8 @@ Data handling
    :alt: Static 2c DNA 
    :align: center
    :name: data-flow
+   
+   Double-Stranded DNA labeled with the donor dye Atto550 and acceptor dye Atto647N in 23 bp distance (left) and 15 bp separation (right).
 
 Supported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

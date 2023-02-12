@@ -22,10 +22,24 @@ Overview
 Data requirements
 -------------------
 
-Supported Image Formats
-~~~~~~~~~~~~~~~~~~~~~~~~~
-*Deep-LASI* 
+While *Deep-LASI* was developed to primarily handle movie files containing single-molecule data, we are happy to support other image formats to make *Deep-LASI* compatible with other systems and software packages. Please get in touch with us in the Forum and/or via ...
 
+TIFF, Tagged Image File Format (*.tif*)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Deep-LASI* accepts movie files in the Tagged Image File Format (*.tif*). These files can contain stacks of widefield images with
+one or multiple detection channel, if an optosplit was used. Choose this file format if you want to load raw data from e.g. emCCD cameras. 
+
+PicoQuant universal file format (*.ptu*)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+While *Deep-LASI* can handle confocal data obtained on scanning laser microscopes in 'Pick-n-destroy' mode. Single time-traces saved in the PicoQuant universal file format (*.ptu*) can be read in consecutively.
+
+Hierarchical Data Format 5 (*.hdf5*)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To analyse data from localization microscopy analysed withe `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*).
+
+Photon HDF5 file as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
+
+--------------------------------------------------------------------
 
 Opening TRacer
 -------------

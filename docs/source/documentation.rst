@@ -55,18 +55,26 @@ Saved File Formats
 ~~~~~~~~~~~~~~~~~~~~~~~
 *Deep-LASI* saves data in three different file types:
 
-* *.tdat:   File containing the mapping information
-* *.mdat:   File containing the extracted or imported traces
-* *.xxx:    File containing simulated traces
+====== ======
+Format Data Type
+====== ======
+*.mdat, "File containing the extracted or imported traces"
+*.tdat, "File containing the mapping information"
+*.xxx,  "File containing simulated traces "
+====== ======
+
+Files ending with *.mdat are the standard format for saving extracted traces. 
+
+Files ending with *.tdat are generated after mapping different detection channels. They contain information on potential changes with respect to translational and rotational offsets as well as differences in magnification. Mapping files are generated before trace extraction usually via a separate movie with calibration pattern and used for matching single-molecule co-localizations between different channels.
 
 Exported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Deep-LASI* generates three different file formats: saves the extracted and imported traces together with the latest 
+
 * simulated data
 * map
 * extracted traces
 * export 
-*Deep-LASI* saves the extracted traces together with the latest 
-
 
 
 --------------------------------------------------------------------

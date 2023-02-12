@@ -26,8 +26,8 @@ Data handling
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *Deep-LASI* incorporates single molecule data at different levels. It reads movies from emCCD or sCMOS cameras usually acquired using a wide-field total internal reflection fluorescence (TIRF) microscope. Consecutively, it extracts the intensity information of single and co-localizing molecules depending on the excitation scheme and assay and saves the extracted traces afterwards. For already recorded intensity time traces from confocal microscopy and localization microscopy, *Deep-LASI* imports the trajectories as formerly saved without additional correction. :numref:`data-flow` summarizes the data handling.
 
-.. figure:: ./../figures/documents/Data_Handling.png
-   :width: 700
+.. figure:: ./../figures/documents/1_Data_Handling.png
+   :width: 800
    :alt: Data Handling 
    :align: center
    :name: data-flow
@@ -51,8 +51,8 @@ one or multiple detection channel for different laser excitation schemes. Choose
 
 To analyse data from localization microscopy analysed withe `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
 
-**SAVED FILE FORMAT**
-* simulated data
+**Saved File Formats**
+*Deep-LASI* reads in two f* simulated data
 * extracted traces
 * export 
 *Deep-LASI* saves the extracted traces together with the latest 

@@ -6,10 +6,10 @@ Documentation
 Documentation
 ------------
 
-*Deep-LASI* comes with an interactive graphical user interface (GUI) to perform processing and analysis tasks during the data evaluation. This page serves for documenting the funcionality of its different GUIs. *Deep-LASI* comes with 6 integrated GUI sub-windows for analysing the data and one menubar for handling the data reading, settings of the program, and simulate single-molecule data. The analysis-GUIs are dedicated to (1) molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, correction and analysis, (4) SNR analysis of traces, (5) the summary of the results including FRET, States, correction factors and TDP plots, and (6) the classical HMM analysis via different software packages. 
+*Deep-LASI* comes with an interactive graphical user interface (GUI) to perform processing and analysis tasks during the data evaluation. This page serves for documenting the functionality of its different GUIs. *Deep-LASI* comes with 6 integrated GUI sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and simulating single-molecule data. The analysis-GUIs are dedicated to (1) molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, trace correction/analysis, (4) SNR analysis of traces, (5) the summary of the results including FRET, States, correction factors and TDP plots, and (6) the classical HMM analysis via different software packages. 
 
-To start learning how to use *Deep-LASI*, we recommend first to read through the :doc:`starter` and :doc:`example` section. 
-A step-wise description how to analyse different single-molecule data with *Deep-LASI* is given for selected show cases in the :doc:`example` in details.
+To start learning how to use *Deep-LASI*, we recommend first reading through the :doc:`starter` and :doc:`example` sections. 
+A step-wise description of how to analyze different single-molecule data with *Deep-LASI* is given for selected showcases in the :doc:`example` in detail.
 
 Overview
 ------------------
@@ -24,15 +24,15 @@ Data requirements
 
 Data handling
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*Deep-LASI* incorporates single molecule data at different levels. It naturally reads single-molecule movies from emCCD cameras and extract the intensity information of single and co-localizating molecules depending on the excitation scheme. For already recorded intensity time traces from confocal microscopy and localization microscopy, *Deep-LASI* imports the trajectories as originally saved, without additional correction. :numref:`data-flow` summarizes the data handling.
+*Deep-LASI* incorporates single molecule data at different levels. It naturally reads single-molecule movies from emCCD or sCMOS cameras and extracts the intensity information of single and co-localizing molecules depending on the excitation scheme and assay. For already recorded intensity time traces from confocal microscopy and localization microscopy, *Deep-LASI* imports the trajectories as formerly saved without additional correction. :numref:`data-flow` summarizes the data handling.
 
-.. figure:: ./../figures/examples/Static_Twoc_Sub_Figure_1.png
+.. figure:: ./../figures/examples/Data_Handling.png
    :width: 700
-   :alt: Static 2c DNA 
+   :alt: Data Handling 
    :align: center
    :name: data-flow
    
-   Double-Stranded DNA labeled with the donor dye Atto550 and acceptor dye Atto647N in 23 bp distance (left) and 15 bp separation (right).
+   Workflow summarizing the involved data formats d acceptor dye Atto647N in 23 bp distance (left) and 15 bp separation (right).
 
 Supported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

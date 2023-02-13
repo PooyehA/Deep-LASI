@@ -3,9 +3,6 @@ Documentation
 
 .. _documentation:
 
-Documentation
-------------
-
 *Deep-LASI* comes with an interactive graphical user interface (GUI) to perform processing and analysis tasks during the data evaluation. This page serves for documenting the functionality of its different GUIs. *Deep-LASI* comes with 6 integrated GUI sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and simulating single-molecule data. The analysis-GUIs are dedicated to (1) molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, trace correction/analysis, (4) SNR analysis of traces, (5) the summary of the results including FRET, States, correction factors and TDP plots, and (6) the classical HMM analysis via different software packages. 
 
 To start learning how to use *Deep-LASI*, we recommend first reading through the :doc:`starter` and :doc:`example` sections. 
@@ -61,18 +58,18 @@ Saved File Formats
    :header: "Format", "Data Types"
    :widths: 15, 200
 
-   *.mdat,   "File containing the extracted or imported traces"
+   *.mat,   "File containing the extracted or imported traces"
    *.tdat,  "File containing the mapping information"
-   *.xxx,   "File containing simulated traces"
+   *.npz,   "File containing simulated traces"
 
-Files ending with *.mdat contain extracted or imported traces. Mdat-Files are the standard format by *Deep-LASI*.
+Files ending with *.mat contain extracted or imported traces. Mat-Files are the standard format by *Deep-LASI* using the MATLAB Data format.
 - description --> connection with Matlab file format
 - description of save data structure
 - requirements for data sets to be imported ... 
 
 Files ending with *.tdat are generated after mapping different detection channels. They contain information on potential changes with respect to translational and rotational offsets as well as differences in magnification. Mapping files are generated before trace extraction usually via a separate movie with calibration pattern and used for matching single-molecule co-localizations between different channels.
 
-Files ending with *.XXX --> description Simon about his simulated Datasets ?
+Files ending with *.npz refer to simulated single-molecule traces as described in :doc:`simulation` --> description Simon about his simulated Datasets ?
 
 Exported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

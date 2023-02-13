@@ -3,9 +3,9 @@ Documentation
 
 .. _documentation:
 
-*Deep-LASI* comes with an interactive graphical user interface (GUI) to perform processing and analysis tasks during the data evaluation. This page serves for documenting the functionality of its different GUIs. *Deep-LASI* comes with 6 integrated GUI sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and simulating single-molecule data. The analysis-GUIs are dedicated to (1) molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, trace correction/analysis, (4) SNR analysis of traces, (5) the summary of the results including FRET, States, correction factors and TDP plots, and (6) the classical HMM analysis via different software packages. 
+*Deep-LASI* comes with an interactive graphical user interface (GUI) to perform processing and analysis tasks during the data evaluation. This page serves for documenting its functionalities. *Deep-LASI* comes with 6 integrated GUI sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and simulating single-molecule data. The analysis-GUIs are dedicated to (1) molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, trace correction/analysis, (4) SNR analysis of traces, (5) the summary of the results including FRET, States, correction factors and TDP plots, and (6) the classical HMM analysis via different software packages. 
 
-To start learning how to use *Deep-LASI*, we recommend first reading through the :doc:`starter` and :doc:`example` sections. 
+To start learning how to use *Deep-LASI*, we recommend, first, reading through the :doc:`starter` and :doc:`example` sections. 
 A step-wise description of how to analyze different single-molecule data with *Deep-LASI* is given for selected showcases in the :doc:`example` in detail.
 
 Overview
@@ -33,26 +33,41 @@ Data handling
 
 Supported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*Deep-LASI* was developed to handle movie files containing single-molecule data. Nevertheless, it can also import recorded data from other sources (see below). We are happy to support other image formats to make *Deep-LASI* compatible with other systems and software packages. Please get in touch with us in the Forum and/or via ...
+*Deep-LASI* was developed to handle movie files containing single-molecule data. Nevertheless, it can also import recorded data from other sources (see below). We are happy to support further standard image formats to make *Deep-LASI* compatible with other systems and software packages. For more specialized / home-built setups and data formats, we recommend first reading the :ref:`custom-file` section before getting in touch with us in the Forum and/or via ...
 
 **TIFF, Tagged Image File Format (.tif)**
 
 *Deep-LASI* accepts movie files in the Tagged Image File Format (*.tif*). These files can contain stacks of widefield/TIRF images with
-one or multiple detection channel for different laser excitation schemes. Choose this file format if you want to load raw data from e.g. emCCD cameras. 
+one or multiple detection channels for different laser excitation schemes. Choose this file format if you want to load raw data from, e.g., emCCD cameras. 
 
 **PicoQuant universal file format (.ptu)**
 
-*Deep-LASI* can handle confocal data obtained by scanning laser microscopy in 'Pick-n-destroy' mode. Single time-traces saved in the PicoQuant universal file format (*.ptu*) can be read in consecutively.
---> @Simon: Short description what DL is doing with the data ... how the data is read, an what the requirements / data structures need to be, in order to be readable for DL.
+*Deep-LASI* can handle confocal data obtained by scanning laser microscopy in 'Pick-n-destroy' mode. Single time traces saved in the PicoQuant universal file format (*.ptu*) can be read consecutively.
+
+..  tip::
+    @Simon: Please, add a short description what DL requires to read ptu files. Requirements / data structures need etc.
 
 **Hierarchical Data Format 5 (.hdf5)**
 
-To analyse data from localization microscopy analysed withe `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
---> @Simon: Short description what DL is doing with the data ... how the data is read, an what the requirements / data structures need to be, in order to be readable for DL.
+To analyze data files from localization microscopy extracted and generated with `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
+
+..  tip::
+    @Simon: Please, add a short description what DL requires to read ptu files. Requirements / data structures need etc.
+
+..  _custom-files:
+**Custom file formats**
+
+The vast number of different commercial and custom-built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in **Deep-LASI**. We, therefore, designed a spot in the file type selection for a custom read-in routine. These routines are saved in the *Custom_Read_in Folder* and must be a MATLAB file (*.m*) with a specific structure ... 
+
+..  tip::
+    @Simon: Short description what is required ... see e.g. PAM manual: https://pam.readthedocs.io/en/latest/pam.html#custom-files
 
 Saved File Formats
 ~~~~~~~~~~~~~~~~~~~~~~~
-*Deep-LASI* saves data in three different file types:
+For data import and storage, *Deep-LASI* saves and handles three further file types:
+
+..  tip::
+    @Simon: Please check the file formats and correct if necessary 
 
 ..  csv-table:: Data Types
    :header: "Format", "Data Types"
@@ -62,24 +77,36 @@ Saved File Formats
    *.tdat,  "File containing the mapping information"
    *.npz,   "File containing simulated traces"
 
-Files ending with *.mat contain extracted or imported traces. Mat-Files are the standard format by *Deep-LASI* using the MATLAB Data format.
-- description --> connection with Matlab file format
-- description of save data structure
-- requirements for data sets to be imported ... 
+Files ending with *.mat* contain extracted or already imported traces. Mat-Files are the standard format by *Deep-LASI* using the MATLAB Data format.
+How to access and, or read, this data externally is described in more detail in :ref:`data-structure`.
 
-Files ending with *.tdat are generated after mapping different detection channels. They contain information on potential changes with respect to translational and rotational offsets as well as differences in magnification. Mapping files are generated before trace extraction usually via a separate movie with calibration pattern and used for matching single-molecule co-localizations between different channels.
+Files ending with *.tdat are generated after mapping different detection channels. They contain information about how camera images between different channels refer to each other, i.e., about potential translational and rotational offsets, as well as differences in magnification. :ref:`mapping` files are generated before trace extraction, usually via a separate movie showing a calibration pattern or multi-labeled particles, and used for matching single-molecule co-localizations between different channels.
 
-Files ending with *.npz refer to simulated single-molecule traces as described in :doc:`simulation` --> description Simon about his simulated Datasets ?
+Files ending with *.npz refer to simulated single-molecule traces as described in :doc:`sim`. They are read in directly for trace analysis. 
 
-Exported Data Formats
+..  _data-structure:
+Data structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*Deep-LASI* generates three different file formats: saves the extracted and imported traces together with the latest 
+Most data in *Deep-LASI* is stored as global variables to allow the user easy access to extract the data at any point of the analysis. These variables are: 
 
-* simulated data
-* map
-* extracted traces
-* export 
-* settings file.
+..  csv-table:: Data format
+   :header: "Variable", "Content and format"
+   :widths: 15, 200
+
+   T.XXX,   "Info"
+   T.XXX,   "Info"
+   ,        "etc."
+
+..  tip::
+    @Simon: Short description what is required 
+
+..  _profile:
+Data structure
+~~~~~~~~~~~~~~~~~
+*Deep-LASI* stores user-specific settings locally in the same MATLAB folder as *settings.mat* and *user_default_setting.mat* to store variables, e.g. the last working folder or camera specific settings. 
+
+..  tip::
+    @Simon: Short description what is required 
 
 --------------------------------------------------------------------
 
@@ -128,6 +155,7 @@ By the tab **Data** you can change the colormap from the default *jet* to other 
 
 With the **Reset** button, you can restart the TRacer program, meaning that whatever you did or changed on the program will be discarded unless you had it saved.
 
+..  _mapping:
 Mapping
 -------------
 

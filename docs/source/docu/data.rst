@@ -134,10 +134,3 @@ This function is for internal use within Fablab only.
 *Deep-LASI* allows for importing FRET data obtained from `Multi-Color Orbital Tracking <https://onlinelibrary.wiley.com/doi/10.1002/smll.202204726>`_ measurements using the setup specific data format. 
 
 *TRACY* was the former software for the evaluation of 1c and 2c FRET traces. *Deep-LASI* allows for importing the formerly exported and evaluted traces, as well as to export new data sets into the old format. Data
-
-..  _export:
-Data Export
-~~~~~~~~~~~~~~~~~
-
-..  tip::
-    @Simon: What export functions are available? What do we wanna promote? - otherwise remove this section

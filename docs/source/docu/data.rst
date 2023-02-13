@@ -25,25 +25,16 @@ one or multiple detection channels for different laser excitation schemes. Choos
 
 **PicoQuant universal file format (.ptu)**
 
-*Deep-LASI* can handle confocal data obtained by scanning laser microscopy in 'Pick-n-destroy' mode. Single time traces saved in the PicoQuant universal file format (*.ptu*) can be read consecutively.
-
-..  tip::
-    @Simon: Please, add a short description what DL requires to read ptu files. Requirements / data structures need etc.
+*Deep-LASI* can handle confocal data obtained by scanning laser microscopy in 'Pick-n-destroy' mode. Single time traces saved in the PicoQuant universal file format (*.ptu*) can be read consecutively. So far only single-channel read-in is supported and tested on .PTU files recorded using HydraHarp Software V3.0.
 
 **Hierarchical Data Format 5 (.hdf5)**
 
-To analyze data files from localization microscopy extracted and generated with `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
-
-..  tip::
-    @Simon: Please, add a short description what DL requires to read ptu files. Requirements / data structures need etc.
+To analyze data files from localization microscopy extracted and generated with `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_. For every localization event the raw photon stream is imported while missing localizations default to 0 intensity.
 
 ..  _custom-files:
 **Custom file formats**
 
-The vast number of different commercial and custom-built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in **Deep-LASI**. We, therefore, designed a spot in the file type selection for a custom read-in routine. These routines are saved in the *Custom_Read_in Folder* and must be a MATLAB file (*.m*) with a specific structure ... 
-
-..  tip::
-    @Simon: Short description what is required ... see e.g. PAM manual: https://pam.readthedocs.io/en/latest/pam.html#custom-files
+The vast number of different commercial and custom-built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in **Deep-LASI**. We, therefore, designed a spot in the file type selection for a custom read-in routine. These routines are saved in the *import folder* and must be a MATLAB file (.m) with a specific structure which can be found in all other import functions.
 
 Saved File Formats
 ~~~~~~~~~~~~~~~~~~~~~~~

@@ -57,7 +57,7 @@ To analyze data files from localization microscopy extracted and generated with 
 ..  _custom-files:
 **Custom file formats**
 
-The vast number of different commercial and custom-built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in **Deep-LASI**. We, therefore, designed a spot in the file type selection for a custom read-in routine. These routines are saved in the *Custom_Read_in Folder* and must be a MATLAB file (*.m) with a specific structure ... 
+The vast number of different commercial and custom-built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in **Deep-LASI**. We, therefore, designed a spot in the file type selection for a custom read-in routine. These routines are saved in the *Custom_Read_in Folder* and must be a MATLAB file (*.m*) with a specific structure ... 
 
 ..  tip::
     @Simon: Short description what is required ... see e.g. PAM manual: https://pam.readthedocs.io/en/latest/pam.html#custom-files

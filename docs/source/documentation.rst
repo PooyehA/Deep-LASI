@@ -109,7 +109,7 @@ It stores user-specific settings locally in the same MATLAB folder as *settings.
 
 ..  csv-table:: Data format
    :header: "Variable", "Value", "Content and format"
-   :widths: 15, 200
+   :widths: 15, 15, 200
 
    userdef.alpha,     "0",     "Global value of the correction factor α"
    userdef.beta,      "0",     "Global value of the correction factor β"
@@ -150,12 +150,19 @@ It stores user-specific settings locally in the same MATLAB folder as *settings.
 ..  tip::
     @Simon: Do we use this actually? If yes: short description what is required (Copy/Paste), otherwise take it out. / how is this valid for the stand-alone version of DL? The reason why I mentioned it here specifically ... I remember that Baessem and me had some problems in the beginning, when Tracer 'destroyed' these two stupid files from time to time ... 
 
-..  _profile:
-Data Import/Export
+..  _import:
+Data Import Data from Tracy and Orbital Tracking
 ~~~~~~~~~~~~~~~~~
-     
+This function is for internal use within Fablab. *TRACY* was the former software for the evaluation of 1c and 2c FRET traces. 
+*Deep-LASI* allows for importing the formerly exported and evaluted traces, as well as to export new data sets into the old format.
+Data
+
+..  _export:
+Data Export
+~~~~~~~~~~~~~~~~~
+
 ..  tip::
-    @Simon: What export functions do we wanna promote? Short description what is required / how is this valid for the stand-alone version of DL?
+    @Simon: What export functions are available? What do we wanna promote? - otherwise remove this section
 
 --------------------------------------------------------------------
 

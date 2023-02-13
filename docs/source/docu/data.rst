@@ -61,16 +61,19 @@ Files ending with *.npz refer to simulated single-molecule traces as described i
 ..  _data-structure:
 Data structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Most data in *Deep-LASI* is stored as global variables to allow the user easy access to extract the data at any point of the analysis. These variables are: 
+Most data in *Deep-LASI* is stored as global variables to allow the user easy access to extract the data at any point of the analysis. The most important variables are: 
 
 ..  csv-table:: Data format
    :header: "Variable", "Content and format"
    :file: path-to-the/file.csv 
    :widths: 15, 200
 
-   T.XXX,   "Info"
-   T.XXX,   "Info"
-   ,        "etc."
+   T.Channel,   "Container for all the information for each camera"
+   T.Channel.Traces,   "All intensity and FRET traces sorted according to the excitation cycle"
+   T.ALEXsequence,   "Excitation color for each frame"
+   T.FrameTime,   "Exposure time including frame transfer"
+   T.HMM,   "Container for all parameters and results obtained from Hidden Markov models"
+   T.NeuralNetwork,   "Container for all loaded neural networks and prediction results"
 
 ..  tip::
     @Simon: Short description what is required 

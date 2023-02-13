@@ -3,7 +3,7 @@ Documentation
 
 .. _documentation:
 
-*Deep-LASI* comes with an interactive graphical user interface (GUI) to perform processing and analysis tasks during the data evaluation. This page serves for documenting its functionalities. *Deep-LASI* comes with 6 integrated GUI sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and simulating single-molecule data. The analysis-GUIs are dedicated to (1) molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, trace correction/analysis, (4) SNR analysis of traces, (5) the summary of the results including FRET, States, correction factors and TDP plots, and (6) the classical HMM analysis via different software packages. 
+*Deep-LASI* comes with an interactive graphical user interface (GUI) to perform processing and analysis tasks during the data evaluation. This page serves for documenting its functionalities. *Deep-LASI* comes with 6 integrated GUI sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and simulating single-molecule data. The analysis-GUIs are dedicated to (1) opening and molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, trace correction/analysis, (4) SNR analysis of traces, (5) the summary of the results including FRET, States, correction factors and TDP plots, and (6) the classical HMM analysis via different software packages. 
 
 To start learning how to use *Deep-LASI*, we recommend, first, reading through the :doc:`starter` and :doc:`example` sections. 
 A step-wise description of how to analyze different single-molecule data with *Deep-LASI* is given for selected showcases in the :doc:`example` in detail.
@@ -12,7 +12,12 @@ Overview
 ------------------
 - :ref:`data-format`
 - :ref:`opening`
+- :ref:`mapping`
 
+--------------------------------------------------------------------
+.. Test Evelyn ... 
+.. Containes Data section which is still in here as text .. 
+.. include:: ./docu/.rst
 --------------------------------------------------------------------
 
 ..  _data-format:
@@ -82,7 +87,7 @@ How to access and, or read, this data externally is described in more detail in 
 
 Files ending with *.tdat are generated after mapping different detection channels. They contain information about how camera images between different channels refer to each other, i.e., about potential translational and rotational offsets, as well as differences in magnification. :ref:`mapping` files are generated before trace extraction, usually via a separate movie showing a calibration pattern or multi-labeled particles, and used for matching single-molecule co-localizations between different channels.
 
-Files ending with *.npz refer to simulated single-molecule traces as described in :doc:`sim`. They are read in directly for trace analysis. 
+Files ending with *.npz refer to simulated single-molecule traces as described in the :doc:`sim` page. They are read in directly for trace analysis. 
 
 ..  _data-structure:
 Data structure
@@ -169,6 +174,7 @@ Data Export
 
 --------------------------------------------------------------------
 
+..  _data-format:
 Opening TRacer
 -------------
 

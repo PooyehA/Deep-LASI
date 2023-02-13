@@ -151,11 +151,12 @@ It stores user-specific settings locally in the same MATLAB folder as *settings.
     @Simon: Do we use this actually? If yes: short description what is required (Copy/Paste), otherwise take it out. / how is this valid for the stand-alone version of DL? The reason why I mentioned it here specifically ... I remember that Baessem and me had some problems in the beginning, when Tracer 'destroyed' these two stupid files from time to time ... 
 
 ..  _import:
-Data Import Data from Tracy and Orbital Tracking
+Data Import from OT and TRACY 
 ~~~~~~~~~~~~~~~~~
-This function is for internal use within Fablab. *TRACY* was the former software for the evaluation of 1c and 2c FRET traces. 
-*Deep-LASI* allows for importing the formerly exported and evaluted traces, as well as to export new data sets into the old format.
-Data
+This function is for internal use within Fablab only.  
+*Deep-LASI* allows for importing FRET data obtained from `Multi-Color Orbital Tracking <https://onlinelibrary.wiley.com/doi/10.1002/smll.202204726>`_ measurements using the setup specific data format. 
+
+*TRACY* was the former software for the evaluation of 1c and 2c FRET traces. *Deep-LASI* allows for importing the formerly exported and evaluted traces, as well as to export new data sets into the old format. Data
 
 ..  _export:
 Data Export

@@ -47,39 +47,28 @@ one or multiple detection channels for different laser excitation schemes. Choos
 
 **PicoQuant universal file format (.ptu)**
 
-*Deep-LASI* can handle confocal data obtained by scanning laser microscopy in 'Pick-n-destroy' mode. Single time traces saved in the PicoQuant universal file format (*.ptu*) can be read consecutively.
-
-..  tip::
-    @Simon: Please, add a short description what DL requires to read ptu files. Requirements / data structures need etc.
+*Deep-LASI* can handle confocal data obtained by scanning laser microscopy in 'Pick-n-destroy' mode. Single time traces saved in the PicoQuant universal file format (*.ptu*) can be read consecutively. So far only single-channel read-in is supported and tested on .PTU files recorded using HydraHarp Software V3.0.
 
 **Hierarchical Data Format 5 (.hdf5)**
 
-To analyze data files from localization microscopy extracted and generated with `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
-
-..  tip::
-    @Simon: Please, add a short description what DL requires to read ptu files. Requirements / data structures need etc.
+To analyze data files from localization microscopy extracted and generated with `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_. For every localization event the raw photon stream is loaded while missing localizations default to 0 intensity.
 
 ..  _custom-files:
 **Custom file formats**
 
-The vast number of different commercial and custom-built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in **Deep-LASI**. We, therefore, designed a spot in the file type selection for a custom read-in routine. These routines are saved in the *Custom_Read_in Folder* and must be a MATLAB file (*.m*) with a specific structure ... 
+The vast number of different commercial and custom-built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in **Deep-LASI**. We, therefore, designed a spot in the file type selection for a custom read-in routine. These routines are saved in the *import folder* and must be a MATLAB file (*.m*) with a specific structure which can be found in all other import functions.
 
-..  tip::
-    @Simon: Short description what is required ... see e.g. PAM manual: https://pam.readthedocs.io/en/latest/pam.html#custom-files
 
 Saved File Formats
 ~~~~~~~~~~~~~~~~~~~~~~~
 For data import and storage, *Deep-LASI* saves and handles three further file types:
-
-..  tip::
-    @Simon: Please check the file formats and correct if necessary 
 
 ..  csv-table:: Data Types
    :header: "Format", "Data Types"
    :widths: 15, 200
 
    *.mat,   "File containing the extracted or imported traces"
-   *.tdat,  "File containing the mapping information"
+   *.tdat,  "File containing the mapping information and saved data sets"
    *.npz,   "File containing simulated traces"
 
 Files ending with *.mat* contain extracted or already imported traces. Mat-Files are the standard format by *Deep-LASI* using the MATLAB Data format.
@@ -92,25 +81,25 @@ Files ending with *.npz refer to simulated single-molecule traces as described i
 ..  _data-structure:
 Data structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Most data in *Deep-LASI* is stored as global variables to allow the user easy access to extract the data at any point of the analysis. These variables are: 
+Most data in *Deep-LASI* is stored as global variables to allow the user easy access to extract the data at any point of the analysis. The most important variables are: 
 
 ..  csv-table:: Data format
    :header: "Variable", "Content and format"
    :file: path-to-the/file.csv 
    :widths: 15, 200
 
-   T.XXX,   "Info"
-   T.XXX,   "Info"
-   ,        "etc."
-
-..  tip::
-    @Simon: Short description what is required 
+   T.Channel,   "Container for all the information for each camera"
+   T.Channel.Traces,   "All intensity and FRET traces sorted according to the excitation cycle"
+   T.ALEXsequence,   "Excitation color for each frame"
+   T.FrameTime,   "Exposure time including frame transfer"
+   T.HMM,   "Container for all parameters and results obtained from Hidden Markov models"
+   T.NeuralNetwork,   "Container for all loaded neural networks and prediction results"
 
 ..  _profile:
 User-specific settings
 ~~~~~~~~~~~~~~~~~
 *Deep-LASI* uses profiles to allow the uers to work efficiently with data from different setups, configurations, assays or simply analysis folders. 
-It stores user-specific settings locally in the same MATLAB folder as *settings.mat* and *user_default_setting.mat*. *settings.mat* contains variables, on the path to the last working folder as well as camera specific settings. *user_default_setting.mat* contains a structure called *userdef* which comprises 34 fields with user specific variables when analysing datasets
+It stores user-specific settings locally in the same MATLAB folder as *settings.mat* and *user_default_setting.mat*. *settings.mat* contains variables, on the path to the last working folder as well as camera specific settings. *user_default_setting.mat* contains a structure called *userdef* which comprises 34 fields with user specific variables when analyzing datasets
 
 ..  csv-table:: Data format
    :header: "Variable", "Value", "Content and format"
@@ -152,9 +141,6 @@ It stores user-specific settings locally in the same MATLAB folder as *settings.
    userdef.fix_sigma, "1",     "" 
    userdef.learn_mu,  "1",     ""    
 
-..  tip::
-    @Simon: Do we use this actually? If yes: short description what is required (Copy/Paste), otherwise take it out. / how is this valid for the stand-alone version of DL? The reason why I mentioned it here specifically ... I remember that Baessem and me had some problems in the beginning, when Tracer 'destroyed' these two stupid files from time to time ... 
-
 ..  _import:
 Data Import from OT and TRACY 
 ~~~~~~~~~~~~~~~~~
@@ -162,13 +148,6 @@ This function is for internal use within Fablab only.
 *Deep-LASI* allows for importing FRET data obtained from `Multi-Color Orbital Tracking <https://onlinelibrary.wiley.com/doi/10.1002/smll.202204726>`_ measurements using the setup specific data format. 
 
 *TRACY* was the former software for the evaluation of 1c and 2c FRET traces. *Deep-LASI* allows for importing the formerly exported and evaluted traces, as well as to export new data sets into the old format. 
-
-..  _export:
-Data Export
-~~~~~~~~~~~~~~~~~
-
-..  tip::
-    @Simon: What export functions are available? What do we wanna promote? - otherwise remove this section
 
 --------------------------------------------------------------------
 

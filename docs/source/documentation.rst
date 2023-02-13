@@ -33,7 +33,7 @@ Data handling
 
 Supported Data Formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*Deep-LASI* was developed to handle movie files containing single-molecule data. Nevertheless, it can also import recorded data from other sources (see below). We are happy to support other image formats to make *Deep-LASI* compatible with other systems and software packages. Please get in touch with us in the Forum and/or via ...
+*Deep-LASI* was developed to handle movie files containing single-molecule data. Nevertheless, it can also import recorded data from other sources (see below). We are happy to support further standard image formats to make *Deep-LASI* compatible with other systems and software packages. For more specialized / home-built setups and dataformats we recommened to read first the :ref:`custom-file` section, before getting in touch with us in the Forum and/or via ...
 
 **TIFF, Tagged Image File Format (.tif)**
 
@@ -43,16 +43,29 @@ one or multiple detection channel for different laser excitation schemes. Choose
 **PicoQuant universal file format (.ptu)**
 
 *Deep-LASI* can handle confocal data obtained by scanning laser microscopy in 'Pick-n-destroy' mode. Single time-traces saved in the PicoQuant universal file format (*.ptu*) can be read in consecutively.
---> @Simon: Short description what DL is doing with the data ... how the data is read, an what the requirements / data structures need to be, in order to be readable for DL.
+..  tip::
+    @Simon: Please, short description what DL is doing with the data ... how the data is read, an what the requirements / data structures need to be, in    
+    order to be readable for DL.
 
 **Hierarchical Data Format 5 (.hdf5)**
 
 To analyse data from localization microscopy analysed withe `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
---> @Simon: Short description what DL is doing with the data ... how the data is read, an what the requirements / data structures need to be, in order to be readable for DL.
+..  tip::
+    @Simon: Short description what DL is doing with the data ... how the data is read, an what the requirements / data structures need to be, in order   
+    to be readable for DL.
+
+..  _custom-files:
+**Custom file formats**
+
+The vast number of different commercal and custom built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in **Deep-LASI**. We, therefore, designed a spot in the filetype selection for a custom read-in routine. These routines are saved in the *Custom_Red_in Folder* and must be a MATLAB files (**.m*) with a specific structure ... 
+..  tip::
+    @Simon: Short description what is required ... see e.g. PAM manual: https://pam.readthedocs.io/en/latest/pam.html#custom-files
 
 Saved File Formats
 ~~~~~~~~~~~~~~~~~~~~~~~
-*Deep-LASI* saves data in three different file types:
+For data import and storage, *Deep-LASI* saves and handles three further file types:
+..  tip::
+    @Simon: Please check the file formats and correct if necessary 
 
 ..  csv-table:: Data Types
    :header: "Format", "Data Types"
@@ -62,24 +75,32 @@ Saved File Formats
    *.tdat,  "File containing the mapping information"
    *.npz,   "File containing simulated traces"
 
-Files ending with *.mat contain extracted or imported traces. Mat-Files are the standard format by *Deep-LASI* using the MATLAB Data format.
-- description --> connection with Matlab file format
-- description of save data structure
-- requirements for data sets to be imported ... 
+Files ending with *.mat* contain extracted or already imported traces. Mat-Files are the standard format by *Deep-LASI* using the MATLAB Data format.
+The way how to access and or read this data externally is described in more tail in :ref:`data-structure`.
 
-Files ending with *.tdat are generated after mapping different detection channels. They contain information on potential changes with respect to translational and rotational offsets as well as differences in magnification. Mapping files are generated before trace extraction usually via a separate movie with calibration pattern and used for matching single-molecule co-localizations between different channels.
+Files ending with *.tdat are generated after mapping different detection channels. They contain information about how camera images between different channels refer to each other, i.e., about potential translational and rotational offsets as well as differences in magnification. Mapping files are generated before trace extraction usually via a separate movie showing a calibration pattern or multi-labeled particles and used for matching single-molecule co-localizations between different channels.
 
-Files ending with *.npz refer to simulated single-molecule traces as described in :doc:`simulation` --> description Simon about his simulated Datasets ?
+Files ending with *.npz refer to simulated single-molecule traces as described in :doc:`sim`. They are read in directly for trace analysis. 
 
-Exported Data Formats
+..  _data-structure:
+Data structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*Deep-LASI* generates three different file formats: saves the extracted and imported traces together with the latest 
+Most data in *Deep-LASI* is stored as global variables to allow the user easy access to extract the data at any point of the analysis. These variables are: 
 
-* simulated data
-* map
-* extracted traces
-* export 
-* settings file.
+..  csv-table:: Data format
+   :header: "Variable", "Content and format"
+   :widths: 15, 200
+
+   T.XXX,   "Info"
+   T.XXX,   "Info"
+   ,        "etc."
+..  tip::
+    @Simon: Short description what is required 
+
+..  _profile:
+Data structure
+~~~~~~~~~~~~~~~~~
+*Deep-LASI* stores user-specific settings locally in the same MATLAB folder as *settings.mat* and *user_default_setting.mat* to store variables, e.g. the last working folder or camera specific settings. 
 
 --------------------------------------------------------------------
 

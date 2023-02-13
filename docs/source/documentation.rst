@@ -43,6 +43,7 @@ one or multiple detection channel for different laser excitation schemes. Choose
 **PicoQuant universal file format (.ptu)**
 
 *Deep-LASI* can handle confocal data obtained by scanning laser microscopy in 'Pick-n-destroy' mode. Single time-traces saved in the PicoQuant universal file format (*.ptu*) can be read in consecutively.
+
 ..  tip::
     @Simon: Please, short description what DL is doing with the data ... how the data is read, an what the requirements / data structures need to be, in    
     order to be readable for DL.
@@ -50,6 +51,7 @@ one or multiple detection channel for different laser excitation schemes. Choose
 **Hierarchical Data Format 5 (.hdf5)**
 
 To analyse data from localization microscopy analysed withe `Picasso <https://picassosr.readthedocs.io/en/latest/index.html>`_, we extended *Deep-LASI* also to read in the binary file format Photon-HDF5 (*.hdf5*) as described on `http://photon-hdf5.github.io <http://photon-hdf5.github.io>`_.
+
 ..  tip::
     @Simon: Short description what DL is doing with the data ... how the data is read, an what the requirements / data structures need to be, in order   
     to be readable for DL.
@@ -58,6 +60,7 @@ To analyse data from localization microscopy analysed withe `Picasso <https://pi
 **Custom file formats**
 
 The vast number of different commercal and custom built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in **Deep-LASI**. We, therefore, designed a spot in the filetype selection for a custom read-in routine. These routines are saved in the *Custom_Red_in Folder* and must be a MATLAB files (**.m*) with a specific structure ... 
+
 ..  tip::
     @Simon: Short description what is required ... see e.g. PAM manual: https://pam.readthedocs.io/en/latest/pam.html#custom-files
 
@@ -94,6 +97,7 @@ Most data in *Deep-LASI* is stored as global variables to allow the user easy ac
    T.XXX,   "Info"
    T.XXX,   "Info"
    ,        "etc."
+
 ..  tip::
     @Simon: Short description what is required 
 
@@ -101,6 +105,9 @@ Most data in *Deep-LASI* is stored as global variables to allow the user easy ac
 Data structure
 ~~~~~~~~~~~~~~~~~
 *Deep-LASI* stores user-specific settings locally in the same MATLAB folder as *settings.mat* and *user_default_setting.mat* to store variables, e.g. the last working folder or camera specific settings. 
+
+..  tip::
+    @Simon: Short description what is required 
 
 --------------------------------------------------------------------
 

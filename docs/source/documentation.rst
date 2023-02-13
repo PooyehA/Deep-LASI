@@ -15,9 +15,9 @@ Overview
 - :ref:`mapping`
 
 --------------------------------------------------------------------
-.. Test Evelyn ... 
+.. Test Evelyn --- which works :)) 
 .. Containes Data section which is still in here as text .. 
-.. include:: ./docu/data.rst
+.. .. include:: ./docu/data.rst
 --------------------------------------------------------------------
 
 ..  _data-format:

@@ -154,17 +154,20 @@ This function is for internal use within Fablab only.
 --------------------------------------------------------------------
 
 ..  _opening:
-Read in Data
+Read-in Data
 -------------
 
-Call the program *TRacer* from the MATLAB command window as shown in figure 1. After a couple seconds, the program environment will open. 
+To evaluate your experimental data with *Deep-LASI*, open the program by calling it from the
+from the MATLAB command window via :rst:`>> TRacer` as shown in :numref:`call-tracer`
+TRacer is the core-program responsible for Data import, Trace extraction, as well as and manual selection and sorting. After a couple seconds, the GUI of the program environment will open.
 
-.. image:: ./../figures/documents/Fig_1_Call_Progamm.png
+.. figure:: ./../figures/documents/Fig_1_Call_Progamm.png
    :width: 300
    :alt: Call Tracer
    :align: center
+   :name: call-tracer
 
-Figure 1. Calling TRacer from MATLAB command window
+    Deep-LASI is opened by calling :rst:`>> TRacer`.. from MATLAB command window
 
 Click on *File* to open the drop-down menu as shown on figure 2 to see the provided options as follows:
 

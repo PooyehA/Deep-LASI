@@ -162,7 +162,7 @@ Starting Deep-LASI
 ~~~~~~~~~~~~~~~~~
 To evaluate your experimental data with *Deep-LASI*, open the program by calling it from the MATLAB command window via :code:`>> TRacer`. TRacer is the core-program responsible for data import, trace extraction, as well as and manual selection and sorting. After a couple of seconds, the GUI of the program will open as shown in :numref:`open-program`.
 
-.. figure:: ./../figures/documents/Dummy.png
+.. figure:: ./../figures/documents/Tracer_FirstPage.png
    :width: 300
    :alt: Open Deep-LASI
    :align: center
@@ -170,7 +170,7 @@ To evaluate your experimental data with *Deep-LASI*, open the program by calling
 
    The GUI of Deep-LASI can be started from the MATLAB command window and consists of 6 subwindows for data processing and analysis.
 
-The GUI of Deep-LASI before load any experimental data consists of a main window this 6 integrated sub-windows for analyzing the data and 1 menubar for handling the data reading, the settings of the program, and simulating single-molecule data.
+The GUI of Deep-LASI before load any experimental data shows the Main-GUI together with 6 integrated sub-windows for analyzing the data and 1 menubar for handling the data reading, the settings of the program, and simulating single-molecule data.
 
 Menu bar
 ~~~~~~~~~~~~~~~~~

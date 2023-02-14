@@ -17,7 +17,6 @@ Overview
 --------------------------------------------------------------------
 .. Contains section on Data requirements .. muss ich noch bei Gelegenheit fixen
 .. .. include:: ./docu/data.rst
---------------------------------------------------------------------
 
 ..  _data-format:
 Data requirements

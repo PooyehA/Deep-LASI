@@ -18,12 +18,11 @@ accurate FRET measurements and concomitantly distances between 2 up to 3 fluorop
 Moreover, it identifies underlying conformational states and interconverting kinetics. 
 Deep-LASI provides an architecture to process the initial raw data and summarize the analyzed 
 data in final plots based on MATLAB and libraries using Python. Please cite the following 
-papers if you use Deep-LASI in your own work, so we can continue development and support: 
+papers if you use Deep-LASI in your own work, so we can continue development and support: ::
 
-Paper 1
-Paper 2
+Simon Wanninger, Pooyeh Asadiatouei, Johann Bohlen, Clemens-Bässem Salem, Philip Tinnefeld, Evelyn Ploetz :superscript:`*`, Don C. Lamb :superscript:`*` (2023) DOI: https://doi.org/10.1101/2023.01.31.526220
 
-Deep-LASI pulls data from the `Repository <https://github.com/NurAb-Sal/TRacer>`_
+Deep-LASI pulls data from the `Repository <https://gitlab.com/simon71/deeplasi>`_
 and offers a *simple* and *intuitive* API.
 
 To get started with Deep-LASI, please take a look at the :doc:`installation` guide and :doc:`starter` section. 

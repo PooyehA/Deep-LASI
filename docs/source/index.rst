@@ -22,9 +22,9 @@ papers if you use Deep-LASI in your own work, so we can continue development and
 
 ::
 
-   S Wanninger, P Asadiatouei, J Bohlen, CB Salem, P Tinnefeld, E Ploetzº and DC Lambº. (2023) 
+   S Wanninger, P Asadiatouei, J Bohlen, CB Salem, P Tinnefeld, E Ploetzº and DC Lambº.
    Deep-Learning Assisted, Single-molecule Imaging analysis (Deep-LASI) of multi-color 
-   DNA Origami structures. DOI: https://doi.org/10.1101/2023.01.31.526220
+   DNA Origami structures. (2023) DOI: https://doi.org/10.1101/2023.01.31.526220
 
 Deep-LASI pulls data from the `Repository <https://gitlab.com/simon71/deeplasi>`_
 and offers a *simple* and *intuitive* API.

@@ -158,16 +158,27 @@ Read-in Data
 -------------
 
 To evaluate your experimental data with *Deep-LASI*, open the program by calling it from the
-from the MATLAB command window via :rst:`>> TRacer` as shown in :numref:`call-tracer`
+from the MATLAB command window via `>> TRacer` as shown in :numref:`open-programm`
 TRacer is the core-program responsible for Data import, Trace extraction, as well as and manual selection and sorting. After a couple seconds, the GUI of the program environment will open.
 
 .. figure:: ./../figures/documents/Fig_1_Call_Progamm.png
    :width: 300
    :alt: Call Tracer
    :align: center
-   :name: call-tracer
+   :name: open-prgramm
 
     Deep-LASI is opened by calling :rst:`>> TRacer`.. from MATLAB command window
+
+:numref:`data-flow` summarizes the data handling.
+
+.. figure:: ./../figures/documents/Fig_1_Data_Handling.png
+   :width: 800
+   :alt: Data Handling
+   :align: center
+   :name: data-flow
+
+
+
 
 Click on *File* to open the drop-down menu as shown on figure 2 to see the provided options as follows:
 

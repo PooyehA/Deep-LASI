@@ -154,21 +154,27 @@ This function is for internal use within Fablab only.
 
 --------------------------------------------------------------------
 
-..  _opening:
-Read-in Data
+Processing single-molecule data
 -------------
 
-To evaluate your experimental data with *Deep-LASI*, open the program by calling it from the
-from the MATLAB command window via `>> TRacer` as shown in :numref:`open-program`
-TRacer is the core-program responsible for Data import, Trace extraction, as well as and manual selection and sorting. After a couple seconds, the GUI of the program environment will open.
+..  _opening:
+Starting Deep-LASI
+~~~~~~~~~~~~~~~~~
+To evaluate your experimental data with *Deep-LASI*, open the program by calling it from the from the MATLAB command window via `>> TRacer`. TRacer is the core-program responsible for Data import, Trace extraction, as well as and manual selection and sorting. After a couple seconds, the GUI of the program environment will open as shown in :numref:`open-program`.
 
-.. figure:: ./../figures/documents/Fig_1_Call_Progamm.png
+.. figure:: ./../figures/documents/Dummy.png
    :width: 300
    :alt: Open Deep-LASI
    :align: center
    :name: open-program
 
-    Deep-LASI is opened by calling :rst:`>> TRacer`.. from MATLAB command window
+    The empty GUI of Deep-LASI opens after calling `>> TRacer` from the MATLAB command window.
+
+The GUI of Deep-LASI before load any experimental data consists of a main window this 6 integrated sub-windows for analyzing the data and 1 menubar for handling the data reading, the settings of the program, and simulating single-molecule data.
+
+Menu bar
+~~~~~~~~~~~~~~~~~
+Basic functionalities of *Deep-LASI* are controlled via the Menu bar with 5 drop-down menus.
 
 Click on *File* to open the drop-down menu as shown on figure 2 to see the provided options as follows:
 

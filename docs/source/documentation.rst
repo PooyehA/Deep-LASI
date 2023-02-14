@@ -163,7 +163,7 @@ Starting Deep-LASI
 To evaluate your experimental data with *Deep-LASI*, please open the program from the MATLAB command window by typing in :code:`>> TRacer`. TRacer is the core-program responsible for data import, trace extraction, as well as and manual selection and sorting. After a couple of seconds, the Start-GUI of the program will open as shown in :numref:`open-program`.
 
 .. figure:: ./../figures/documents/Tracer_FirstPage.png
-   :width: 800
+   :width: 740
    :alt: Open Deep-LASI
    :align: center
    :name: open-program
@@ -182,12 +182,25 @@ Basic functionalities of *Deep-LASI* are controlled via the Menu bar which has t
 
    File,     "Functions for loading, mapping, processing, saving, importing and exporting data"
    Settings, "Access to Camera Settings"
-   View,     "Modify appearance of the GUI, Graphs and Data representation"
-   Tools,    "Programs for accessing/simulating Single-molecule data, for Training Neural Networks"
+   View,     "Appearance of the GUI, Graphs and Data representation"
+   Tools,    "Programs for accessing/simulating Single-molecule data, and training Neural Networks"
    Help,     "Contact data for help in case of problems"
    Reset,    "Restart of Deep-LASI and clearance of all variable of the program"
 
-Click on *File* to open the drop-down menu as shown on figure 2 to see the provided options as follows:
+The dropdown menu *File* (:numref:`file-menu`) controls all steps from loading of experimental data, over mapping, background correction, trace extraction and saving of traces. Moreover, it facilitates the import and export of different data formats as described in the :ref:`data-format` section.
+
+.. figure:: ./../figures/documents/Fig_2_Open_Mapping_Menu.png
+   :width: 300
+   :alt: Open mapping menu
+   :align: center
+   :name: file-menu
+
+   TRacer file menu
+
+
+as well as to  and processing of experimental data. shown in to open the drop-down menu as shown on figure 2 to see the provided options as follows:
+
+
 
 * **Mapping** for adjusting the overlay of up to four detection channels, loading a previously saved map, or saving a created one.
 
@@ -205,13 +218,7 @@ Click on *File* to open the drop-down menu as shown on figure 2 to see the provi
 
 * **Quit** to terminate the program.
 
-.. figure:: ./../figures/documents/Fig_2_Open_Mapping_Menu.png
-   :width: 300
-   :alt: Open mapping menu
-   :align: center
-   :name: file-menu
 
-   TRacer file menu
 
 
 On the tab **Settings** beside the file, you can enter the camera settings you are using for measuring, so have them saved and easily accessible there.

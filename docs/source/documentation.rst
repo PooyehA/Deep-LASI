@@ -3,7 +3,7 @@ Documentation
 
 .. _documentation:
 
-*Deep-LASI* comes with an interactive graphical user interface (GUI) to perform processing and analysis tasks during the data evaluation. This page serves for documenting its functionalities. *Deep-LASI* comes with 6 integrated GUI sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and simulating single-molecule data. The analysis-GUIs are dedicated to (1) opening and molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, trace correction/analysis, (4) SNR analysis of traces, (5) the summary of the results including FRET, States, correction factors and TDP plots, and (6) the classical HMM analysis via different software packages. 
+*Deep-LASI* comes with an interactive graphical user interface (GUI) to perform processing and analysis tasks during the data evaluation. This page serves for documenting its functionalities. *Deep-LASI* comes with six integrated GUI sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and simulating single-molecule data. The analysis-GUIs are dedicated to (1) opening and molecule identification, (2) mapping and trace extraction, (3) trace categorization, selection, trace correction/analysis, (4) SNR analysis of traces, (5) the summary of the results including FRET, States, correction factors and TDP plots, and (6) the classical HMM analysis via different software packages.
 
 To start learning how to use *Deep-LASI*, we recommend, first, reading through the :doc:`starter` and :doc:`example` sections. 
 A step-wise description of how to analyze different single-molecule data with *Deep-LASI* is given for selected showcases in the :doc:`example` in detail.
@@ -82,7 +82,7 @@ Files ending with *.npz refer to simulated single-molecule traces as described i
 ..  _data-structure:
 Data structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Most data in *Deep-LASI* is stored as global variables to allow easy access. They are saved in the *transportable* structure *T*, which can be extracted at any point of the analysis. The most important variables are: 
+Most data in *Deep-LASI* is stored as global variables in the background to allow easy access. They are saved in the *transportable* structure *T*, which can be extracted at any point of the analysis to the workspace by typing :code:`>> global T` in the command line of MATLAB. The most important variables are:
 
 ..  csv-table:: Data format
    :header: "Variable", "Content and format"
@@ -160,21 +160,32 @@ Processing single-molecule data
 ..  _opening:
 Starting Deep-LASI
 ~~~~~~~~~~~~~~~~~
-To evaluate your experimental data with *Deep-LASI*, open the program by calling it from the MATLAB command window via :code:`>> TRacer`. TRacer is the core-program responsible for data import, trace extraction, as well as and manual selection and sorting. After a couple of seconds, the GUI of the program will open as shown in :numref:`open-program`.
+To evaluate your experimental data with *Deep-LASI*, please open the program from the MATLAB command window by typing in :code:`>> TRacer`. TRacer is the core-program responsible for data import, trace extraction, as well as and manual selection and sorting. After a couple of seconds, the Start-GUI of the program will open as shown in :numref:`open-program`.
 
 .. figure:: ./../figures/documents/Tracer_FirstPage.png
-   :width: 300
+   :width: 800
    :alt: Open Deep-LASI
    :align: center
    :name: open-program
 
-   The GUI of Deep-LASI can be started from the MATLAB command window and consists of 6 subwindows for data processing and analysis.
+   The GUI of Deep-LASI can be started from the MATLAB command window and possesses 6 sub-GUIs for data processing and analysis.
 
-The GUI of Deep-LASI before load any experimental data shows the Main-GUI together with 6 integrated sub-windows for analyzing the data and 1 menubar for handling the data reading, the settings of the program, and simulating single-molecule data.
+Deep-LASI shows one empty Main-GUI together with six integrated sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and simulating single-molecule data.
 
 Menu bar
 ~~~~~~~~~~~~~~~~~
-Basic functionalities of *Deep-LASI* are controlled via the Menu bar with 5 drop-down menus.
+Basic functionalities of *Deep-LASI* are controlled via the Menu bar which has the following five drop-down menus
+
+..  csv-table:: Data format
+   :header: "Button", "Purpose"
+   :widths: 15, 200
+
+   File,     "Functions for loading, mapping, processing, saving, importing and exporting data"
+   Settings, "Access to Camera Settings"
+   View,     "Modify appearance of the GUI, Graphs and Data representation"
+   Tools,    "Programs for accessing/simulating Single-molecule data, for Training Neural Networks"
+   Help,     "Contact data for help in case of problems"
+   Reset,    "Restart of Deep-LASI and clearance of all variable of the program"
 
 Click on *File* to open the drop-down menu as shown on figure 2 to see the provided options as follows:
 
@@ -194,12 +205,14 @@ Click on *File* to open the drop-down menu as shown on figure 2 to see the provi
 
 * **Quit** to terminate the program.
 
-.. image:: ./../figures/documents/Fig_2_Open_Mapping_Menu.png
-   :width: 200
+.. figure:: ./../figures/documents/Fig_2_Open_Mapping_Menu.png
+   :width: 300
    :alt: Open mapping menu
    :align: center
-   
-Figure 2. TRacer file menu
+   :name: file-menu
+
+   TRacer file menu
+
 
 On the tab **Settings** beside the file, you can enter the camera settings you are using for measuring, so have them saved and easily accessible there.
 

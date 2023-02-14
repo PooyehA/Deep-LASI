@@ -23,7 +23,8 @@ papers if you use Deep-LASI in your own work, so we can continue development and
 ::
 
    Simon Wanninger, Pooyeh Asadiatouei, Johann Bohlen, Clemens-Bässem Salem, Philip Tinnefeld, 
-   Evelyn Ploetz :superscript:`*`, Don C. Lamb :superscript:`*` (2023) DOI: https://doi.org/10.1101/2023.01.31.526220
+   Evelyn Ploetzº and Don C. Lambº. Deep-Learning Assisted, Single-molecule Imaging analysis 
+   (Deep-LASI) of multi-color DNA Origami structures (2023) DOI: https://doi.org/10.1101/2023.01.31.526220
 
 Deep-LASI pulls data from the `Repository <https://gitlab.com/simon71/deeplasi>`_
 and offers a *simple* and *intuitive* API.

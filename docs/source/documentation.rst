@@ -163,18 +163,18 @@ Starting Deep-LASI
 To evaluate your experimental data with *Deep-LASI*, please open the program from the MATLAB command window by typing in :code:`>> TRacer`. TRacer is the core-program responsible for data import, trace extraction, as well as and manual selection and sorting. After a couple of seconds, the Start-GUI of the program will open as shown in :numref:`open-program`.
 
 .. figure:: ./../figures/documents/Tracer_FirstPage.png
-   :width: 740
+   :width: 650
    :alt: Open Deep-LASI
    :align: center
    :name: open-program
 
-   The GUI of Deep-LASI can be started from the MATLAB command window and possesses 6 sub-GUIs for data processing and analysis.
+   The Main-GUI of Deep-LASI has six sub-windows for data processing and analysis.
 
 Deep-LASI shows one empty Main-GUI together with six integrated sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and simulating single-molecule data.
 
 Menu bar
 ~~~~~~~~~~~~~~~~~
-Basic functionalities of *Deep-LASI* are controlled via the Menu bar which has the following five drop-down menus
+Basic functionalities of *Deep-LASI* such as data handling, program settings, or the training of new neural networks for datta analysis are controlled via the *Menu Bar*. It has the following five drop-down menus
 
 ..  csv-table:: Data format
    :header: "Button", "Purpose"
@@ -187,7 +187,25 @@ Basic functionalities of *Deep-LASI* are controlled via the Menu bar which has t
    Help,     "Contact data for help in case of problems"
    Reset,    "Restart of Deep-LASI and clearance of all variable of the program"
 
-The dropdown menu *File* (:numref:`file-menu`) controls all steps from loading of experimental data, over mapping, background correction, trace extraction and saving of traces. Moreover, it facilitates the import and export of different data formats as described in the :ref:`data-format` section.
+
+*Dropdown Menu File*
+The dropdown menu *File* (:numref:`file-menu`) controls all steps from loading the experimental data, over mapping, background correction, trace extraction and saving of traces. Moreover, it facilitates the import and export of different data formats as described in the :ref:`data-format` section. The dropdown menu hosts seven sub-routines:
+
+# The sub-routines in **Mapping** are used to match the corresponding image pixels between up to four different cameras. They allow the user to generate, save and reload maps containing the transformation matrices between the channels. A description of how to map the detection channels is given below in the :ref:`data-format` section.
+
+# **Load Image Data** facilitates the read-in of data files per detection channels. The data needs to be read in consecutively starting with Channel 1 being the most 'blue'-shifted detection channel and Channel 4 the most 'red'-shifted detection channel. Data loading is possible for a single file per channel, but also for multiple files at once. ::warning:: Please make sure: (1) that the numbers of loaded files per detection channel match and (2) that the files have consecutive numbering, so that corresponding movies are loaded.
+
+# Using the **Load Traces/State** routine, previously extracted and potentially already evaluated traces can be reloaded into *Deep-LASI*.
+
+# The **Add Traces/State** routine allows to add further extracted traces to already loaded traces. This function is especially useful for merge traces from various measurements. ::warning:: Please make sure that only traces with identical experimental settings (i.e., number of frames, exposure time and in particular laser excitation)  can be merged.
+
+# **Save Traces/State** to save desired changes on traces for example in case of having done analysis steps.
+
+# The **Import** function allows to load data sets from other single-molecule measurements (as described in the :ref:`data-format` section above). The imported traces are only loaded and not further modified by *Deep-LASI*.
+
+# **Export** allows for transferring extracted traces to a former analysis software used by the hosting group and to save and export traces as well as single traces in graphic formats.
+
+# **Quit** terminates the program.
 
 .. figure:: ./../figures/documents/Fig_2_Open_Mapping_Menu.png
    :width: 300
@@ -198,28 +216,7 @@ The dropdown menu *File* (:numref:`file-menu`) controls all steps from loading o
    TRacer file menu
 
 
-as well as to  and processing of experimental data. shown in to open the drop-down menu as shown on figure 2 to see the provided options as follows:
-
-
-
-* **Mapping** for adjusting the overlay of up to four detection channels, loading a previously saved map, or saving a created one.
-
-* **Load Image Data** for loading data files from up to four detectors.
-
-* **Load Traces/State** for loading any extracted and saved traces.
-
-* **Add Traces/State** to add extracted traces to other ones especially useful to merge various measurements.
-
-* **Save Traces/State** to save desired changes on traces for example in case of having done analysis steps.
-
-* **Import** to insert different data types as time traces into the TRacer program.
-
-* **Export** to transfer data to other software pieces or exporting the current view as other formats.
-
-* **Quit** to terminate the program.
-
-
-
+*Dropdown Menu Settings*
 
 On the tab **Settings** beside the file, you can enter the camera settings you are using for measuring, so have them saved and easily accessible there.
 

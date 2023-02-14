@@ -9,7 +9,7 @@ In order to use the automated data analysis with the pretrained deep neural netw
 System compatibility
 ------------
 
-Deep-Lasi is compatible with Windows and Mac OS. It has been extensively tested for Mac OS x86 systems. For new Macs using the M1 or M2 CPUs, the deep learning features are not available until MathWorks releases a native MATLAB version for the M1 and M2 architectures.
+Deep-Lasi is compatible with Windows and Mac OS. It has been extensively tested for Mac OS x86 systems. For new Macs using the M1 or M2 CPUs, the deep learning features are not available until MathWorks releases a native MATLAB version. Deep-LASI can still be used using Parallels on M1/M2 Macs.
 Deep-LASI has not been installed on a Linux systems so far. If you encounter any problem, please
 get in touch with us via the *Issue forum*.
 

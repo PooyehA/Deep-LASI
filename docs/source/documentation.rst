@@ -55,7 +55,7 @@ To analyze data files from localization microscopy extracted and generated with 
 ..  _custom-files:
 **Custom file formats**
 
-The vast number of different commercial and custom-built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in **Deep-LASI**. We, therefore, designed a spot in the file type selection for a custom read-in routine. These routines are saved in the *import folder* and must be a MATLAB file (*.m*) with a specific structure which can be found in all other import functions.
+The vast number of different commercial and custom-built microscope setups makes it fairly impossible to host all data and file formats that could be analyzed in *Deep-LASI*. We, therefore, designed a spot in the file type selection for a custom read-in routine. These routines are saved in the *import folder* and must be a MATLAB file (*.m*) with a specific structure which can be found in all other import functions.
 
 
 Saved File Formats
@@ -81,7 +81,7 @@ Files ending with *.npz refer to simulated single-molecule traces as described i
 ..  _data-structure:
 Data structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Most data in *Deep-LASI* is stored as global variables to allow the user easy access to extract the data at any point of the analysis. They are stored in the *transportable* structure **T**. The most important variables are: 
+Most data in *Deep-LASI* is stored as global variables to allow easy access. They are saved in the *transportable* structure *T*, which can be extracted at any point of the analysis. The most important variables are: 
 
 ..  csv-table:: Data format
    :header: "Variable", "Content and format"

@@ -154,7 +154,7 @@ This function is for internal use within Fablab only.
 --------------------------------------------------------------------
 
 ..  _opening:
-Opening TRacer
+Read in Data
 -------------
 
 Call the program *TRacer* from the MATLAB command window as shown in figure 1. After a couple seconds, the program environment will open. 

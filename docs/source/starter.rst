@@ -13,4 +13,7 @@ How to get started
     provides a step-wise description of how to load multi-color single-molecule data into the software.     
     Example data sets are additionally provided.
 
+#. To follow the examples cases, download the corresponding example data and save/copy it to
+    your analysis folder. The example data sets can be accessed from the `Repository <https://github.com/NurAb-Sal/TRacer>`_
+
 ... to be continued ...

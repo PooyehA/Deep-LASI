@@ -1,3 +1,7 @@
+.. |br| raw:: html
+
+   <br />
+
 Documentation
 =====
 
@@ -189,12 +193,12 @@ Basic functionalities of *Deep-LASI* such as data handling, program settings, or
    *File*,   "Functions for loading, mapping, processing, saving, importing and exporting data"
    *Settings*,"Access to Camera Settings"
    *View*,   "Appearance of the GUI, Graphs and Data representation"
-   *Tools*,  "Programs for accessing/simulating Single-molecule data, and training Neural Networks"
+   *Tools*,  "Programs for accessing/simulating single-molecule data, and training Neural Networks"
    *Help*,   "Contact data for help in case of problems"
    *Reset*,  "Restart of Deep-LASI and clearance of all variable of the program"
 
 
-**Dropdown Menu File**
+**Dropdown Menu File.**
 The dropdown menu *File* (:numref:`file-menu`) controls all steps from loading the experimental data, over mapping, background correction, trace extraction and saving of traces. Moreover, it facilitates the import and export of different data formats as described in the :ref:`data-format` section. The dropdown menu hosts seven sub-routines:
 
 #. The sub-routines in **Mapping** are used to match the corresponding image pixels between up to four different cameras. They allow the user to generate, save and reload maps containing the transformation matrices between the channels. A description of how to map the detection channels is given below in the :ref:`data-format` section.
@@ -222,7 +226,7 @@ The dropdown menu *File* (:numref:`file-menu`) controls all steps from loading t
    TRacer file menu
 
 
-**Dropdown Menu Settings**
+**Dropdown Menu Settings** |br|
 The dropdown menu **Settings** opens an sub-window for entering the camera hardware settings built in the experimental setup. The routine asks for the EM Gain factor, the camera baseline in dark counts and the number of photons per camera count for each camera, so that *Deep-LASI* can convert the  determined intensity in arbitrary units into Counts per seconds, i.e. Hertz.
 
 **Dropdown Menu View**
@@ -233,17 +237,20 @@ The third dropdown menu **View** allows for changing the appearance and settings
 ..  csv-table:: Plot Units Entries
    :widths: 15, 200
 
-   *Photons (Cam. calibrated)*,   "Conversion of detected Intensity into Photons"
-   *Mean accross Particle Mask*,  ""
-   *QY/Det. Eff (gamma)*,         ""
+   *Photons (Cam. calibrated)*,   "Intensity shown as absolute numbers of photons"
+   *Mean accross Particle Mask*,  "Intensity shown as mean intensity within the detection mask"
+   *QY/Det. Eff (gamma)*,         "Intensity after gamma correction"
    *Spectral crosstalk (beta)*,   ""
    *Direct Excitation (alpha)*,   ""
    *Raw Trace (no BG subtr.)*,    ""
    *Corrected FRET*,              ""
 
+.. tip:: @ Simon, what precisely is plotted, i.e. which axis is changed and how ??
+
 Checking/unchecking of the different sub-tabs immediately updates the graphical interface and the way how a single-molecule trace is displayed.
 
-The first one, **'Photons(Cam.calibrated)'**, changes the y axis to be the number of photons reaching the cameras, the second one **'Mean Across Particle Mask'** shows the mean emission intensity of the particle within the detection mask on the y axis. The correction factors **gamma**, **beta**, and **alpha** could be separately applied to the intensity traces. One can also choose to cancel the background subtraction from the intensity traces, and have them as raw intensities. With the last option you can choose to have the corrected FRET efficiency on the corresponding panel. Of course for the correction factors to be incorporated on the traces, you should have them already determined.
+The first sub-tab, **Photons(Cam.calibrated)**, converts the intensity axis into the absolut number of photons being detected by the individual cameras during a particular excitation cycle.
+The second sub tab, **'Mean Across Particle Mask**, shows the mean emission intensity of the particle within the detection mask on the y axis. The correction factors **gamma**, **beta**, and **alpha** could be separately applied to the intensity traces. One can also choose to cancel the background subtraction from the intensity traces, and have them as raw intensities. With the last option you can choose to have the corrected FRET efficiency on the corresponding panel. Of course for the correction factors to be incorporated on the traces, you should have them already determined.
 
 With the **Reset** button, you can restart the TRacer program, meaning that whatever you did or changed on the program will be discarded unless you had it saved.
 

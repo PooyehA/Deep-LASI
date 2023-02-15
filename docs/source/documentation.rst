@@ -181,7 +181,7 @@ To evaluate your experimental data with *Deep-LASI*, please open the program fro
 
    The Main-GUI of Deep-LASI has six sub-windows for data processing and analysis.
 
-Deep-LASI shows one empty Main-GUI together with six integrated sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, and the simulation of single-molecule data.
+Deep-LASI shows one empty Main-GUI together with six integrated sub-windows for analyzing the data and one menubar for handling the data reading, the settings of the program, the simulation of single-molecule data and training of (new) neural networks.
 
 Menu Bar
 ~~~~~~~~~~~~~~~~~
@@ -198,16 +198,16 @@ Basic functionalities of *Deep-LASI* such as data handling, program settings, or
    *Reset*,  "Restart of Deep-LASI and clearance of all variable of the program"
 
 
-**Dropdown Menu File.**
+**Dropdown Menu File.** |br|
 The dropdown menu *File* (:numref:`file-menu`) controls all steps from loading the experimental data, over mapping, background correction, trace extraction and saving of traces. Moreover, it facilitates the import and export of different data formats as described in the :ref:`data-format` section. The dropdown menu hosts seven sub-routines:
 
 #. The sub-routines in **Mapping** are used to match the corresponding image pixels between up to four different cameras. They allow the user to generate, save and reload maps containing the transformation matrices between the channels. A description of how to map the detection channels is given below in the :ref:`data-format` section.
 
-#. **Load Image Data** facilitates the read-in of data files per detection channels. The data needs to be read in consecutively starting with Channel 1 being the most 'blue'-shifted detection channel and Channel 4 the most 'red'-shifted detection channel. Data loading is possible for a single file per channel, but also for multiple files at once. ::warning:: Please make sure: (1) that the numbers of loaded files per detection channel match and (2) that the files have consecutive numbering, so that corresponding movies are loaded.
+#. **Load Image Data** facilitates the read-in of data files per detection channels. The data needs to be read in consecutively starting with Channel 1 being the most 'blue'-shifted detection channel and Channel 4 the most 'red'-shifted detection channel. Data loading is possible for a single file per channel, but also for multiple files at once. Please make sure: (1) that the numbers of loaded files per detection channel match and (2) that the files have consecutive numbering, so that corresponding movies are loaded.
 
 #. Using the **Load Traces/State** routine, previously extracted and potentially already evaluated traces can be reloaded into *Deep-LASI*.
 
-#. The **Add Traces/State** routine allows to add further extracted traces to already loaded traces. This function is especially useful for merge traces from various measurements. ::warning:: Please make sure that only traces with identical experimental settings (i.e., number of frames, exposure time and in particular laser excitation)  can be merged.
+#. The **Add Traces/State** routine allows to add further extracted traces to already loaded traces. This function is especially useful for merge traces from various measurements. Please make sure that only traces with identical experimental settings (i.e., number of frames, exposure time and in particular laser excitation)  can be merged.
 
 #. **Save Traces/State** to save desired changes on traces for example in case of having done analysis steps.
 
@@ -226,13 +226,13 @@ The dropdown menu *File* (:numref:`file-menu`) controls all steps from loading t
    TRacer file menu
 
 
-**Dropdown Menu Settings** |br|
-The dropdown menu **Settings** opens an sub-window for entering the camera hardware settings built in the experimental setup. The routine asks for the EM Gain factor, the camera baseline in dark counts and the number of photons per camera count for each camera, so that *Deep-LASI* can convert the  determined intensity in arbitrary units into Counts per seconds, i.e. Hertz.
+**Dropdown Menu Settings.** |br|
+The dropdown menu **Settings** opens a sub-window for entering the camera hardware settings chosen in the experimental setup. The routine asks for the EM Gain factor, the camera baseline in dark counts and the number of photons per camera count for each camera. With this, *Deep-LASI* can convert/display the determined intensity in arbitrary units into Counts per seconds, i.e. Hertz.
 
-**Dropdown Menu View** |br|
-The third dropdown menu **View** allows for changing the appearance and settings in graphical interfaces on the different GUI sub-windows of Deep-LASI.
-* The sub-tab **Colormap** changes the color palette in 3D plots, e.g. on the Trace GUI surface, which show small zoomed in areas of 24x24 pixels. These show the area around localized molecules in each channel, surrounded by the background mask, to control for possible impurities in the background. The default colormap is *jet*.
-* The **Plot Units** sub-tab controls affect the following seven different axes settings for plotting the background and intensities of different channels, as well as FRET efficiencies for single single-molecule trajectories :
+**Dropdown Menu View.** |br|
+The third dropdown menu **View** changes the appearance and settings of graphical interfaces on the different GUI sub-windows of Deep-LASI. |br|
+The sub-tab **Colormap** changes the color palette in 3D plots, e.g. on the Trace GUI surface, which show small zoomed-in areas of 24x24 pixels. These show the area around localized molecules in each channel, surrounded by the background mask, to control for possible impurities in the background. The default colormap is *jet*. |br|
+The **Plot Units** sub-tab controls the y axis of the intensity and FRET panels for individual single-molecule trajectories. Checking/unchecking of the different sub-tabs immediately updates the graphical interface and the way how a single-molecule trace is displayed. **Plot Units** provides the following seven different settings for displaying intensity and FRET trajectories:
 
 ..  csv-table:: Plot Units Entries
    :widths: 15, 200
@@ -247,12 +247,18 @@ The third dropdown menu **View** allows for changing the appearance and settings
 
 .. tip:: @ Simon, what precisely is plotted, i.e. which axis is changed and how ??
 
-Checking/unchecking of the different sub-tabs immediately updates the graphical interface and the way how a single-molecule trace is displayed.
+*. The first sub-tab, **Photons(Cam.calibrated)**, converts the intensity axis into the absolut number of photons being detected by the individual cameras during a particular excitation cycle.
+*. The second sub-tab, **Mean Across Particle Mask**, shows the mean emission intensity of the particle within the detection mask on the y axis.
+*. The next three sub-tabs serve to correct and display the intensity after correction against direct excitation (**Direct Excitation (alpha)**), spectral crosstalk (**Spectral crosstalk (beta)**) or QY and detection sensitivity (**QY/Det. Eff (gamma)**), respectively. Without determining the correction factors, *Deep-LASI* provides identical plots for the corrected and uncorrected intensities.
+*. The sub-tab **Raw Trace (no BG subtr.)** activates the display of uncorrected, raw intensity traces without background subtraction.
+*. If the last option **Corrected FRET** is selected, *Deep-LASI* shows Accurate FRET efficiencies for each single-molecule trajectory in case the FRET correction factors have already been determine. Otherwise, the displayed FRET values between Accurate and Apparent FRET are identical.
 
-The first sub-tab, **Photons(Cam.calibrated)**, converts the intensity axis into the absolut number of photons being detected by the individual cameras during a particular excitation cycle.
-The second sub tab, **'Mean Across Particle Mask**, shows the mean emission intensity of the particle within the detection mask on the y axis. The correction factors **gamma**, **beta**, and **alpha** could be separately applied to the intensity traces. One can also choose to cancel the background subtraction from the intensity traces, and have them as raw intensities. With the last option you can choose to have the corrected FRET efficiency on the corresponding panel. Of course for the correction factors to be incorporated on the traces, you should have them already determined.
 
-With the **Reset** button, you can restart the TRacer program, meaning that whatever you did or changed on the program will be discarded unless you had it saved.
+Sub-GUIS
+~~~~~~~~~~~~~~~~~
+
+
+--------------------------------------------------------
 
 ..  _mapping:
 Mapping

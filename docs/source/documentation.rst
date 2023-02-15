@@ -232,7 +232,7 @@ The dropdown menu **Settings** opens a sub-window for entering the camera hardwa
 **Dropdown Menu View.** |br|
 The third dropdown menu **View** changes the appearance and settings of graphical interfaces on the different GUI sub-windows of Deep-LASI. |br|
 The sub-tab **Colormap** changes the color palette in 3D plots, e.g. on the Trace GUI surface, which show small zoomed-in areas of 24x24 pixels. These show the area around localized molecules in each channel, surrounded by the background mask, to control for possible impurities in the background. The default colormap is *jet*. |br|
-The **Plot Units** sub-tab controls the y axis of the intensity and FRET panels for individual single-molecule trajectories. Checking/unchecking of the different sub-tabs immediately updates the graphical interface and the way how a single-molecule trace is displayed. **Plot Units** provides the following seven different settings for displaying intensity and FRET trajectories:
+The **Plot Units** sub-tab controls the y axis of the intensity and FRET panels for individual single-molecule trajectories. Checking/unchecking of the different sub-tabs immediately updates the graphical interface and the way how a single-molecule trace is displayed. **Plot Units** provides the following seven different settings for displaying intensities and FRET trajectories:
 
 ..  csv-table:: Plot Units Entries
    :widths: 15, 200
@@ -247,11 +247,11 @@ The **Plot Units** sub-tab controls the y axis of the intensity and FRET panels 
 
 .. tip:: @ Simon, what precisely is plotted, i.e. which axis is changed and how ??
 
-*. The first sub-tab, **Photons(Cam.calibrated)**, converts the intensity axis into the absolut number of photons being detected by the individual cameras during a particular excitation cycle.
-*. The second sub-tab, **Mean Across Particle Mask**, shows the mean emission intensity of the particle within the detection mask on the y axis.
-*. The next three sub-tabs serve to correct and display the intensity after correction against direct excitation (**Direct Excitation (alpha)**), spectral crosstalk (**Spectral crosstalk (beta)**) or QY and detection sensitivity (**QY/Det. Eff (gamma)**), respectively. Without determining the correction factors, *Deep-LASI* provides identical plots for the corrected and uncorrected intensities.
-*. The sub-tab **Raw Trace (no BG subtr.)** activates the display of uncorrected, raw intensity traces without background subtraction.
-*. If the last option **Corrected FRET** is selected, *Deep-LASI* shows Accurate FRET efficiencies for each single-molecule trajectory in case the FRET correction factors have already been determine. Otherwise, the displayed FRET values between Accurate and Apparent FRET are identical.
+#.  The first sub-tab, **Photons(Cam.calibrated)**, converts the intensity axis into the absolut number of photons being detected by the individual cameras during a particular excitation cycle.
+#.  The second sub-tab, **Mean Across Particle Mask**, shows the mean emission intensity of the particle within the detection mask on the y axis.
+#.  The next three sub-tabs serve to correct and display the intensity after correction against direct excitation (**Direct Excitation (alpha)**), spectral crosstalk (**Spectral crosstalk (beta)**) or QY and detection sensitivity (**QY/Det. Eff (gamma)**), respectively. Without determining the correction factors, *Deep-LASI* provides identical plots for the corrected and uncorrected intensities.
+#.  The sub-tab **Raw Trace (no BG subtr.)** activates the display of uncorrected, raw intensity traces without background subtraction.
+#.  If the last option **Corrected FRET** is selected, *Deep-LASI* shows Accurate FRET efficiencies for each single-molecule trajectory in case the FRET correction factors have already been determine. Otherwise, the displayed FRET values between Accurate and Apparent FRET are identical.
 
 
 Sub-GUIS

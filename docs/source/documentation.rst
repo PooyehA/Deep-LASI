@@ -229,7 +229,7 @@ The dropdown menu *File* (:numref:`file-menu`) controls all steps from loading t
 **Dropdown Menu Settings** |br|
 The dropdown menu **Settings** opens an sub-window for entering the camera hardware settings built in the experimental setup. The routine asks for the EM Gain factor, the camera baseline in dark counts and the number of photons per camera count for each camera, so that *Deep-LASI* can convert the  determined intensity in arbitrary units into Counts per seconds, i.e. Hertz.
 
-**Dropdown Menu View**
+**Dropdown Menu View** |br|
 The third dropdown menu **View** allows for changing the appearance and settings in graphical interfaces on the different GUI sub-windows of Deep-LASI.
 * The sub-tab **Colormap** changes the color palette in 3D plots, e.g. on the Trace GUI surface, which show small zoomed in areas of 24x24 pixels. These show the area around localized molecules in each channel, surrounded by the background mask, to control for possible impurities in the background. The default colormap is *jet*.
 * The **Plot Units** sub-tab controls affect the following seven different axes settings for plotting the background and intensities of different channels, as well as FRET efficiencies for single single-molecule trajectories :
@@ -240,10 +240,10 @@ The third dropdown menu **View** allows for changing the appearance and settings
    *Photons (Cam. calibrated)*,   "Intensity shown as absolute numbers of photons"
    *Mean accross Particle Mask*,  "Intensity shown as mean intensity within the detection mask"
    *QY/Det. Eff (gamma)*,         "Intensity after gamma correction"
-   *Spectral crosstalk (beta)*,   ""
-   *Direct Excitation (alpha)*,   ""
-   *Raw Trace (no BG subtr.)*,    ""
-   *Corrected FRET*,              ""
+   *Spectral crosstalk (beta)*,   "Intensity after correction against spectral crosstalk"
+   *Direct Excitation (alpha)*,   "Intensity after correction against direct excitation"
+   *Raw Trace (no BG subtr.)*,    "Intensity without background correction"
+   *Corrected FRET*,              "Display of accurate FRET instead of apparent FRET"
 
 .. tip:: @ Simon, what precisely is plotted, i.e. which axis is changed and how ??
 

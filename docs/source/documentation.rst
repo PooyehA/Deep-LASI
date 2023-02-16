@@ -347,21 +347,23 @@ Loading the data
  
 Now you can open the data files from file menu and **Load Image Data** similar to opening the mapping images like shown on figure 11. The order of channels should be the same as mapping order. 
  
-.. image:: ./../figures/documents/Fig_11_Data_Loading.png
+.. figure:: ./../figures/documents/Fig_11_Data_Loading.png
    :width: 300
    :alt: loading first channel
    :align: center
+   :name: loading first channel data
    
-Figure 11. The menu for loading image data 
+   The menu for loading image data 
 
 TRacer asks you to choose the data files, and you can open all the files from each channel at a time. After a short time, the following window (figure 12) will open to take the measurement parameters. The first box is for the sum of exposure time and frame transfer. For example in case of measuring with the exposure time of 50 ms, and the frame transfer of 2.2 ms, we can enter 52.2.
 
-.. image:: ./../figures/documents/Fig_12_Measurement_Parameters.png
-   :width: 300
+.. figure:: ./../figures/documents/Fig_12_Measurement_Parameters.png
+   :width: 400
    :alt: inserting measurement parameters
    :align: center
+   :name: measurement parameters
    
-Figure 12. The window for specifying measurement parameters 
+   The window for specifying measurement parameters and excitation scheme 
 
 The second box is to get the ALEX sequence used for illuminating the sample. Different combinations of two or three laser excitation can be entered here. Note that for the IR laser, you should only enter the letter ‘I’. The letter ‘G’ works for lasers in green or yellow region. Then you put the slider on the corresponding channel, for example, on the image shown here on the left or right position depending on reading data from first or second channel. It gets three divisions in case of a three-channel experiment.
 
@@ -371,52 +373,57 @@ The option of choosing the dye does nothing at the moment, but a library of vari
 
 As the last step here, click on the corresponding channel color from the four options provided. Now TRacer opens the first data file from the range that you selected, like figure 13.
 
-.. image:: ./../figures/documents/Fig_13_Detecting_Particles.png
-   :width: 300
+.. figure:: ./../figures/documents/Fig_13_Detecting_Particles.png
+   :width: 400
    :alt: first channel detection
    :align: center
+   :name: particles detection
    
-Figure 13. Particle detection for the first channel data 
+   Particle detection for the first channel data 
 
 The sliders below the image are to adjust the display contrast, and detection threshold so that one gets more particles detected. The detected particles are inside a triangle within the image, and the number of them is shown in the box next to the image on the top right position.
 
 Continue opening the data images for the next channel(s) from the same menu, as shown on figure 14.
 
-.. image:: ./../figures/documents/Fig_14_Data_Loading_Second_Channel.png
+.. figure:: ./../figures/documents/Fig_14_Data_Loading_Second_Channel.png
    :width: 300
    :alt: loading second channel
    :align: center
+   :name: menu for loading second channel
    
-Figure 14. Loading data from other detectors
+   Loading data from the second detector
 
 Each time you load image files, the pop-up window appears asking you about the channel color to extract the data in the correct order.
 
-.. image:: ./../figures/documents/Fig_15_Measurement_Parameters_Second_Chan.png
+.. figure:: ./../figures/documents/Fig_15_Measurement_Parameters_Second_Chan.png
    :width: 300
    :alt: inserting second measurement parameters
    :align: center
+   :name: change parameters for the next detector
    
-Figure 15. Updating measurement parameters
+   Updating measurement parameters for the next channel
 
 The example figures show a two-color measurement. As shown on figure 15, we put the slider on the second half to indicate the second channel (the same procedure works for the third channel by putting the slider to the most right position.), and also click on the R to indicate the acceptor channel (red in this case). After a short time the first frame of the second channel overlays on the image from the first one.
 
-.. image:: ./../figures/documents/Fig_16_Detecting_Colocal.png
-   :width: 300
+.. figure:: ./../figures/documents/Fig_16_Detecting_Colocal.png
+   :width: 400
    :alt: detection of co-localization
    :align: center
+   :name: finding co-localization
    
-Figure 16. Detection of particles and their co-localization 
+   Detection of particles and their co-localization 
 
 The color of triangles show the detected emitters on each corresponding channel and the circles show the co-localized particles. All the numbers are also reported in the small box on the top.
 
 You can decide which particles you want to analyze using the options in the right box **Trace Selection** and then click on **Extract Traces**. In the example shown on figure 17 only the co-localized particles are considered to study their FRET.
 
-.. image:: ./../figures/documents/Fig_17_Extracting_Start.png
-   :width: 300
+.. figure:: ./../figures/documents/Fig_17_Extracting_Start.png
+   :width: 400
    :alt: start extraction
    :align: center
+   :name: performing the extraction
    
-Figure 17. Starting the extraction 
+   Starting the extraction of intensity traces 
 
 Intensity Traces
 -------------

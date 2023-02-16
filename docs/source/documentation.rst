@@ -276,64 +276,71 @@ If mapping is required between two or more cameras, go to **Mapping** from the m
 
 Now the program will ask you to choose a file which could be an image or a series of images as a video file usually taken from a calibration pattern like a zero-mode waveguide. After choosing the file, the image gets open together with some adjusting options, like figure 4.
 
-.. image:: ./../figures/documents/Fig_4_Map_Image_Uploading.png
-   :width: 300
+.. figure:: ./../figures/documents/Fig_4_Map_Image_Uploading.png
+   :width: 450
    :alt: map uploading
-   :align: center 
+   :align: center
+   :name: mapping image uploading
    
-Figure 4. Uploading first mapping image
+   Uploading first mapping image
 
 On the window opened for the user, you can use the **Channel Layout** to take the desired field of view. You can take the whole area or select a specific region with the buttons provided for that. There are also the options of rotating or flipping the image, so that all images from various cameras show the same pattern. Then click on OK. The image will be open on the mapping tab, figure 5. 
 
-.. image:: ./../figures/documents/Fig_5_Map_Image_Detecting.png
-   :width: 300
+.. figure:: ./../figures/documents/Fig_5_Map_Image_Detecting.png
+   :width: 400
    :alt: map detection
    :align: center
+   :name: mapping image detection
 
-Figure 5. Mapping image loaded to TRacer
+   Mapping image loaded to TRacer
 
 With the threshold bar, make sure that enough points are circled and detected by the program. Then continue opening images from other detectors with the same procedure, as shown on images 6 and 7. 
 
-.. image:: ./../figures/documents/Fig_6_Map_Second_Channel.png
+.. figure:: ./../figures/documents/Fig_6_Map_Second_Channel.png
    :width: 300
    :alt: second map image
    :align: center
+   :name: opening second mapping image
    
-Figure 6. Opening the second mapping image
+   Opening the second mapping image
 
-.. image:: ./../figures/documents/Fig_7_Map_Second_Uploading.png
-   :width: 300
+.. figure:: ./../figures/documents/Fig_7_Map_Second_Uploading.png
+   :width: 400
    :alt: second map uploading
    :align: center
+   :name: second map uploading
    
-Figure 7. Adjusting the image for the second mapping image
+   Adjusting the image for the second mapping image
 
 After opening the mapping images from all the cameras, select which channel you prefer to be the reference channel, like figure 8. In most cases, the first channel is taken as the reference one unless you have a special mapping plan.
 
-.. image:: ./../figures/documents/Fig_8_Mapping_Starting.png
-   :width: 300
+.. figure:: ./../figures/documents/Fig_8_Mapping_Starting.png
+   :width: 450
    :alt: start mapping
    :align: center
+   :name: start mapping
 
-Figure 8. Performing the mapping step
+   Performing the mapping step
 
 Then click on **Start Mapping**. The mapping process goes quit fast and gives the mapping result as before and after images like figure 9. It is recommended to check the quality of mapping. In some cases you might have to take new images for this step if the image quality you uploaded was not acceptable which is a rare event! 
    
-.. image:: ./../figures/documents/Fig_9_Map_Before_After.png
-   :width: 300
+.. figure:: ./../figures/documents/Fig_9_Map_Before_After.png
+   :width: 350
    :alt: check mapping
    :align: center
+   :name: before and after mapping
    
-Figure 9. Mapping result
+   Mapping result showing the channels overlay before and after mapping 
 
 After mapping, the extraction tab opens showing a detection mask created like the one shown on the top right part of figure 10. This mask is used to calculate the emission intensity of the particle inside the central circle, and also the background within the outer ring. The user has the freedom to change the mask settings when needed. You have the option of saving the created map or loading a previous map from the same mapping menu.
 
-.. image:: ./../figures/documents/Fig_10_Map_Saving.png
-   :width: 300
-   :alt: check mapping
+.. figure:: ./../figures/documents/Fig_10_Map_Saving.png
+   :width: 400
+   :alt: created mask
    :align: center
+   :name: created mask after mapping
    
-Figure 10. The mask created after mapping 
+   The mask created after mapping with adjustment options 
  
 Loading the data 
 -------------

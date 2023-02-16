@@ -450,21 +450,23 @@ With the **navigation** slider you can go through all traces, and with the **cla
 
 You can also delete an unwanted category with the trash can icon or uncheck the filter box to prevent them being visible. It is especially helpful for the trash category for example. When you assign a trace to a specific category, it will be automatically removed from the first **Uncategorized** one.
 
-.. image:: ./../figures/documents/Fig_19_Categories.png
+.. figure:: ./../figures/documents/Fig_19_Categories.png
    :width: 300
    :alt: categorization options
    :align: center
+   :name: categorization table
    
-Figure 19. Navigation and categorization
+   Navigation and categorization box
 
 For selecting the desired region on each trace for further analysis, you can drag the mouse to make the selected region shadowed, for example from the beginning of a trace until a bleaching step. By clicking on the trace region, the mouse turns to an active cursor for a general selection for example when all the dyes are active. TRacer will use the first bleaching step to calculate the correction factors. If you want to select channel specific regions, press the numbers 1,2,… to indicate the channel with the same order you loaded the images, and then you can select the region by the cursor special to each channel like the example on figure 20 for the red channel as the second one. For other channels the cursor shows the other corresponding letters like B, G, and I.
 
-.. image:: ./../figures/documents/Fig_20_Cursor_Activating.png
-   :width: 300
-   :alt: three color look
+.. figure:: ./../figures/documents/Fig_20_Cursor_Activating.png
+   :width: 400
+   :alt: two color trace
    :align: center
+   :name: example of a two color trace
    
-Figure 20. Activated cursor specific for red channel 
+   Activated cursor specific for red channel for regio selection 
 
 The next photo shows an example of region selection for both green and red channels. Here the FRET efficiency trace gets the selection until the first bleaching step, and this region will be added to the FRET histogram in the end. 
 

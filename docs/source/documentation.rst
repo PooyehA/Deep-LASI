@@ -266,12 +266,13 @@ Mapping
 
 If mapping is required between two or more cameras, go to **Mapping** from the menu under file. Then choose ‘Create New Map’ and the ‘First Channel’. You can see the path on figure 3.
 
-.. image:: ./../figures/documents/Fig_3_Mapping_Menu.png
+.. figure:: ./../figures/documents/Fig_3_Mapping_Menu.png
    :width: 500
    :alt: Open mapping menu
    :align: center
+   :name: mapping menu
    
-Figure 3. Mapping menu
+   Mapping menu
 
 Now the program will ask you to choose a file which could be an image or a series of images as a video file usually taken from a calibration pattern like a zero-mode waveguide. After choosing the file, the image gets open together with some adjusting options, like figure 4.
 

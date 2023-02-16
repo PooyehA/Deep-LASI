@@ -418,7 +418,7 @@ The color of triangles show the detected emitters on each corresponding channel 
 You can decide which particles you want to analyze using the options in the right box **Trace Selection** and then click on **Extract Traces**. In the example shown on figure 17 only the co-localized particles are considered to study their FRET.
 
 .. figure:: ./../figures/documents/Fig_17_Extracting_Start.png
-   :width: 400
+   :width: 450
    :alt: start extraction
    :align: center
    :name: performing the extraction
@@ -430,12 +430,13 @@ Intensity Traces
 
 After the extraction step which might take a while depending on the amount of data loaded, the resulting traces will open on the next tab called **Traces** as shown on figure 18 for both two- and three-color measurements. You can see on the left side that 6100 two-color traces were extracted from the loaded data set.
 
-.. image:: ./../figures/documents/Fig_18_Trace.png
+.. figure:: ./../figures/documents/Fig_18_Trace.png
    :width: 700
    :alt: trace
    :align: center
+   :name: trace look
    
-Figure 18. Exemplary traces for a two-color measurement on the left, and three-color on the right
+   Exemplary traces for a two-color measurement on the left, and three-color on the right
 
 On figure 18 on the left, you see the time trace of both donor and acceptor in the left upper panel. Because of illuminating the sample using ALEX mode, a lot of information are available on each trace. The gray plot is the total intensity on the donor channel which in theory is expected to have a stable value before a bleaching step. The green trace is the signal of donor after donor excitation, the red trace is the emission of acceptor after donor excitation (FRET), and the dark red is the emission of acceptor after acceptor excitation. You can choose which intensity trace be shown from the right box **Plot Layout** by checking or unchecking the corresponding boxes.
 
